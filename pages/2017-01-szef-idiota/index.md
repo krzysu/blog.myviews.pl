@@ -12,8 +12,6 @@ Dlaczego tytuł inżyniera stracił tak dużo na znaczeniu? Sami jesteśmy sobie
 
 ---
 
-Zaczynam blogować. Po polsku. I jedziemy od razu na grubo.
-
 Moim celem jest pokazanie, jak można **być szczęśliwym w zawodzie programisty**. Nie ważne czy jesteś juniorem, czy seniorem. Chce pokazać, na co zwracać uwagę w pracy, czego się uczyć, jak się rozwijać. Na co uważać i jakich ludzi unikać. Jak znaleźć pracę i się w niej spełniać. Jak nie pracować nadgodzin i unikać stresu. Jak mieć także życie po pracy i jak to wszystko może prowadzić do pełnego i szczęśliwego życia.
 
 Podstawą jest **nieustanny rozwój osobisty**. Niestety, ale w tej branży inaczej się nie da. Technologie, z którymi pracujemy, są w ciągłym rozwoju. Nowe wersje języków programowania, bibliotek i frameworków (prawie) zawsze przynoszą nowe możliwości, większą wydajność, oraz usprawniają nasza prace. Dzięki temu możemy tworzyć jeszcze więcej, lepiej, szybciej, przyjemniej. Jako pracodawca, zawsze faworyzuj osoby, które chcą się uczyć i przyznają się, że czegoś nie znają, ale chętnie to nadrobią. Unikaj natomiast osób, które twierdzą, że wszystko już wiedzą. Będziesz miał z nimi tylko problemy.
