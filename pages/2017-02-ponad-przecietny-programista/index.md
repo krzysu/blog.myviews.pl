@@ -12,11 +12,8 @@ Znasz już i rozumiesz potrzebę rozwoju osobistego w życiu programisty. Dziś 
 
 Przypominam: Moim celem jest pokazanie, jak można **być szczęśliwym w zawodzie programisty**. Nie ważne czy jesteś juniorem, czy seniorem. Chce pokazać, na co zwracać uwagę w pracy, czego się uczyć, jak się rozwijać. Na co uważać i jakich ludzi unikać. Jak znaleźć pracę i się w niej spełniać. Jak nie pracować nadgodzin i unikać stresu. Jak mieć także życie po pracy i jak to wszystko może prowadzić do pełnego i szczęśliwego życia.
 
-
-
-
-Zacznijmy od wiedzy technicznej. Tutaj nie ma watpliwosci, dobry programista powinien znac swoj zawod. Ale teraz zastanowmy sie. Czy lepiej byc specjalista jednego jezyka programownia czy podejsc do tematu bardziej wszechstronnie?
-Inzynier oprogramowania powininen miec duzo roznych narzedzi w swoim pudelku (zestawie, toolkit). Jezyk programowania X albo Y to tylko narzedzia. Podobnie z bibliotekami i frameworkami. Kazdy z nich zostal stworzony w jakims celu i zaleznie od problemu ktory rozwiazujemy (projektu nad ktorym pracujemy) musimy wiedziec ktorego z nich uzyc.
+Zacznijmy od wiedzy technicznej. Tutaj nie ma wątpliwości, dobry programista powinien znać swój zawód. Ale teraz zastanówmy się. Czy lepiej być specjalistą jednego języka programowania czy podejść do tematu bardziej wszechstronnie?
+Inżynier oprogramowania powinien mieć dużo rożnych narzędzi w swoim zestawie. Jezyk programowania X albo Y to tylko narzedzia. Podobnie z bibliotekami i frameworkami. Kazdy z nich zostal stworzony w jakims celu i zaleznie od problemu ktory rozwiazujemy (projektu nad ktorym pracujemy) musimy wiedziec ktorego z nich uzyc.
 Oczywiscie spotyka sie programistow X albo Y. Prowadzilem rozmowy rekrutacyjne z osobami zainteresowanymi tylko Z i niczym innym. Slyszalem historie o ludziach ktorzy odmawiali wykonania zadania poniewaz oznaczalo to “dotkniecie” technologii ktorej nie znali. Myslicie ze dobrze jest miec kogos takiego w zespole?
 //
 architektura (aplikacji), performance, utrzymanie kodu, jak jestes frontend to moze troche zapoznaj sie z backend i odwrotnie
