@@ -4,6 +4,7 @@ date: "2017-05-12"
 layout: post
 path: "/ponad-przecietny-programista/"
 readNext: "/od-programisty-do-inzyniera-oprogramowania/"
+draft: true
 ---
 
 >  O tym jakimi tematami dobrze jest się zainteresować oraz jakie są sposoby na poszerzanie swojej wiedzy

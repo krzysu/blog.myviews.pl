@@ -10,44 +10,60 @@ import { config } from 'config'
 import include from 'underscore.string/include'
 import Bio from 'components/Bio'
 
-class BlogIndex extends React.Component {
-  render () {
+const Item = ({ path, title }) => {
+    return (
+        <li style={{ marginBottom: rhythm(1/4) }}>
+          <Link style={{boxShadow: 'none'}} to={prefixLink(path)}>
+              {title}
+          </Link>
+        </li>
+    )
+}
+
+const BlogIndex = (props) => {
     const pageLinks = []
+    const draftLinks = []
+
     // Sort pages.
-    const sortedPages = sortBy(this.props.route.pages, (page) =>
+    const sortedPages = sortBy(props.route.pages, (page) =>
       access(page, 'data.date')
     ).reverse()
+
     sortedPages.forEach((page) => {
-      if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
-        const title = access(page, 'data.title') || page.path
-        pageLinks.push(
-          <li
-            key={page.path}
-            style={{
-              marginBottom: rhythm(1/4),
-            }}
-          >
-            <Link style={{boxShadow: 'none'}} to={prefixLink(page.path)}>{title}</Link>
-          </li>
-        )
-      }
+        if (
+            access(page, 'file.ext') === 'md' &&
+            !include(page.path, '/404')
+        ) {
+            const title = access(page, 'data.title') || page.path
+
+            if (!access(page, 'data.draft')) {
+                pageLinks.push(<Item path={page.path} title={title} key={page.path} />)
+            } else {
+                draftLinks.push(<Item path={page.path} title={title} key={page.path} />)
+            }
+        }
     })
+
     return (
-      <div>
-        <Helmet
-          title={config.blogTitle}
-          meta={[
-            {"name": "description", "content": "Sample blog"},
-            {"name": "keywords", "content": "blog, articles"},
-          ]}
-        />
-        <Bio />
-        <ul>
-          {pageLinks}
-        </ul>
-      </div>
+        <div>
+            <Helmet
+                title={config.blogTitle}
+                meta={[
+                    {"name": "description", "content": "Sample blog"},
+                    {"name": "keywords", "content": "blog, articles"},
+                ]}
+            />
+            <Bio />
+            <ul>
+                {pageLinks}
+            </ul>
+
+            Drafts:
+            <ul>
+                {draftLinks}
+            </ul>
+        </div>
     )
-  }
 }
 
 BlogIndex.propTypes = {

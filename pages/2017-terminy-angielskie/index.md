@@ -1,4 +1,11 @@
-Słownik terminów inżynierii oprogramowania.
+---
+title: Słownik terminów inżynierii oprogramowania
+date: "2017-05-14"
+layout: post
+path: "/slownik-terminow-inzynierii-oprogramowania/"
+readNext: "/od-programisty-do-inzyniera-oprogramowania/"
+draft: true
+---
 
 W ramach moich esejów na tematy życia programisty, postanowiłem wprowadzić dodatkowy element edukacyjny. Pewną ciekawostkę, której nie widziałem jeszcze w polskim internecie.
 
