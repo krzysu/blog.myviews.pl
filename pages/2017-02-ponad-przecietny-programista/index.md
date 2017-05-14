@@ -7,7 +7,7 @@ readNext: "/od-programisty-do-inzyniera-oprogramowania/"
 draft: true
 ---
 
->  O tym jakimi tematami dobrze jest się zainteresować oraz jakie są sposoby na poszerzanie swojej wiedzy
+>  O tym jakimi tematami dobrze jest się zainteresować oraz jakie są sposoby na poszerzanie swojej wiedzy.
 
 Znasz już i rozumiesz potrzebę rozwoju osobistego w życiu programisty. Dziś porozmawiamy o tym jakimi tematami dobrze jest się zainteresować oraz jakie są sposoby na poszerzanie swojej wiedzy.
 

@@ -6,7 +6,7 @@ path: "/od-programisty-do-inzyniera-oprogramowania/"
 readNext: "/short-story-about-looking-for-new-place-to-live/"
 ---
 
->  O rozwoju osobistym słów kilka
+>  O rozwoju osobistym słów kilka.
 
 Dlaczego tytuł inżyniera stracił tak dużo na znaczeniu? Sami jesteśmy sobie winni. Stajemy się siłą robocza XXI wieku. Nowoczesną linią produkcyjną. Dzisiaj dowiesz się co zrobić, aby to zmienić.
 

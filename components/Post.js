@@ -11,15 +11,11 @@ const Post = ({ route }) => {
     return (
         <div className="markdown">
             <h1 style={{marginTop: 0}}>{post.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.body }} />
-            <em
-                style={{
-                    display: 'block',
-                    marginBottom: rhythm(2),
-                }}
-            >
+            <em>
                 Posted {moment(post.date).format('MMMM D, YYYY')}
             </em>
+            <div dangerouslySetInnerHTML={{ __html: post.body }} />
+
             <hr
                 style={{
                     marginBottom: rhythm(2),
