@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from "react-helmet"
 import { prefixLink } from 'gatsby-helpers'
-import { GoogleFont, TypographyStyle } from 'react-typography'
-import typography from './utils/typography'
 
 const BUILD_TIME = new Date().getTime()
 
@@ -24,10 +22,9 @@ const Html = ({ body }) => {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Montserrat:400,900" rel="stylesheet" />
           {head.title.toComponent()}
           {head.meta.toComponent()}
-          <TypographyStyle typography={typography} />
-          <GoogleFont typography={typography} />
           {css}
         </head>
         <body className="landing-page">

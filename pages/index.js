@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import sortBy from 'lodash/sortBy'
-import { rhythm } from 'utils/typography'
 import Helmet from "react-helmet"
 import access from 'safe-access'
 import { config } from 'config'

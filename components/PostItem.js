@@ -5,7 +5,6 @@ import access from 'safe-access'
 import prune from 'underscore.string/prune'
 import { prefixLink } from 'gatsby-helpers'
 import { Link } from 'react-router'
-import { rhythm } from 'utils/typography'
 import Button from 'components/Button'
 import './PostItem.css'
 

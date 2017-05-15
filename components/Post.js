@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
 import ReadNext from 'components/ReadNext'
-import { rhythm } from 'utils/typography'
 import Bio from 'components/Bio'
 
 const Post = ({ route }) => {
@@ -16,11 +15,7 @@ const Post = ({ route }) => {
             </em>
             <div dangerouslySetInnerHTML={{ __html: post.body }} />
 
-            <hr
-                style={{
-                    marginBottom: rhythm(2),
-                }}
-            />
+            <hr/>
             <ReadNext post={post} pages={route.pages} />
             <Bio />
         </div>
