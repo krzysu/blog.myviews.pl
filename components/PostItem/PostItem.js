@@ -25,6 +25,7 @@ const PostItem = ({ page }) => {
                 </Link>
             </h2>
             <p {...bem('body')}>{body}</p>
+            <hr />
         </div>
     )
 }

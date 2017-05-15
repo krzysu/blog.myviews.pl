@@ -6,7 +6,7 @@ import access from 'safe-access'
 import { config } from 'config'
 import include from 'underscore.string/include'
 import Bio from 'components/Bio'
-import PostItem from 'components/PostItem'
+import PostItem from 'components/PostItem/PostItem'
 
 const isPrd = access(process, 'env.NODE_ENV') === 'production'
 
@@ -51,7 +51,7 @@ const BlogIndex = (props) => {
                 ]}
             />
             <Bio />
-            <div>
+            <div style={{ marginTop: '4.5em' }}>
                 {pageLinks}
             </div>
 

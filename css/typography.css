@@ -4,7 +4,7 @@ body {
   line-height: 1.5em;
   color: #3d3d3d;
   background: #fff;
-  background-image: url(https://basehold.it/i/27);
+  /*background-image: url(https://basehold.it/i/27);*/
 }
 
 .wrapper {
@@ -61,7 +61,7 @@ table {
 	margin-bottom: 1.5em;
 }
 
-p, ul, ol, pre {
+p, ul, ol, pre, hr {
     margin: 1.5em 0;
 }
 
