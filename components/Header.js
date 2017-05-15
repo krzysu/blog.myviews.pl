@@ -5,6 +5,7 @@ import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 
 const Header = ({ location }) => {
+    return null;
     if (location.pathname === prefixLink('/')) {
         return (
             <h1>

@@ -15,6 +15,8 @@ const PostItem = ({ page }) => {
     const html = access(page, 'data.description') || page.data.body
     const body = prune(html.replace(/<[^>]*>/g, ''), 200)
 
+    // <Button path={page.path} text="Otwórz" />
+
     return (
         <div {...bem()}>
             <h2 {...bem('headline')}>
@@ -23,8 +25,6 @@ const PostItem = ({ page }) => {
                 </Link>
             </h2>
             <p {...bem('body')}>{body}</p>
-
-            <Button path={page.path} text="Otwórz" />
         </div>
     )
 }

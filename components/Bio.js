@@ -4,6 +4,7 @@ import { prefixLink } from 'gatsby-helpers'
 
 class Bio extends React.Component {
   render () {
+      return null;
     return (
       <p>
         <img
