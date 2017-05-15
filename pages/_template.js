@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Header from 'components/Header'
+import Header from 'components/Header/Header'
 import 'normalize.css/normalize.css'
 import 'css/typography.css'
 
@@ -9,9 +9,11 @@ class Template extends React.Component {
         const { location, children } = this.props
 
         return (
-            <div className="template">
+            <div>
                 <Header location={location} />
-                {children}
+                <div className="wrapper">
+                    {children}
+                </div>
             </div>
         )
     }

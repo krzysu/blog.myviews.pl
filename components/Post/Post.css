@@ -1,0 +1,15 @@
+.post {
+    margin: 1.5em 0 3em;
+}
+
+.post img {
+    margin: 1.5em auto;
+    display: block;
+    max-width: 100%;
+}
+
+.post__published {
+    text-align: right;
+    color: #999;
+    margin-bottom: 1.5em;
+}

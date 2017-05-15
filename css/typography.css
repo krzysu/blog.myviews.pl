@@ -1,15 +1,16 @@
 body {
   font-family: 'Lato', Arial, serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5em;
   color: #3d3d3d;
   background: #fff;
-  background-image: url(https://basehold.it/i/30);
+  background-image: url(https://basehold.it/i/27);
 }
 
-.template {
+.wrapper {
     max-width: 700px;
     margin: 0 auto;
+    padding: 0 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,9 +65,27 @@ p, ul, ol, pre {
     margin: 1.5em 0;
 }
 
+ul, ol {
+    padding-left: 1.5em;
+}
+
+p {
+    text-align: justify;
+}
+
 hr {
-    margin: 1.5em 0;
-    margin: -1px 0;
+    text-align: center;
+    border: 0;
+}
+
+hr::before {
+    content: '...';
+    display: inline-block;
+    color: #3d3d3d;
+    font-size: 3em;
+    position: relative;
+    letter-spacing: 0.5em;
+    bottom: 0.57em;
 }
 
 blockquote {

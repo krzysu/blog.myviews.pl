@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-import Post from 'components/Post'
+import Post from 'components/Post/Post'
 import '../css/zenburn.css'
 
 const MarkdownWrapper = (props) => {
@@ -11,7 +11,7 @@ const MarkdownWrapper = (props) => {
     const layout = post.layout;
 
     return (
-        <div className="markdown">
+        <div>
             <Helmet
                 title={`${post.title} | ${config.blogTitle}`}
             />
