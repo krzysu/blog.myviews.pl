@@ -17,10 +17,10 @@ const Post = ({ route }) => {
                 </div>
                 <h1>{post.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.body }} />
+                <hr />
                 <div className="post__like">
                     <Like id={route.page.path} />
                 </div>
-                <hr />
             </div>
             <ReadNext post={post} pages={route.pages} />
             <Bio />
