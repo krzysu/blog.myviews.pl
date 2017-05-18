@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import moment from 'moment'
 import ReadNext from 'components/ReadNext'
 import Bio from 'components/Bio'
+import Like from 'components/Like'
 import './Post.css'
 
 const Post = ({ route }) => {
@@ -16,6 +17,9 @@ const Post = ({ route }) => {
                 </div>
                 <h1>{post.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.body }} />
+                <div className="post__like">
+                    <Like id={route.page.path} />
+                </div>
                 <hr />
             </div>
             <ReadNext post={post} pages={route.pages} />
