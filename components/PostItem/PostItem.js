@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import BEMHelper from 'react-bem-helper'
 import access from 'safe-access'
-import prune from 'underscore.string/prune'
 import { prefixLink } from 'gatsby-helpers'
 import { Link } from 'react-router'
+import { getAbstract } from 'utils/helpers'
 import Button from 'components/Button'
 import './PostItem.css'
 
@@ -12,8 +12,7 @@ const bem = new BEMHelper('post-item')
 
 const PostItem = ({ page }) => {
     const title = access(page, 'data.title') || '[No title]'
-    const html = access(page, 'data.description') || page.data.body
-    const body = prune(html.replace(/<[^>]*>/g, ''), 200)
+    const body = getAbstract(page.data)
 
     // <Button path={page.path} text="Otwórz" />
 

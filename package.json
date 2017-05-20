@@ -15,7 +15,7 @@
     "prop-types": "^15.5.10",
     "react-bem-helper": "^1.4.1",
     "react-ga": "^2.2.0",
-    "react-helmet": "^3.1.0",
+    "react-helmet": "^5.1.3",
     "recursive-readdir": "^2.1.0",
     "rimraf": "^2.5.4",
     "safe-access": "^0.1.0",
@@ -30,11 +30,10 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop",
     "build": "gatsby build && node ampify.js",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public -b master"
+    "build-and-deploy": "gatsby build --prefix-links && gh-pages -d public -b master",
+    "deploy": "gh-pages -d public -b master"
   }
 }

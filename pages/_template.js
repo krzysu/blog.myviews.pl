@@ -4,25 +4,25 @@ import Header from 'components/Header/Header'
 import 'normalize.css/normalize.css'
 import 'css/typography.css'
 
-class Template extends React.Component {
-    render () {
-        const { location, children } = this.props
-
-        return (
-            <div>
-                <Header location={location} />
-                <div className="wrapper">
-                    {children}
-                </div>
+const Template = ({ location, children }) => {
+    return (
+        <div>
+            <Header location={location} />
+            <div className="wrapper">
+                {children}
             </div>
-        )
-    }
+        </div>
+    )
 }
 
 Template.propTypes = {
     children: PropTypes.any,
+    history: PropTypes.object,
     location: PropTypes.object,
+    params: PropTypes.object,
     route: PropTypes.object,
+    routeParams: PropTypes.object,
+    routes: PropTypes.array,
 }
 
 export default Template

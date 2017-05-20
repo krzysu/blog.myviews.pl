@@ -1,16 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
+import HeadMeta from 'components/HeadMeta'
 import ReadNext from 'components/ReadNext'
 import Bio from 'components/Bio'
 import Like from 'components/Like'
 import './Post.css'
 
 const Post = ({ route }) => {
-    const post = route.page.data
+    const page = route.page;
+    const post = page.data;
 
     return (
         <div>
+            <HeadMeta {...page} />
             <div className="post">
                 <div className="post__published">
                     <small>{`Opublikowano ${moment(post.date).format('D MMMM YYYY')}`}</small>
@@ -19,7 +22,7 @@ const Post = ({ route }) => {
                 <div dangerouslySetInnerHTML={{ __html: post.body }} />
                 <hr />
                 <div className="post__like">
-                    <Like id={route.page.path} />
+                    <Like id={page.path} />
                 </div>
             </div>
             <ReadNext post={post} pages={route.pages} />

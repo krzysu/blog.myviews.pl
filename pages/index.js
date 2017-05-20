@@ -1,14 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import sortBy from 'lodash/sortBy'
-import Helmet from "react-helmet"
 import access from 'safe-access'
-import { config } from 'config'
 import include from 'underscore.string/include'
+import HeadMeta from 'components/HeadMeta'
 import Bio from 'components/Bio'
 import PostItem from 'components/PostItem/PostItem'
-
-const isPrd = access(process, 'env.NODE_ENV') === 'production'
 
 const Drafts = (props) => {
     return (
@@ -19,12 +16,13 @@ const Drafts = (props) => {
     )
 }
 
-const BlogIndex = (props) => {
+const BlogIndex = ({ route }) => {
     const pageLinks = []
     const draftLinks = []
+    const { page, pages } = route;
 
     // Sort pages.
-    const sortedPages = sortBy(props.route.pages, (page) =>
+    const sortedPages = sortBy(pages, (page) =>
       access(page, 'data.date')
     ).reverse()
 
@@ -43,19 +41,13 @@ const BlogIndex = (props) => {
 
     return (
         <div>
-            <Helmet
-                title={config.blogTitle}
-                meta={[
-                    {"name": "description", "content": "Sample blog"},
-                    {"name": "keywords", "content": "blog, articles"},
-                ]}
-            />
+            <HeadMeta {...page} />
             <Bio />
             <div style={{ marginTop: '4.5em' }}>
                 {pageLinks}
             </div>
 
-            {!isPrd && (
+            {false && (
                 <Drafts>
                     {draftLinks}
                 </Drafts>
@@ -65,7 +57,10 @@ const BlogIndex = (props) => {
 }
 
 BlogIndex.propTypes = {
-  route: PropTypes.object,
+  route: PropTypes.shape({
+      page: PropTypes.object,
+      pages: PropTypes.array,
+  }),
 }
 
 export default BlogIndex
