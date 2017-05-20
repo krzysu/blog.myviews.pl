@@ -5,7 +5,7 @@ import HeadMeta from 'components/HeadMeta'
 import ReadNext from 'components/ReadNext'
 import Bio from 'components/Bio'
 import Like from 'components/Like'
-import './Post.css'
+import './Post.scss'
 
 const Post = ({ route }) => {
     const page = route.page;

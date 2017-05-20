@@ -6,7 +6,7 @@ import { prefixLink } from 'gatsby-helpers'
 import { Link } from 'react-router'
 import { getAbstract } from 'utils/helpers'
 import Button from 'components/Button'
-import './PostItem.css'
+import './PostItem.scss'
 
 const bem = new BEMHelper('post-item')
 

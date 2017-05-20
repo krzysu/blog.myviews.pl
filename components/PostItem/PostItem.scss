@@ -1,0 +1,21 @@
+.post-item {
+    margin-bottom: 3em;
+
+    &__headline {
+        margin-bottom: 0;
+    }
+
+    &__headline-link {
+        color: #3d3d3d;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    &__body {
+        margin: 0;
+    }
+}
