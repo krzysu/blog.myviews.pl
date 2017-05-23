@@ -3,7 +3,6 @@ title: Social by design in examples
 date: "2013-02-20"
 layout: post
 path: "/social-by-design-in-examples/"
-readNext: "/short-story-about-looking-for-new-place-to-live/"
 ---
 
 I know that content is a king but maybe someone will notice improvements I did on this blog. I added possibility of commenting thanks to Facebook widget and I am working on basic social feature: sharing. So **the topic for today is "social by design"**.
@@ -46,23 +45,23 @@ So as you see by default there is nothing social here. It is just a site that ne
 
 Let's think for a while from visitor perspective. As a visitor I am on features page because product looks interesting enough on landing page that I want to know something more about it. I see a list of features, it can look anyway, we don't care this time. So what 'social' things I would like to do here? (theoretically as we need user testing to find out!)
 
-- **I would like to share the feature I found revolutionary with my friends/followers.**   
+- **I would like to share the feature I found revolutionary with my friends/followers.**
   Solution: ability to share each feature separately (or only the most innovative and interesting ones)
 
-- **I would like to see some social proof, people that have already used the product.**   
+- **I would like to see some social proof, people that have already used the product.**
   Faces of other people, and especially your friends, will increase 'social' effect
 
 Another group of visitors might be your clients - people who already use your product but are looking for what's new.
 
-- **I would like to propose my feature to improve product from my perspective**   
+- **I would like to propose my feature to improve product from my perspective**
   Solution: 'suggest a feature' form
 
-- **I would like to see other proposals for features**   
-and   
-- **I would like to vote for best of them**   
+- **I would like to see other proposals for features**
+and
+- **I would like to vote for best of them**
   Solution: backlog features section with voting for best to be implemented next
 
-- **I would like to tell others about my ideas for features and get them to vote for them**   
+- **I would like to tell others about my ideas for features and get them to vote for them**
   Solition: ability to ask visitor's followers to vote too
 
 ##### More social 'pricing page'
@@ -99,5 +98,5 @@ Reference:
 - [Social Media Is A Part Of The User Experience](http://www.smashingmagazine.com/2012/06/04/social-media-is-a-part-of-the-user-experience/)
 - [What is the exact meaning of "Social by Design"?](http://www.quora.com/What-is-the-exact-meaning-of-Social-by-Design)
 
-[^1]: You know: Facebook, Twitter etc. :)   
+[^1]: You know: Facebook, Twitter etc. :)
 [^2]: u.s. [ut supro] :)

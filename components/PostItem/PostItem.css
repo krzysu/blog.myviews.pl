@@ -1,0 +1,24 @@
+.post-item {
+}
+
+.post-item__headline {
+    margin-bottom: 0;
+}
+
+.post-item__headline-link {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.post-item__headline-link:hover,
+.post-item__headline-link:focus {
+    text-decoration: underline;
+}
+
+.post-item__published {
+    color: #999;
+}
+
+.post-item__body {
+    margin: 0;
+}

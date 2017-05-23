@@ -3,7 +3,6 @@ title: Jak i w jakich kierunkach powinien się rozwijać ponad-przeciętny progr
 date: "2017-05-12"
 layout: post
 path: "/ponad-przecietny-programista/"
-readNext: "/od-programisty-do-inzyniera-oprogramowania/"
 draft: true
 ---
 

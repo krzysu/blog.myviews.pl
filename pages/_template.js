@@ -1,8 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Header from 'components/Header/Header'
-import 'normalize.css/normalize.css'
-import 'css/typography.css'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Header from 'components/Header/Header';
+import Footer from 'components/Footer/Footer';
+import 'normalize.css/normalize.css';
+import 'css/typography.css';
 
 const Template = ({ location, children }) => {
     return (
@@ -11,6 +12,7 @@ const Template = ({ location, children }) => {
             <div className="wrapper">
                 {children}
             </div>
+            <Footer />
         </div>
     )
 }
@@ -25,4 +27,4 @@ Template.propTypes = {
     routes: PropTypes.array,
 }
 
-export default Template
+export default Template;

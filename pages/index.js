@@ -1,57 +1,26 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import sortBy from 'lodash/sortBy'
-import access from 'safe-access'
-import include from 'underscore.string/include'
-import HeadMeta from 'components/HeadMeta'
-import Bio from 'components/Bio'
-import PostItem from 'components/PostItem/PostItem'
-
-const Drafts = (props) => {
-    return (
-        <div>
-            <h2>Drafts</h2>
-            {props.children}
-        </div>
-    )
-}
+import React from 'react';
+import PropTypes from 'prop-types';
+import HeadMeta from 'components/HeadMeta';
+import AuthorItem from 'components/AuthorItem/AuthorItem';
+import PostItem from 'components/PostItem/PostItem';
+import { getPublicPosts } from 'utils/helpers2';
 
 const BlogIndex = ({ route }) => {
-    const pageLinks = []
-    const draftLinks = []
     const { page, pages } = route;
-
-    // Sort pages.
-    const sortedPages = sortBy(pages, (page) =>
-      access(page, 'data.date')
-    ).reverse()
-
-    sortedPages.forEach((page) => {
-        if (
-            access(page, 'file.ext') === 'md' &&
-            !include(page.path, '/404')
-        ) {
-            if (!access(page, 'data.draft')) {
-                pageLinks.push(<PostItem page={page} key={page.path} />)
-            } else {
-                draftLinks.push(<PostItem page={page} key={page.path} />)
-            }
-        }
-    })
+    const publicPages = getPublicPosts(pages);
 
     return (
-        <div>
+        <div className="wrapper">
             <HeadMeta {...page} />
-            <Bio />
+            <AuthorItem />
             <div style={{ marginTop: '4.5em' }}>
-                {pageLinks}
+                {publicPages.map((page, index) => (
+                    <div key={index} style={{ marginBottom: '3em' }}>
+                        <PostItem page={page} />
+                        <hr />
+                    </div>
+                ))}
             </div>
-
-            {false && (
-                <Drafts>
-                    {draftLinks}
-                </Drafts>
-            )}
         </div>
     )
 }
@@ -63,4 +32,4 @@ BlogIndex.propTypes = {
   }),
 }
 
-export default BlogIndex
+export default BlogIndex;

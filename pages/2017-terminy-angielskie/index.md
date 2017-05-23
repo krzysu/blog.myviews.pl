@@ -3,7 +3,6 @@ title: Słownik terminów inżynierii oprogramowania
 date: "2017-05-14"
 layout: post
 path: "/slownik-terminow-inzynierii-oprogramowania/"
-readNext: "/od-programisty-do-inzyniera-oprogramowania/"
 draft: true
 ---
 
@@ -23,7 +22,7 @@ Poniżej zamieszczam kilkanaście terminów, które wyłowiłem z książki, kt�
 - karta zadaniowa (task)
 - rejestr zadań (backlog)
 - rejestr produktowy (product backlog)
-- przekombinowanie (over-engineering) ;)  
+- przekombinowanie (over-engineering) ;)
 - programowanie zwinne (agile software development)
 - projekt otwarty (open source) ;)
 - projekt własny (pet project)
