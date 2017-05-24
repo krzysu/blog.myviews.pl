@@ -1,4 +1,6 @@
 .read-next {
+  $break-point: 700px;
+
   margin: 0 auto 6em;
   max-width: 1100px;
   padding: 0 1em;
@@ -9,6 +11,10 @@
 
   &__posts {
     display: flex;
+
+    @media (max-width: $break-point) {
+      display: block;
+    }
   }
 
   &__item {
@@ -16,6 +22,11 @@
 
     &:last-child {
       margin-right: 0;
+    }
+
+    @media (max-width: $break-point) {
+      margin-right: 0;
+      margin-bottom: 1.5em;
     }
   }
 }

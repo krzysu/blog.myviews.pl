@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="wrapper">
-                copyright, license, contact etc.
+                {`copyright © ${(new Date()).getFullYear()} Krzysztof Urbas @krzysu`}
             </div>
         </div>
     )

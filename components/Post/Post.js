@@ -31,6 +31,7 @@ const Post = ({ route }) => {
             <ReadNext route={route} />
 
             <div className="wrapper">
+                <h2 className="read-next__headline">O autorze:</h2>
                 <AuthorItem />
             </div>
         </div>

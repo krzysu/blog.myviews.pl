@@ -9,9 +9,7 @@ const Template = ({ location, children }) => {
     return (
         <div>
             <Header location={location} />
-            <div className="wrapper">
-                {children}
-            </div>
+            {children}
             <Footer />
         </div>
     )

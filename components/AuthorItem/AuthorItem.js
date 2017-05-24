@@ -3,6 +3,9 @@ import { prefixLink } from 'gatsby-helpers';
 import './AuthorItem.scss';
 
 const AuthorItem = () => {
+    const emailReversed = 'moc.liamg@lp.usyzrk';
+    const emailCorrect = emailReversed.split('').reverse().join('');
+
     return (
         <div className="author-item">
             <img
@@ -23,8 +26,12 @@ const AuthorItem = () => {
                 <div className="author-item__contact">
                     <span className="author-item__contact-label">Przywitaj się:</span>
                     <ul className="author-item__contact-list">
-                        <li className="author-item__contact-item"><a href="#">napisz do mnie</a></li>
-                        <li className="author-item__contact-item"><a href="#">w serwisie Twitter</a></li>
+                        <li className="author-item__contact-item">
+                            <a href={`mailto:${emailCorrect}`}>napisz do mnie</a>
+                        </li>
+                        <li className="author-item__contact-item">
+                            <a href="https://twitter.com/krzysu" target="_blank">w serwisie Twitter</a>
+                        </li>
                     </ul>
                 </div>
             </div>
