@@ -1,0 +1,112 @@
+.wishlist-icon {
+  font-family: icomoon;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  width: 1em;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  color: #565d60;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer
+}
+
+.wishlist-icon:before {
+  content: "\E604";
+  display: inline-block;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s
+}
+
+.wishlist-icon:visited {
+  color: #565d60
+}
+
+.wishlist-icon:active, .wishlist-icon:focus, .wishlist-icon:hover {
+  text-decoration: none
+}
+
+.wishlist-icon:hover {
+  color: #f45334
+}
+
+.wishlist-icon--inactive:before {
+  -webkit-animation-name: wishlist-icon-deactivate;
+  animation-name: wishlist-icon-deactivate
+}
+
+.wishlist-icon--active {
+  color: #f45334
+}
+
+.wishlist-icon--active:before {
+  content: "\E605";
+  -webkit-animation-name: wishlist-icon-activate;
+  animation-name: wishlist-icon-activate
+}
+
+.wishlist-icon--active:visited {
+  color: #f45334
+}
+
+.wishlist-icon--with-circle {
+  font-size: 36px;
+  line-height: 38px;
+  width: 36px;
+  height: 36px;
+  background-color: hsla(0, 0%, 100%, .6);
+  border-radius: 50%
+}
+
+.wishlist-icon--with-circle.wishlist-icon--active {
+  border-color: #f45334
+}
+
+@keyframes wishlist-icon-activate {
+  0%, to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  60% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15)
+  }
+}
+
+@-webkit-keyframes wishlist-icon-activate {
+  0%, to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  60% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15)
+  }
+}
+
+@keyframes wishlist-icon-deactivate {
+  0%, to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  60% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15)
+  }
+}
+
+@-webkit-keyframes wishlist-icon-deactivate {
+  0%, to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  60% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15)
+  }
+}

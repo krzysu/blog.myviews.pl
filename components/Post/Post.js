@@ -4,7 +4,7 @@ import moment from 'moment';
 import HeadMeta from 'components/HeadMeta';
 import ReadNext from 'components/ReadNext/ReadNext';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
-import Like from 'components/Like';
+import LikeButton from 'components/LikeButton/LikeButton';
 import './Post.scss';
 
 const Post = ({ route }) => {
@@ -23,7 +23,7 @@ const Post = ({ route }) => {
                     <div dangerouslySetInnerHTML={{ __html: post.body }} />
                     <hr />
                     <div className="post__like">
-                        <Like id={route.page.path} />
+                        <LikeButton id={route.page.path} />
                     </div>
                 </div>
             </div>
