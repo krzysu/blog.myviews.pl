@@ -1,5 +1,4 @@
 .post-item {
-    margin-bottom: 3em;
 
     &__headline {
         margin-bottom: 0;
@@ -13,6 +12,10 @@
         &:focus {
             text-decoration: underline;
         }
+    }
+
+    &__published {
+        color: #999;
     }
 
     &__body {
