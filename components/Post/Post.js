@@ -14,24 +14,24 @@ const Post = ({ route }) => {
     return (
         <div>
             <HeadMeta {...page} />
-            <div className="wrapper">
+            <div className="wrapper post-wrapper">
                 <div className="post">
                     <div className="post__published">
                         <small>{`Opublikowano ${moment(post.date).format('D MMMM YYYY')}`}</small>
                     </div>
                     <h1>{post.title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: post.body }} />
-                    <hr />
-                    <div className="post__like">
-                        <LikeButton id={route.page.path} />
-                    </div>
                 </div>
+                <div className="post-actions">
+                    <LikeButton id={route.page.path} />
+                </div>
+                <hr />
             </div>
 
             <ReadNext route={route} />
 
             <div className="wrapper">
-                <h2 className="read-next__headline">O autorze:</h2>
+                <h2>O autorze:</h2>
                 <AuthorItem />
             </div>
         </div>
