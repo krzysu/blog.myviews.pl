@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import HeadMeta from 'components/HeadMeta';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
 import PostItem from 'components/PostItem/PostItem';
-import { getPublicPosts } from 'utils/helpers2';
+import { getPublicPosts } from 'utils/helpers';
 
 const BlogIndex = ({ route }) => {
     const { page, pages } = route;

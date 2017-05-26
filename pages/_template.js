@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
 import 'normalize.css/normalize.css';
-import 'css/typography.css';
+import 'stylesheets/typography.scss';
 
 const Template = ({ location, children }) => {
     return (

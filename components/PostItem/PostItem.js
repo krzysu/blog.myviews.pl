@@ -6,7 +6,6 @@ import access from 'safe-access'
 import { prefixLink } from 'gatsby-helpers'
 import { Link } from 'react-router'
 import { getAbstract } from 'utils/helpers'
-import Button from 'components/Button'
 import './PostItem.scss'
 
 const bem = new BEMHelper('post-item')
@@ -14,9 +13,6 @@ const bem = new BEMHelper('post-item')
 const PostItem = ({ page, headlineTag }) => {
     const title = access(page, 'data.title') || '[No title]'
     const body = getAbstract(page.data)
-
-    // <Button path={page.path} text="Otwórz" />
-
     const Headline = headlineTag || 'h2';
 
     return (

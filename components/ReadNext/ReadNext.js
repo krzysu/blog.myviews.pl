@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import PostItem from 'components/PostItem/PostItem';
-import { getPublicPosts } from 'utils/helpers2';
+import { getPublicPosts } from 'utils/helpers';
 import './ReadNext.scss';
 
 const RECOMMENDATION_COUNT = 3;
