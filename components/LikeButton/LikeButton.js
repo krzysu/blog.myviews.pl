@@ -10,6 +10,12 @@ class LikeButton extends Component {
         isActive: false,
     }
 
+    componentDidUpdate(prevProps, prevState) {
+        if (prevProps.id !== this.props.id) {
+            this.setState({ isActive: false });
+        }
+    }
+
     handleClick = (event) => {
         event.preventDefault();
         if (this.state.isActive) {
