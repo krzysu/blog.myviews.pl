@@ -33,6 +33,8 @@ const HeadMeta = (props) => {
             <meta name="twitter:title" content={metaTitle} />
             <meta name="twitter:description" content={metaDescription} />
             <meta name="twitter:image" content={metaImageUrl} />
+
+            <meta name="google-site-verification" content="Hrk4F1pkLs_5drnNnAkPtoDaPkV67X0DenupaPMEwTc" />
         </Helmet>
     )
 }
