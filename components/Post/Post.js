@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import moment from 'moment';
 import HeadMeta from 'components/HeadMeta';
 import ReadNext from 'components/ReadNext/ReadNext';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
 import LikeButton from 'components/LikeButton/LikeButton';
+import PostDate from 'components/PostDate';
 import './Post.scss';
 
 const Post = ({ route }) => {
@@ -17,7 +17,7 @@ const Post = ({ route }) => {
             <div className="wrapper post-wrapper">
                 <div className="post">
                     <div className="post__published">
-                        <small>{`Opublikowano ${moment(post.date).format('D MMMM YYYY')}`}</small>
+                        <PostDate date={post.date} />
                     </div>
                     <h1>{post.title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: post.body }} />

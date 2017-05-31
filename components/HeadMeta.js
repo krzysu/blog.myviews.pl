@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 import { config } from 'config';
-import { getAbstract } from 'utils/helpers'
-import { prefixLink } from 'gatsby-helpers'
+import { getAbstract } from 'utils/helpers';
+import { prefixLink } from 'gatsby-helpers';
 
 const HeadMeta = (props) => {
     const { data, file, path } = props;
@@ -56,4 +56,4 @@ HeadMeta.propTypes = {
     path: PropTypes.string,
 }
 
-export default HeadMeta
+export default HeadMeta;
