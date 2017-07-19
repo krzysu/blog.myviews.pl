@@ -3,6 +3,7 @@ title: Indie HTML5 game development
 date: "2014-01-06"
 layout: post
 path: "/indie-html5-game-development/"
+lang: en
 ---
 
 > from my experience and knowledge I gathered in the last few months

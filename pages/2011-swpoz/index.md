@@ -3,6 +3,7 @@ title: Komentarz do Startup Weekend Poznań 2011
 date: "2011-10-10"
 layout: post
 path: "/startup-weekend-poznan-2011/"
+lang: pl
 ---
 
 ![nasze loga](./swpoz-01.png)

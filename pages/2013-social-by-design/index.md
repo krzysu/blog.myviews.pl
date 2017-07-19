@@ -3,6 +3,7 @@ title: Social by design in examples
 date: "2013-02-20"
 layout: post
 path: "/social-by-design-in-examples/"
+lang: en
 ---
 
 I know that content is a king but maybe someone will notice improvements I did on this blog. I added possibility of commenting thanks to Facebook widget and I am working on basic social feature: sharing. So **the topic for today is "social by design"**.

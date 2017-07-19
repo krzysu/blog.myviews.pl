@@ -3,6 +3,7 @@ title: Od przeciętnego programisty do szczęśliwego inżyniera oprogramowania
 date: "2017-04-19"
 layout: post
 path: "/od-programisty-do-inzyniera-oprogramowania/"
+lang: pl
 ---
 
 >  O rozwoju osobistym słów kilka.
