@@ -6,7 +6,8 @@ path: "/social-by-design-in-examples/"
 lang: en
 ---
 
-I know that content is a king but maybe someone will notice improvements I did on this blog. I added possibility of commenting thanks to Facebook widget and I am working on basic social feature: sharing. So **the topic for today is "social by design"**.
+> The topic for today is "social by design".
+
 I can tell you about it based on my ideas for improving my company's website. Unfortunately all my ideas were dismissed because of lack of time and understanding. I don't like my time to be wasted so maybe some of you, dear readers, will be able to take advantage of my suggestions.
 
 ### What is that 'social' thing?
@@ -33,8 +34,8 @@ Term is quite new but in fact it contains a lot of elements we've already known.
 - **online chats** - as help/client service
 - **polls** - not so popular
 - **social proof** - by showing faces of visitor friends or other real people that made it before you
-- **links to your social media profiles**[^1] - rather standard but dull
-- **stream of content from your social media profiles**[^2] - build into your site
+- **links to your social media profiles** - rather standard but dull
+- **stream of content from your social media profiles** - build into your site
 
 ### Examples
 
@@ -88,16 +89,7 @@ As you see you can just learn how to be social. Just remeber about these social 
 - make it easy to take action
 - people like seeing other people :)
 
-I offer free startup consultations, mainly about product design and development. Just **[write me a message](http://myviews.pl/#!/contact)**. Also, check my social profiles:
-
-- [follow me on twitter](http://twitter.com/krzysu)
-- [fork me on github](http://github.com/krzysu)
-
-
 Reference:
 
 - [Social Media Is A Part Of The User Experience](http://www.smashingmagazine.com/2012/06/04/social-media-is-a-part-of-the-user-experience/)
 - [What is the exact meaning of "Social by Design"?](http://www.quora.com/What-is-the-exact-meaning-of-Social-by-Design)
-
-[^1]: You know: Facebook, Twitter etc. :)
-[^2]: u.s. [ut supro] :)

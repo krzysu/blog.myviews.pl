@@ -6,7 +6,7 @@ path: "/indie-html5-game-development/"
 lang: en
 ---
 
-> from my experience and knowledge I gathered in the last few months
+> From my experience and knowledge I gathered in the last few months.
 
 Short and straight to the point. I mention only resources I consider useful an what I am using in my projects, means what works for me and **might not work** for you. HTML5 as technology for game development is quite new and having great traction right now. That means it is good time to start playing with it!
 

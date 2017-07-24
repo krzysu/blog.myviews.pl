@@ -8,7 +8,7 @@ export const getAbstract = (post, length = 200) => {
     return html ? prune(html.replace(/<[^>]*>/g, ''), length) : '';
 }
 
-export const getPublicPosts = (pages, limit = 0, excludePage = {}) => {
+export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) => {
 
     const sortedPages = sortBy(pages, (page) =>
         access(page, 'data.date')
@@ -18,6 +18,7 @@ export const getPublicPosts = (pages, limit = 0, excludePage = {}) => {
         return access(page, 'file.ext') === 'md' &&
             !include(page.path, '/404') &&
             !access(page, 'data.draft') &&
+            access(page, 'data.lang') === lang &&
             access(page, 'data.path') !== access(excludePage, 'data.path');
     });
 

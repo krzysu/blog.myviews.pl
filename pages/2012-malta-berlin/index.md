@@ -12,7 +12,7 @@ They say that laziness is mother of invention. I can say for me **the boredom is
 
 ### Winter in Poland
 
-It was November 2011, beginning of winter in Poland. It was cold and grey. **How am I supposed to be creative if all I see outside is grey?** I always wanted to live on tropical island, to have my work/life balance more interesting, so I started my research. After few days of reading and map studying I found Malta. Perfect place for one year "holiday"[^1] without need to change my profession. I mean, there are some web development companies there. And this is not so common on tropical islands that live mostly from tourism.
+It was November 2011, beginning of winter in Poland. It was cold and grey. **How am I supposed to be creative if all I see outside is grey?** I always wanted to live on tropical island, to have my work/life balance more interesting, so I started my research. After few days of reading and map studying I found Malta. Perfect place for one year "holiday" without need to change my profession. I mean, there are some web development companies there. And this is not so common on tropical islands that live mostly from tourism.
 
 ### Malta's dream
 
@@ -43,10 +43,3 @@ I once heard this [here](http://vimeo.com/44130258): „Are you doing what you l
 
 Comments are welcomed.
 Tschüss.
-
-Check my social profiles:
-
-- [follow me on twitter](http://twitter.com/krzysu)
-- [fork me on github](http://github.com/krzysu)
-
-[^1]: By "holiday" I mean living in typical travel destination, with all you would need during your holidays, but with need to work for living.

@@ -17,18 +17,18 @@ const Post = ({ route }) => {
             <div className="wrapper post-wrapper">
                 <div className="post">
                     <div className="post__published">
-                        <PostDate date={post.date} />
+                        <PostDate date={post.date} lang={post.lang} />
                     </div>
                     <h1>{post.title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: post.body }} />
                 </div>
                 <div className="post-actions">
-                    <LikeButton id={route.page.path} />
+                    <LikeButton id={route.page.path} lang={post.lang} />
                 </div>
                 <hr />
             </div>
 
-            <ReadNext route={route} />
+            <ReadNext route={route} lang={post.lang} />
 
             <div className="wrapper">
                 <h2>O autorze:</h2>

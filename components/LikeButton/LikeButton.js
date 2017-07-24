@@ -57,6 +57,7 @@ class LikeButton extends Component {
 
 LikeButton.PropTypes = {
     id: PropTypes.string,
+    lang: PropTypes.string,
 }
 
 export default LikeButton;

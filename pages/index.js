@@ -5,9 +5,9 @@ import AuthorItem from 'components/AuthorItem/AuthorItem';
 import PostItem from 'components/PostItem/PostItem';
 import { getPublicPosts } from 'utils/helpers';
 
-const BlogIndex = ({ route }) => {
+const BlogIndex = ({ route, lang }) => {
     const { page, pages } = route;
-    const publicPages = getPublicPosts(pages);
+    const publicPages = getPublicPosts(pages, lang);
 
     return (
         <div className="wrapper">
@@ -16,7 +16,7 @@ const BlogIndex = ({ route }) => {
             <div style={{ marginTop: '4.5em' }}>
                 {publicPages.map((page, index) => (
                     <div key={index} style={{ marginBottom: '3em' }}>
-                        <PostItem page={page} />
+                        <PostItem page={page} lang={lang} />
                         <hr />
                     </div>
                 ))}
@@ -30,6 +30,7 @@ BlogIndex.propTypes = {
       page: PropTypes.object,
       pages: PropTypes.array,
   }),
+  lang: PropTypes.string,
 }
 
 export default BlogIndex;

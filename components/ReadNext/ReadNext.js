@@ -6,11 +6,11 @@ import './ReadNext.scss';
 
 const RECOMMENDATION_COUNT = 3;
 
-const ReadNext = ({ route }) => {
+const ReadNext = ({ route, lang }) => {
     const currentPage = route.page;
     const allPages = route.pages;
 
-    const readNextPages = getPublicPosts(allPages, RECOMMENDATION_COUNT, currentPage);
+    const readNextPages = getPublicPosts(allPages, lang, RECOMMENDATION_COUNT, currentPage);
 
     return (
         <div className="read-next">
@@ -29,6 +29,7 @@ const ReadNext = ({ route }) => {
 
 ReadNext.propTypes = {
     route: PropTypes.object,
+    lang: PropTypes.string,
 }
 
 export default ReadNext;
