@@ -1,13 +1,11 @@
+@import 'stylesheets/vars';
+
 .post-wrapper {
     margin-bottom: 6em;
 }
 
 .post {
     margin: 1.5em 0;
-
-    p {
-        text-align: justify;
-    }
 
     img {
         margin: 1.5em auto;
@@ -19,6 +17,12 @@
         text-align: right;
         color: #999;
         margin-bottom: 1.5em;
+    }
+
+    @media (min-width: $break-point) {
+        p {
+            text-align: justify;
+        }
     }
 }
 

@@ -1,6 +1,6 @@
-.author-item {
-  $break-point: 700px;
+@import 'stylesheets/vars';
 
+.author-item {
   margin: 3em 0;
 
   &__image {
