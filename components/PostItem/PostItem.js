@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import BEMHelper from 'react-bem-helper';
-import access from 'safe-access';
+import get from 'lodash/get';
 import { prefixLink } from 'gatsby-helpers';
 import { Link } from 'react-router';
 import { getAbstract } from 'utils/helpers';
@@ -12,7 +12,7 @@ import './PostItem.scss';
 const bem = new BEMHelper('post-item')
 
 const PostItem = ({ page, headlineTag }) => {
-    const title = access(page, 'data.title') || '[No title]'
+    const title = get(page, 'data.title') || '[No title]'
     const body = getAbstract(page.data)
     const Headline = headlineTag || 'h2';
 

@@ -1,25 +1,29 @@
-import prune from 'underscore.string/prune'
-import sortBy from 'lodash/sortBy'
-import access from 'safe-access'
-import include from 'underscore.string/include'
+import sortBy from 'lodash/sortBy';
+import get from 'lodash/get';
+import truncate from 'lodash/truncate';
+import includes from 'lodash/includes';
 
-export const getAbstract = (post, length = 200) => {
+export const getAbstract = (post, length = 240) => {
     const html = post.description || post.body;
-    return html ? prune(html.replace(/<[^>]*>/g, ''), length) : '';
+    const truncateOptions = {
+        length,
+        separator: /,? +/,
+    };
+    return html ? truncate(html.replace(/<[^>]*>/g, ''), truncateOptions) : '';
 }
 
 export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) => {
 
     const sortedPages = sortBy(pages, (page) =>
-        access(page, 'data.date')
+        get(page, 'data.date')
     ).reverse();
 
     const filteredPages = sortedPages.filter((page) => {
-        return access(page, 'file.ext') === 'md' &&
-            !include(page.path, '/404') &&
-            !access(page, 'data.draft') &&
-            access(page, 'data.lang') === lang &&
-            access(page, 'data.path') !== access(excludePage, 'data.path');
+        return get(page, 'file.ext') === 'md' &&
+            !includes(page.path, '/404') &&
+            !get(page, 'data.draft') &&
+            get(page, 'data.lang') === lang &&
+            get(page, 'data.path') !== get(excludePage, 'data.path');
     });
 
     if (limit > 0) {
