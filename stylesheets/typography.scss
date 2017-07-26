@@ -1,3 +1,5 @@
+@import './vars';
+
 body {
   font-family: 'Lato', Arial, serif;
   font-size: 18px;
@@ -91,6 +93,10 @@ blockquote {
     border-left: 0.3em solid #3d3d3d;
     font-style: italic;
     padding-left: 1em;
+
+    @media (max-width: $break-point) {
+        margin-left: 0;
+    }
 }
 
 a {

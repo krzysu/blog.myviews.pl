@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactGA from 'react-ga';
-import { prefixLink } from 'gatsby-helpers';
+import { translate } from 'react-i18next';
 import './LikeButton.scss';
 
 class LikeButton extends Component {
@@ -37,7 +37,8 @@ class LikeButton extends Component {
 
     render() {
         const { isActive } = this.state;
-        const text = isActive ? 'Dzięki wielkie!' : 'Podobało się?';
+        const { t } = this.props;
+        const text = isActive ? t('likeButton.thanks') : t('likeButton.likeIt');
         const className = ['like-button'];
         if (isActive) {
             className.push('like-button--active');
@@ -57,7 +58,7 @@ class LikeButton extends Component {
 
 LikeButton.PropTypes = {
     id: PropTypes.string,
-    lang: PropTypes.string,
+    t: PropTypes.func,
 }
 
-export default LikeButton;
+export default translate()(LikeButton);

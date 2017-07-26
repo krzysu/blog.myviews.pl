@@ -1,20 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { translate } from 'react-i18next';
 import PostItem from 'components/PostItem/PostItem';
 import { getPublicPosts } from 'utils/helpers';
 import './ReadNext.scss';
 
 const RECOMMENDATION_COUNT = 3;
 
-const ReadNext = ({ route, lang }) => {
+const ReadNext = ({ route, t, i18n }) => {
     const currentPage = route.page;
     const allPages = route.pages;
 
-    const readNextPages = getPublicPosts(allPages, lang, RECOMMENDATION_COUNT, currentPage);
+    const readNextPages = getPublicPosts(allPages, i18n.language, RECOMMENDATION_COUNT, currentPage);
 
     return (
         <div className="read-next">
-            <h2 className="read-next__headline">Przeczytaj też:</h2>
+            <h2 className="read-next__headline">{`${t('readAlso')}:`}</h2>
             <div className="read-next__posts">
                 {readNextPages.map((page, index) => (
                     <div key={index} className="read-next__item">
@@ -29,7 +30,8 @@ const ReadNext = ({ route, lang }) => {
 
 ReadNext.propTypes = {
     route: PropTypes.object,
-    lang: PropTypes.string,
+    t: PropTypes.func,
+    i18n: PropTypes.object,
 }
 
-export default ReadNext;
+export default translate()(ReadNext);

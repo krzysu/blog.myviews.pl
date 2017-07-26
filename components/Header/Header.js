@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-import './Header.scss'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+import { prefixLink } from 'gatsby-helpers';
+import './Header.scss';
 
 const Header = ({ location, lang }) => {
     const isHomePage = location.pathname === prefixLink('/');

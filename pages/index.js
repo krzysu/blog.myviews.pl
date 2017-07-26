@@ -16,7 +16,7 @@ const BlogIndex = ({ route, lang }) => {
             <div style={{ marginTop: '4.5em' }}>
                 {publicPages.map((page, index) => (
                     <div key={index} style={{ marginBottom: '3em' }}>
-                        <PostItem page={page} lang={lang} />
+                        <PostItem page={page} />
                         <hr />
                     </div>
                 ))}
@@ -34,3 +34,7 @@ BlogIndex.propTypes = {
 }
 
 export default BlogIndex;
+
+export const data = {
+    lang: 'en',
+};

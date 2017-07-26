@@ -24,7 +24,7 @@ const PostItem = ({ page, headlineTag }) => {
                 </Link>
             </Headline>
             <div {...bem('published')}>
-                <PostDate date={page.data.date} lang={page.data.lang} />
+                <PostDate date={page.data.date} />
             </div>
             <p {...bem('body')}>{body}</p>
         </div>
