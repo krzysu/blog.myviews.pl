@@ -1,8 +1,9 @@
 import React from 'react';
+import { translate, Trans } from 'react-i18next';
 import { prefixLink } from 'gatsby-helpers';
 import './AuthorItem.scss';
 
-const AuthorItem = () => {
+const AuthorItem = ({ t }) => {
     const emailReversed = 'moc.liamg@lp.usyzrk';
     const emailCorrect = emailReversed.split('').reverse().join('');
 
@@ -14,23 +15,24 @@ const AuthorItem = () => {
                 className="author-item__image"
             />
             <div className="author-item__description">
-                <p>Hej, nazywam się <strong>Krzysiek Urbas</strong> i witam na moim blogu.</p>
                 <p>
-                    Moim celem jest pokazanie, jak można <strong>być szczęśliwym w zawodzie programisty</strong>.
-                    Nie ważne czy jesteś juniorem, czy seniorem.
-                    Chce pokazać, na co zwracać uwagę w pracy, czego się uczyć, jak się rozwijać.
-                    Na co uważać i jakich ludzi unikać. Jak znaleźć pracę i się w niej spełniać.
-                    Jak nie pracować nadgodzin i unikać stresu.
-                    Jak mieć także życie po pracy i jak to wszystko może prowadzić do pełnego i szczęśliwego życia.
+                    <Trans i18nKey="authorItem.intro" className="test">
+                    x <strong>x</strong> x
+                    </Trans>
+                </p>
+                <p>
+                    <Trans i18nKey="authorItem.body">
+                        x <strong>x</strong> x
+                    </Trans>
                 </p>
                 <div className="author-item__contact">
-                    <span className="author-item__contact-label">Przywitaj się:</span>
+                    <span className="author-item__contact-label">{t('authorItem.sayHello')}</span>
                     <ul className="author-item__contact-list">
                         <li className="author-item__contact-item">
-                            <a href={`mailto:${emailCorrect}`}>napisz do mnie</a>
+                            <a href={`mailto:${emailCorrect}`}>{t('authorItem.writeMe')}</a>
                         </li>
                         <li className="author-item__contact-item">
-                            <a href="https://twitter.com/krzysu" target="_blank">w serwisie Twitter</a>
+                            <a href="https://twitter.com/krzysu" target="_blank">{t('authorItem.onTwitter')}</a>
                         </li>
                     </ul>
                 </div>
@@ -39,4 +41,4 @@ const AuthorItem = () => {
     )
 }
 
-export default AuthorItem;
+export default translate()(AuthorItem);

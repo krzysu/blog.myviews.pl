@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Post from 'components/Post/Post'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Post from 'components/Post/Post';
 
 const MarkdownWrapper = (props) => {
     return (
@@ -17,4 +17,4 @@ MarkdownWrapper.propTypes = {
   routes: PropTypes.array,
 }
 
-export default MarkdownWrapper
+export default MarkdownWrapper;

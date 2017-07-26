@@ -1,14 +1,14 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from "react-helmet"
-import { prefixLink } from 'gatsby-helpers'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { prefixLink } from 'gatsby-helpers';
 
-const BUILD_TIME = new Date().getTime()
+const BUILD_TIME = new Date().getTime();
 
 const Html = ({ body }) => {
     const head = Helmet.rewind();
 
-    let css
+    let css;
     if (process.env.NODE_ENV === 'production') {
         css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
     }
@@ -33,7 +33,7 @@ const Html = ({ body }) => {
 }
 
 Html.propTypes = {
-    body: PropTypes.string
+    body: PropTypes.string,
 }
 
 module.exports = Html;

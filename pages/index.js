@@ -13,7 +13,7 @@ const BlogIndex = ({ route, lang }) => {
         <div className="wrapper">
             <HeadMeta {...page} />
             <AuthorItem />
-            <div style={{ marginTop: '4.5em' }}>
+            <div style={{ paddingTop: '4.5em', clear: 'both' }}>
                 {publicPages.map((page, index) => (
                     <div key={index} style={{ marginBottom: '3em' }}>
                         <PostItem page={page} />
