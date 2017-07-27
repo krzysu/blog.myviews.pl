@@ -9,6 +9,7 @@ const Html = ({ body }) => {
     const head = Helmet.rewind();
 
     let css;
+
     if (process.env.NODE_ENV === 'production') {
         css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
     }
@@ -32,8 +33,6 @@ const Html = ({ body }) => {
     )
 }
 
-Html.propTypes = {
-    body: PropTypes.string,
-}
+Html.propTypes = { body: PropTypes.string, }
 
 module.exports = Html;

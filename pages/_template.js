@@ -8,7 +8,9 @@ import 'normalize.css/normalize.css';
 import 'stylesheets/typography.scss';
 
 const Template = (props) => {
-    const currentPage = props.route.pages.find(page => prefixLink(page.path) === props.location.pathname);
+    const currentPage = props.route.pages.find((page) => {
+        return prefixLink(page.path) === props.location.pathname
+    });
 
     return (
         <I18nextProvider i18n={i18n} initialLanguage={currentPage.data.lang}>

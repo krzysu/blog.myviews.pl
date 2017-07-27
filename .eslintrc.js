@@ -3,7 +3,7 @@ module.exports = {
         "browser": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -18,7 +18,7 @@ module.exports = {
         "accessor-pairs": "error",
         "array-bracket-spacing": "error",
         "array-callback-return": "error",
-        "arrow-body-style": "error",
+        "arrow-body-style": ["error", "always"],
         "arrow-parens": [
             "error",
             "always"
@@ -130,7 +130,7 @@ module.exports = {
         "no-extend-native": "error",
         "no-extra-bind": "error",
         "no-extra-label": "error",
-        "no-extra-parens": "error",
+        "no-extra-parens": "off",
         "no-floating-decimal": "error",
         "no-global-assign": "error",
         "no-implicit-coercion": "error",
@@ -230,6 +230,12 @@ module.exports = {
             "single"
         ],
         "radix": "error",
+        "react/jsx-wrap-multilines": ["error", {
+            declaration: true,
+            assignment: true,
+            return: true,
+            arrow: true,
+        }],
         "require-jsdoc": "error",
         "rest-spread-spacing": "error",
         "semi": "off",
@@ -238,7 +244,7 @@ module.exports = {
         "sort-keys": "off",
         "sort-vars": "error",
         "space-before-blocks": "error",
-        "space-before-function-paren": "error",
+        "space-before-function-paren": ["error", "never"],
         "space-in-parens": [
             "error",
             "never"

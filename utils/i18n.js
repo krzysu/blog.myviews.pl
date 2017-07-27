@@ -14,7 +14,7 @@ i18n.init({
                 author: 'The author',
                 authorItem: {
                     intro: 'Hi, my name is <1>Kris Urbas</1> and welcome on my blog.',
-                    body: ``,
+                    body: '',
                     sayHello: 'Say hello!',
                     writeMe: 'email',
                     onTwitter: 'twitter',
@@ -56,9 +56,7 @@ i18n.init({
         formatSeparator: ','
     },
 
-    react: {
-        wait: true
-    },
+    react: { wait: true },
 });
 
 export default i18n;

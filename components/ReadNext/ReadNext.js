@@ -17,11 +17,13 @@ const ReadNext = ({ route, t, i18n }) => {
         <div className="read-next">
             <h2 className="read-next__headline">{`${t('readAlso')}:`}</h2>
             <div className="read-next__posts">
-                {readNextPages.map((page, index) => (
-                    <div key={index} className="read-next__item">
-                        <PostItem page={page} headlineTag="h3" />
-                    </div>
-                ))}
+                {readNextPages.map((page, index) => {
+                    return (
+                        <div key={index} className="read-next__item">
+                            <PostItem page={page} headlineTag="h3" />
+                        </div>
+                    )
+                })}
             </div>
             <hr />
         </div>

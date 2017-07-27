@@ -14,27 +14,27 @@ const BlogIndex = ({ route, lang }) => {
             <HeadMeta {...page} />
             <AuthorItem />
             <div style={{ paddingTop: '4.5em' }}>
-                {publicPages.map((page, index) => (
-                    <div key={index} style={{ marginBottom: '3em' }}>
-                        <PostItem page={page} />
-                        <hr />
-                    </div>
-                ))}
+                {publicPages.map((page, index) => {
+                    return (
+                        <div key={index} style={{ marginBottom: '3em' }}>
+                            <PostItem page={page} />
+                            <hr />
+                        </div>
+                    )
+                })}
             </div>
         </div>
     )
 }
 
 BlogIndex.propTypes = {
-  route: PropTypes.shape({
-      page: PropTypes.object,
-      pages: PropTypes.array,
-  }),
-  lang: PropTypes.string,
+    route: PropTypes.shape({
+        page: PropTypes.object,
+        pages: PropTypes.array,
+    }),
+    lang: PropTypes.string,
 }
 
 export default BlogIndex;
 
-export const data = {
-    lang: 'en',
-};
+export const data = { lang: 'en', };

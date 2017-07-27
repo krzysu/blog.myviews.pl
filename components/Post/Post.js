@@ -40,8 +40,8 @@ const Post = ({ route, t }) => {
 }
 
 Post.propTypes = {
-  route: PropTypes.object,
-  t: PropTypes.func,
+    route: PropTypes.object,
+    t: PropTypes.func,
 }
 
 export default translate()(Post);

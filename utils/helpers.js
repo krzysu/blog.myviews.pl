@@ -9,13 +9,16 @@ export const getAbstract = (post, length = 240) => {
         length,
         separator: /,? +/,
     };
+
+
     return html ? truncate(html.replace(/<[^>]*>/g, ''), truncateOptions) : '';
 }
 
 export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) => {
 
-    const sortedPages = sortBy(pages, (page) =>
-        get(page, 'data.date')
+    const sortedPages = sortBy(pages, (page) => {
+        return get(page, 'data.date')
+    }
     ).reverse();
 
     const filteredPages = sortedPages.filter((page) => {

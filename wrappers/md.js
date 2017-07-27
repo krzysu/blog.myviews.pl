@@ -9,12 +9,12 @@ const MarkdownWrapper = (props) => {
 }
 
 MarkdownWrapper.propTypes = {
-  history: PropTypes.object,
-  location: PropTypes.object,
-  params: PropTypes.object,
-  route: PropTypes.object,
-  routeParams: PropTypes.object,
-  routes: PropTypes.array,
+    history: PropTypes.object,
+    location: PropTypes.object,
+    params: PropTypes.object,
+    route: PropTypes.object,
+    routeParams: PropTypes.object,
+    routes: PropTypes.array,
 }
 
 export default MarkdownWrapper;

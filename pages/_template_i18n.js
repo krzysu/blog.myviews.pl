@@ -8,7 +8,9 @@ import Footer from 'components/Footer/Footer';
 class TemplateI18n extends Component {
     componentWillUpdate(nextProps) {
         const { route, location } = nextProps;
-        const currentPage = route.pages.find(page => prefixLink(page.path) === location.pathname);
+        const currentPage = route.pages.find((page) => {
+            return prefixLink(page.path) === location.pathname
+        });
 
         if (currentPage.data.lang !== this.props.i18n.language) {
             this.props.i18n.changeLanguage(currentPage.data.lang);
@@ -17,6 +19,8 @@ class TemplateI18n extends Component {
 
     render() {
         const { location, children } = this.props;
+
+
         return (
             <div>
                 <Header location={location} />
