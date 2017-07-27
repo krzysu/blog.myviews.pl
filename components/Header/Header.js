@@ -9,7 +9,8 @@ const Header = ({ location, i18n }) => {
     const isHomePage = location.pathname === prefixLink('/');
     const languageSwitch = i18n.language === 'en' ?
         <Link to={prefixLink('/po-polsku/')} className="header__title-link">po polsku</Link> :
-        <Link to={prefixLink('/')} className="header__title-link">english version</Link>;
+        <Link to={prefixLink('/')} className="header__title-link">english</Link>;
+
     return (
         <div className="header">
             <div className="wrapper">

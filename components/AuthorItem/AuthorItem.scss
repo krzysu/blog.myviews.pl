@@ -1,7 +1,9 @@
 @import 'stylesheets/vars';
+@import 'stylesheets/mixins';
 
 .author-item {
   margin: 3em 0;
+  @include clearfix;
 
   &__image {
     max-width: 150px;
@@ -18,10 +20,10 @@
 
   &__description {
     overflow: hidden;
+  }
 
-    p {
-      margin: 0 0 0.75em;
-    }
+  &__p {
+    margin: 0 0 0.75em;
   }
 
   &__contact-label {

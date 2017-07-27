@@ -15,16 +15,16 @@ const AuthorItem = ({ t }) => {
                 className="author-item__image"
             />
             <div className="author-item__description">
-                <p>
+                <div className="author-item__p">
                     <Trans i18nKey="authorItem.intro" className="test">
                     x <strong>x</strong> x
                     </Trans>
-                </p>
-                <p>
+                </div>
+                <div className="author-item__p">
                     <Trans i18nKey="authorItem.body">
                         x <strong>x</strong> x
                     </Trans>
-                </p>
+                </div>
                 <div className="author-item__contact">
                     <span className="author-item__contact-label">{t('authorItem.sayHello')}</span>
                     <ul className="author-item__contact-list">
