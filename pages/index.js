@@ -14,10 +14,10 @@ const BlogIndex = ({ route, lang }) => {
             <HeadMeta {...page} />
             <AuthorItem />
             <div style={{ paddingTop: '4.5em' }}>
-                {publicPages.map((page, index) => {
+                {publicPages.map((publicPage, index) => {
                     return (
                         <div key={index} style={{ marginBottom: '3em' }}>
-                            <PostItem page={page} />
+                            <PostItem page={publicPage} />
                             <hr />
                         </div>
                     )

@@ -6,7 +6,7 @@ import { getAbstract } from 'utils/helpers';
 import { prefixLink } from 'gatsby-helpers';
 
 const HeadMeta = (props) => {
-    const { data, file, path } = props;
+    const { data, path } = props;
 
     const { title, imageUrl, layout } = data;
     const description = getAbstract(data);
@@ -52,7 +52,6 @@ const pagePropTypes = {
 
 HeadMeta.propTypes = {
     data: PropTypes.shape(pagePropTypes),
-    file: PropTypes.object,
     path: PropTypes.string,
 }
 

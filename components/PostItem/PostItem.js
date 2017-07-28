@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import moment from 'moment';
 import BEMHelper from 'react-bem-helper';
 import get from 'lodash/get';
 import { prefixLink } from 'gatsby-helpers';

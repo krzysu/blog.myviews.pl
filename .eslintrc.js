@@ -91,7 +91,6 @@ module.exports = {
                 "before": true
             }
         ],
-        "line-comment-position": "error",
         "linebreak-style": [
             "error",
             "unix"
@@ -102,7 +101,6 @@ module.exports = {
         "max-len": "off",
         "max-lines": "error",
         "max-nested-callbacks": "error",
-        "max-params": "error",
         "max-statements": "error",
         "max-statements-per-line": "error",
         "multiline-ternary": "off",
@@ -136,7 +134,6 @@ module.exports = {
         "no-implicit-coercion": "error",
         "no-implicit-globals": "error",
         "no-implied-eval": "error",
-        "no-inline-comments": "error",
         "no-invalid-this": "error",
         "no-iterator": "error",
         "no-label-var": "error",
@@ -144,7 +141,6 @@ module.exports = {
         "no-lone-blocks": "error",
         "no-lonely-if": "error",
         "no-loop-func": "error",
-        "no-magic-numbers": "error",
         "no-mixed-operators": "error",
         "no-mixed-requires": "error",
         "no-multi-spaces": "error",

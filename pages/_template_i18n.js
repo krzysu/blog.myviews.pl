@@ -39,6 +39,10 @@ TemplateI18n.propTypes = {
     route: PropTypes.object,
     routeParams: PropTypes.object,
     routes: PropTypes.array,
+    i18n: PropTypes.shape({
+        language: PropTypes.string,
+        changeLanguage: PropTypes.func,
+    }),
 }
 
 export default translate()(TemplateI18n);

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { translate, Trans } from 'react-i18next';
 import { prefixLink } from 'gatsby-helpers';
 import './AuthorItem.scss';
@@ -32,7 +33,9 @@ const AuthorItem = ({ t }) => {
                             <a href={`mailto:${emailCorrect}`}>{t('authorItem.writeMe')}</a>
                         </li>
                         <li className="author-item__contact-item">
-                            <a href="https://twitter.com/krzysu" target="_blank">{t('authorItem.onTwitter')}</a>
+                            <a href="https://twitter.com/krzysu" target="_blank" rel="noopener noreferrer">
+                                {t('authorItem.onTwitter')}
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -40,5 +43,7 @@ const AuthorItem = ({ t }) => {
         </div>
     )
 }
+
+AuthorItem.propTypes = { t: PropTypes.func }
 
 export default translate()(AuthorItem);
