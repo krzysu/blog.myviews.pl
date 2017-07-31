@@ -8,7 +8,7 @@ i18n.init({
                 datePrefix: 'Published on',
                 likeButton: {
                     thanks: 'Thanks a lot!',
-                    likeIt: 'Do you like it?',
+                    likeIt: 'Like it?',
                 },
                 readAlso: 'Read more',
                 author: 'The author',

@@ -8,33 +8,33 @@ lang: en
 
 > From my experience and knowledge I gathered in the last few months.
 
-Short and straight to the point. I mention only resources I consider useful an what I am using in my projects, means what works for me and **might not work** for you. HTML5 as technology for game development is quite new and having great traction right now. That means it is good time to start playing with it!
+Short and straight to the point. I mention only resources I consider useful an what I am using in my projects, means what works for me and **might not work** for you. HTML5 as a technology for game development is quite new and having great traction right now. That means it is a good time to start playing with it!
 
 
 ## Frameworks & Software
 
 There are way too many frameworks available out there, most of them for free. Below is my selection:
 
-- [Quintus](http://html5quintus.com/) - my framework of choice, mainly because of modular architecture, mobile support, and nicely written documentation. It is also lightweight enought that you can just read and modify the source if you need to. Regarding shortcomings, it is not quite optimised and renders only to Canvas. Check [examples & tutorials](http://html5quintus.com/documentation) if you are interested.
+- [Quintus](http://html5quintus.com/) - my framework of choice, mainly because of modular architecture, mobile support, and nicely written documentation. It is also lightweight enough that you can just read and modify the source if you need to. Regarding shortcomings, it is not quite optimised and renders only to Canvas. Check [examples & tutorials](http://html5quintus.com/documentation) if you are interested.
 
-- [Phaser](http://phaser.io/) - I think the most powerful and well maintained framework out there, uses great pixi.js as renderer, means it supports both Canvas and WebGL. Developed by real HTML5 gaming studio, so battle-tested and regularly updated. I hadn't liked the way of using it (one huge game loop), but [this article changed that](http://toastedware.com/?p=258). Probably I would use it in big, performance focused project, but it is to heavy for weekend hacking.
+- [Phaser](http://phaser.io/) - I think the most powerful and well maintained framework out there, uses great pixi.js as renderer, means it supports both Canvas and WebGL. Developed by real HTML5 gaming studio, so battle-tested and regularly updated. I hadn't liked the way of using it (one huge game loop), but [this article changed that](http://toastedware.com/?p=258). Probably I would use it in big, performance focused project, but it is too heavy for weekend hacking.
 
 - [Tiled Map Editor](http://www.mapeditor.org/index.html) - not framework, but very nice software to develop maps and levels for your game, works both with Quintus and Phaser and many other frameworks.
 
 Others that look interesting, but I had no time to play with them:
 
-- [Impact.js](http://impactjs.com/) - the only one that you need to pay for, but a lot of people recomended it to me. I'm just to much into open source and open web to give it a try. But maybe you would like to.
+- [Impact.js](http://impactjs.com/) - the only one that you need to pay for, but a lot of people recommended it to me. I'm just too much into open source and open web to give it a try. But maybe you would like to.
 
-- [Turbulenz Engine](http://news.turbulenz.com/post/49430669886/turbulenz-engine-goes-open-source) - heavy, powerful, 3D and WebGL framework, connected with their platform for publishing games. Open sourced. But I think it is more for teams rather that single indie developers, that to be profitable, need to finish their game in few months rather than years.
+- [Turbulenz Engine](http://news.turbulenz.com/post/49430669886/turbulenz-engine-goes-open-source) - heavy, powerful, 3D and WebGL framework, connected with their platform for publishing games. Open sourced. But I think it is more for teams rather that single indie developers, that to be profitable, need to finish their game in a few months rather than years.
 
 - [Goo Technologies](http://www.gootechnologies.com/) - as they say "Professional HTML5 tools for 3D graphics".
 
-- [Unity3d](http://unity3d.com/) - little of topic, not HTML5 framework, but very popular among indie developers, free game engine, that allows you also to create 2d games and publish them to many platforms.
+- [Unity3d](http://unity3d.com/) - little off topic, not HTML5 framework, but very popular among indie developers, free game engine, that allows you also to create 2d games and publish them to many platforms.
 
 
 ## Free game assets
 
-What you will need as indie game developer are some game assets, like sprites, tiles or music files. With them you will be able to build prototype of your game without even need for a graphic designer, or waisting time with graphic programs that you  might not be good at. That was my case.
+What you will need as indie game developer are some game assets, like sprites, tiles or music files. With them you will be able to build a prototype of your game without even need for a graphic designer, or wasting time with graphic programs that you  might not be good at. That was my case.
 
 - [OpenGameArt.org](http://opengameart.org/) - royalty-free art, good for prototypes, but nothing more
 
@@ -50,7 +50,7 @@ What you will need as indie game developer are some game assets, like sprites, t
 ## Publishers and web stores
 
 So your game is ready and you wonder "what now?". With HTML5 you can easily publish it to many different platforms and web stores. But making "real" money is hard. I'm still researching that. But [this guy](http://www.truevalhalla.com/blog/online-income-report-020-december-2013/) is definitely great about making money online.   
-Below is the list of online places where I think might be good to put your game, but I haven't tested most of them yet. Use on your own risk! :)
+Below is the list of online places where I think might be good to put your game, but I haven't tested most of them yet. Use at your own risk! :)
 
 ### Application Stores:
 
@@ -95,4 +95,4 @@ Below is the list of online places where I think might be good to put your game,
 - [Another Breakout](http://games.myviews.pl/breakout/) - written in about 11 hours, weekend project, includes "responsive game design" approach
 
 
-If you like the above compilation of resources [follow me on twitter](http://twitter.com/krzysu) for more about frontend and game development.
+If you like the above compilation of resources [follow me on twitter](http://twitter.com/krzysu) for more about front-end and game development.
