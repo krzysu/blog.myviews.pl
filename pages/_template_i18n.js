@@ -9,7 +9,7 @@ class TemplateI18n extends Component {
     componentWillUpdate(nextProps) {
         const { route, location } = nextProps;
         const currentPage = route.pages.find((page) => {
-            return prefixLink(page.path) === location.pathname
+            return prefixLink(page.path) === location.pathname;
         });
 
         if (currentPage.data.lang !== this.props.i18n.language) {
@@ -18,12 +18,14 @@ class TemplateI18n extends Component {
     }
 
     render() {
-        const { location, children } = this.props;
-
+        const { location, route, children } = this.props;
+        const currentPage = route.pages.find((page) => {
+            return prefixLink(page.path) === location.pathname;
+        });
 
         return (
             <div>
-                <Header location={location} />
+                <Header location={location} currentPage={currentPage} />
                 {children}
                 <Footer />
             </div>

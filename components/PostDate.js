@@ -19,5 +19,4 @@ PostDate.propTypes = {
     i18n: PropTypes.object,
 }
 
-// export default PostDate;
 export default translate()(PostDate);

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import HeadMeta from 'components/HeadMeta';
-import AuthorItem from 'components/AuthorItem/AuthorItem';
+import Intro from 'components/Intro/Intro';
 import PostItem from 'components/PostItem/PostItem';
 import { getPublicPosts } from 'utils/helpers';
 
@@ -12,7 +12,7 @@ const BlogIndex = ({ route, lang }) => {
     return (
         <div className="wrapper">
             <HeadMeta {...page} />
-            <AuthorItem />
+            <Intro />
             <div style={{ paddingTop: '4.5em' }}>
                 {publicPages.map((publicPage, index) => {
                     return (

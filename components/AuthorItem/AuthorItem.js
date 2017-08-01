@@ -17,7 +17,7 @@ const AuthorItem = ({ t }) => {
             />
             <div className="author-item__description">
                 <div className="author-item__p">
-                    <Trans i18nKey="authorItem.intro" className="test">
+                    <Trans i18nKey="authorItem.intro">
                     x <strong>x</strong> x
                     </Trans>
                 </div>

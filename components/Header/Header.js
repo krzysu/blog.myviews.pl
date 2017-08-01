@@ -5,27 +5,33 @@ import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import './Header.scss';
 
-const Header = ({ location, i18n }) => {
-    const isHomePage = location.pathname === prefixLink('/');
+const Header = ({ location, currentPage, i18n }) => {
+    const isEnglishHomePage = location.pathname === prefixLink('/');
+    const isPolishHomePage = location.pathname === prefixLink('/po-polsku/');
+    const isPolishPage = currentPage.data.lang === 'pl';
+    const isEnglishPage = currentPage.data.lang === 'en';
+
     const languageSwitch = i18n.language === 'en' ?
-        <Link to={prefixLink('/po-polsku/')} className="header__title-link">po polsku</Link> :
-        <Link to={prefixLink('/')} className="header__title-link">english</Link>;
+        <Link to={prefixLink('/po-polsku/')} className="header__link">po polsku</Link> :
+        <Link to={prefixLink('/')} className="header__link">english</Link>;
 
     return (
         <div className="header">
             <div className="wrapper">
                 <div className="header__inner">
-                    {!isHomePage && (
-                        <Link to={prefixLink('/')} className="header__title-link">
-                            more than <strong>web developer</strong>
-                        </Link>
-                    )}
+                    <div>
+                        {(isEnglishPage && !isEnglishHomePage) && (
+                            <Link to={prefixLink('/')} className="header__link">
+                                more than <strong>web developer</strong>
+                            </Link>
+                        )}
 
-                    {isHomePage && (
-                        <span className="header__title">
-                            Hi, my name is <strong>Kris Urbas</strong>
-                        </span>
-                    )}
+                        {(isPolishPage && !isPolishHomePage) && (
+                            <Link to={prefixLink('/po-polsku/')} className="header__link">
+                                more than <strong>web developer</strong>
+                            </Link>
+                        )}
+                    </div>
 
                     {languageSwitch}
                 </div>
@@ -36,6 +42,7 @@ const Header = ({ location, i18n }) => {
 
 Header.propTypes = {
     location: PropTypes.object,
+    currentPage: PropTypes.object,
     i18n: PropTypes.object,
 }
 

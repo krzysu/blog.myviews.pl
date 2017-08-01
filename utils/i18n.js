@@ -5,6 +5,11 @@ i18n.init({
     resources: {
         en: {
             blog: {
+                intro: {
+                    headline1: 'Hi, my name is',
+                    headline2: 'Kris Urbas',
+                    subheadline: 'I help companies build their internet products',
+                },
                 datePrefix: 'Published on',
                 likeButton: {
                     thanks: 'Thanks a lot!',
@@ -23,6 +28,11 @@ i18n.init({
         },
         pl: {
             blog: {
+                intro: {
+                    headline1: 'Cześć, nazywam się',
+                    headline2: 'Krzysiek Urbas',
+                    subheadline: 'Pomagam firmom budować internetowe produkty',
+                },
                 datePrefix: 'Opublikowano',
                 likeButton: {
                     thanks: 'Dzięki wielkie!',
