@@ -1,7 +1,27 @@
+@import './vars';
+
 @mixin clearfix {
   &:after {
     content: "";
     display: table;
     clear: both;
+  }
+}
+
+@mixin reverse-bg {
+  background: $color-alt;
+  color: $color-reverse-alt;
+
+  a, em {
+    color: $color-reverse;
+  }
+}
+
+@mixin link-alt {
+  color: $color-reverse-alt;
+  text-decoration: none;
+
+  &:hover {
+      text-decoration: underline;
   }
 }

@@ -1,11 +1,11 @@
 @import './vars';
 
 body {
-  font-family: 'Lato', Arial, serif;
+  font-family: $font-family;
   font-size: 18px;
   line-height: 1.5em;
-  color: #3d3d3d;
-  background: #fff;
+  color: $color-base;
+  background: $color-reverse;
   // background-image: url(https://basehold.it/i/27);
   // background-image: url(/static/img/27.png);
 }
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: $font-header;
 }
 
 h1 {
@@ -80,7 +80,7 @@ hr {
 hr::before {
     content: '...';
     display: inline-block;
-    color: #3d3d3d;
+    color: $color-base;
     font-size: 3em;
     position: relative;
     letter-spacing: 0.5em;
@@ -90,7 +90,7 @@ hr::before {
 
 blockquote {
     margin: 1.5em 0 1.5em -1.3em;
-    border-left: 0.3em solid #3d3d3d;
+    border-left: 0.3em solid $color-base;
     font-style: italic;
     padding-left: 1em;
 
@@ -100,5 +100,5 @@ blockquote {
 }
 
 a {
-  color: #111;
+  color: $color-alt;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import { prefixLink } from 'gatsby-helpers';
+import Button from 'components/Button/Button';
 import './Intro.scss';
 
 const Intro = ({ t }) => {
@@ -16,6 +17,7 @@ const Intro = ({ t }) => {
                 style={{ backgroundImage: `url(${imageFileName})` }}
             />
             <h2 className="intro__subheadline">{t('intro.subheadline')}</h2>
+            <Button href="http://myviews.pl/#!/contact">{t('intro.button')}</Button>
         </div>
     );
 };

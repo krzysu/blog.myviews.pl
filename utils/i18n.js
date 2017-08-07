@@ -9,6 +9,7 @@ i18n.init({
                     headline1: 'Hi, my name is',
                     headline2: 'Kris Urbas',
                     subheadline: 'I help companies build their internet products',
+                    button: 'contact me!',
                 },
                 datePrefix: 'Published on',
                 likeButton: {
@@ -24,6 +25,7 @@ i18n.init({
                     writeMe: 'email',
                     onTwitter: 'twitter',
                 },
+                footer: { contactButton: 'contact me' },
             },
         },
         pl: {
@@ -32,6 +34,7 @@ i18n.init({
                     headline1: 'Cześć, nazywam się',
                     headline2: 'Krzysiek Urbas',
                     subheadline: 'Pomagam firmom budować internetowe produkty',
+                    button: 'napisz do mnie!',
                 },
                 datePrefix: 'Opublikowano',
                 likeButton: {
@@ -52,6 +55,7 @@ i18n.init({
                     writeMe: 'napisz do mnie',
                     onTwitter: 'w serwisie Twitter',
                 },
+                footer: { contactButton: 'kontakt' },
             },
         },
     },

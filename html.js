@@ -8,8 +8,10 @@ const BUILD_TIME = new Date().getTime();
 const Html = ({ body }) => {
     const head = Helmet.rewind();
 
+    // eslint-disable-next-line no-process-env
     const css = process.env.NODE_ENV === 'production' ?
-        (<style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />) :
+        // eslint-disable-next-line global-require
+        <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} /> :
         null;
 
     return (

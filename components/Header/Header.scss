@@ -1,6 +1,9 @@
+@import 'stylesheets/vars';
+@import 'stylesheets/mixins';
+
 .header {
-    background: #111;
-    color: #eee;
+    background: $color-alt;
+    color: $color-reverse-alt;
     line-height: 3em;
     margin-bottom: 1.5em;
 
@@ -10,11 +13,6 @@
     }
 
     &__link {
-        color: #eee;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
+      @include link-alt;
     }
 }
