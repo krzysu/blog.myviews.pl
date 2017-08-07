@@ -41,9 +41,9 @@ const AuthorItem = ({ t }) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-AuthorItem.propTypes = { t: PropTypes.func }
+AuthorItem.propTypes = { t: PropTypes.func };
 
 export default translate()(AuthorItem);

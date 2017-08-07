@@ -23,8 +23,8 @@ i18n.init({
                     sayHello: 'Say hello!',
                     writeMe: 'email',
                     onTwitter: 'twitter',
-                }
-            }
+                },
+            },
         },
         pl: {
             blog: {
@@ -51,9 +51,9 @@ i18n.init({
                     sayHello: 'Przywitaj się!',
                     writeMe: 'napisz do mnie',
                     onTwitter: 'w serwisie Twitter',
-                }
-            }
-        }
+                },
+            },
+        },
     },
     fallbackLng: 'en',
 
@@ -63,7 +63,7 @@ i18n.init({
 
     interpolation: {
         escapeValue: false, // not needed for react!!
-        formatSeparator: ','
+        formatSeparator: ',',
     },
 
     react: { wait: true },

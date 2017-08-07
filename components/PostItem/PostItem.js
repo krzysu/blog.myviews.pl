@@ -8,11 +8,11 @@ import { getAbstract } from 'utils/helpers';
 import PostDate from 'components/PostDate';
 import './PostItem.scss';
 
-const bem = new BEMHelper('post-item')
+const bem = new BEMHelper('post-item');
 
 const PostItem = ({ page, headlineTag }) => {
-    const title = get(page, 'data.title') || '[No title]'
-    const body = getAbstract(page.data)
+    const title = get(page, 'data.title') || '[No title]';
+    const body = getAbstract(page.data);
     const Headline = headlineTag || 'h2';
 
     return (
@@ -27,8 +27,8 @@ const PostItem = ({ page, headlineTag }) => {
             </div>
             <p {...bem('body')}>{body}</p>
         </div>
-    )
-}
+    );
+};
 
 PostItem.propTypes = {
     page: PropTypes.shape({
@@ -36,6 +36,6 @@ PostItem.propTypes = {
         data: PropTypes.object,
     }),
     headlineTag: PropTypes.string,
-}
+};
 
 export default PostItem;

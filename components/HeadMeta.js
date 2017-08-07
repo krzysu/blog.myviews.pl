@@ -36,8 +36,8 @@ const HeadMeta = (props) => {
 
             <meta name="google-site-verification" content="Hrk4F1pkLs_5drnNnAkPtoDaPkV67X0DenupaPMEwTc" />
         </Helmet>
-    )
-}
+    );
+};
 
 const pagePropTypes = {
     body: PropTypes.string,
@@ -48,11 +48,11 @@ const pagePropTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
     imageUrl: PropTypes.string,
-}
+};
 
 HeadMeta.propTypes = {
     data: PropTypes.shape(pagePropTypes),
     path: PropTypes.string,
-}
+};
 
 export default HeadMeta;

@@ -9,7 +9,7 @@ import 'stylesheets/typography.scss';
 
 const Template = (props) => {
     const currentPage = props.route.pages.find((page) => {
-        return prefixLink(page.path) === props.location.pathname
+        return prefixLink(page.path) === props.location.pathname;
     });
 
     return (
@@ -17,7 +17,7 @@ const Template = (props) => {
             <TemplateI18n {...props} />
         </I18nextProvider>
     );
-}
+};
 
 Template.propTypes = {
     children: PropTypes.any,
@@ -27,6 +27,6 @@ Template.propTypes = {
     route: PropTypes.object,
     routeParams: PropTypes.object,
     routes: PropTypes.array,
-}
+};
 
 export default Template;

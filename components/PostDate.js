@@ -11,12 +11,12 @@ const PostDate = ({ date, t, i18n }) => {
     return (
         <small>{`${t('datePrefix')} ${formatedDate}`}</small>
     );
-}
+};
 
 PostDate.propTypes = {
     date: PropTypes.string,
     t: PropTypes.func,
     i18n: PropTypes.object,
-}
+};
 
 export default translate()(PostDate);

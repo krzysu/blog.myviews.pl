@@ -45,6 +45,6 @@ TemplateI18n.propTypes = {
         language: PropTypes.string,
         changeLanguage: PropTypes.func,
     }),
-}
+};
 
 export default translate()(TemplateI18n);

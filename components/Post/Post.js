@@ -36,12 +36,12 @@ const Post = ({ route, t }) => {
                 <AuthorItem />
             </div>
         </div>
-    )
-}
+    );
+};
 
 Post.propTypes = {
     route: PropTypes.object,
     t: PropTypes.func,
-}
+};
 
 export default translate()(Post);

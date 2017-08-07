@@ -37,13 +37,13 @@ const Header = ({ location, currentPage, i18n }) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 Header.propTypes = {
     location: PropTypes.object,
     currentPage: PropTypes.object,
     i18n: PropTypes.object,
-}
+};
 
 export default translate()(Header);

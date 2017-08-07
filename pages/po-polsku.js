@@ -4,14 +4,14 @@ import BlogIndex from 'pages/index';
 
 const BlogIndexPl = ({ route }) => {
     return <BlogIndex lang="pl" route={route} />;
-}
+};
 
 BlogIndexPl.propTypes = {
     route: PropTypes.shape({
         page: PropTypes.object,
         pages: PropTypes.array,
     }),
-}
+};
 
 export default BlogIndexPl;
 

@@ -12,12 +12,12 @@ export const getAbstract = (post, length = 240) => {
 
 
     return html ? truncate(html.replace(/<[^>]*>/g, ''), truncateOptions) : '';
-}
+};
 
 export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) => {
 
     const sortedPages = sortBy(pages, (page) => {
-        return get(page, 'data.date')
+        return get(page, 'data.date');
     }
     ).reverse();
 
@@ -34,4 +34,4 @@ export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) 
     }
 
     return filteredPages;
-}
+};

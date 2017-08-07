@@ -6,17 +6,19 @@ import './LikeButton.scss';
 
 class LikeButton extends Component {
 
-    state = {
-        isActive: false,
+    constructor(props) {
+        super(props);
+        this.state = { isActive: false };
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    componentDidUpdate(prevProps, prevState) {
+    componentDidUpdate(prevProps) {
         if (prevProps.id !== this.props.id) {
             this.setState({ isActive: false });
         }
     }
 
-    handleClick = (event) => {
+    handleClick(event) {
         event.preventDefault();
         if (this.state.isActive) {
             return;
@@ -30,9 +32,7 @@ class LikeButton extends Component {
             label: id,
         });
 
-        this.setState({
-            isActive: !this.state.isActive,
-        })
+        this.setState({ isActive: !this.state.isActive });
     }
 
     render() {
@@ -40,6 +40,7 @@ class LikeButton extends Component {
         const { t } = this.props;
         const text = isActive ? t('likeButton.thanks') : t('likeButton.likeIt');
         const className = ['like-button'];
+
         if (isActive) {
             className.push('like-button--active');
         }
@@ -52,13 +53,13 @@ class LikeButton extends Component {
                 </svg>
                 <span className="like-button__text">{text}</span>
             </button>
-        )
+        );
     }
 }
 
-LikeButton.PropTypes = {
+LikeButton.propTypes = {
     id: PropTypes.string,
     t: PropTypes.func,
-}
+};
 
 export default translate()(LikeButton);

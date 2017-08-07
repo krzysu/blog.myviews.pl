@@ -20,12 +20,12 @@ const BlogIndex = ({ route, lang }) => {
                             <PostItem page={publicPage} />
                             <hr />
                         </div>
-                    )
+                    );
                 })}
             </div>
         </div>
-    )
-}
+    );
+};
 
 BlogIndex.propTypes = {
     route: PropTypes.shape({
@@ -33,8 +33,8 @@ BlogIndex.propTypes = {
         pages: PropTypes.array,
     }),
     lang: PropTypes.string,
-}
+};
 
 export default BlogIndex;
 
-export const data = { lang: 'en', };
+export const data = { lang: 'en' };

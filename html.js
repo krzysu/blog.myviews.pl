@@ -8,11 +8,9 @@ const BUILD_TIME = new Date().getTime();
 const Html = ({ body }) => {
     const head = Helmet.rewind();
 
-    let css;
-
-    if (process.env.NODE_ENV === 'production') {
-        css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
-    }
+    const css = process.env.NODE_ENV === 'production' ?
+        (<style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />) :
+        null;
 
     return (
         <html lang="en">
@@ -30,9 +28,9 @@ const Html = ({ body }) => {
                 <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
             </body>
         </html>
-    )
-}
+    );
+};
 
-Html.propTypes = { body: PropTypes.string, }
+Html.propTypes = { body: PropTypes.string };
 
 module.exports = Html;

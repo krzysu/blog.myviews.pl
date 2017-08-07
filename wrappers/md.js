@@ -5,8 +5,8 @@ import Post from 'components/Post/Post';
 const MarkdownWrapper = (props) => {
     return (
         <Post {...props} />
-    )
-}
+    );
+};
 
 MarkdownWrapper.propTypes = {
     history: PropTypes.object,
@@ -15,6 +15,6 @@ MarkdownWrapper.propTypes = {
     route: PropTypes.object,
     routeParams: PropTypes.object,
     routes: PropTypes.array,
-}
+};
 
 export default MarkdownWrapper;

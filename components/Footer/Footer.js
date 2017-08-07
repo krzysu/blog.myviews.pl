@@ -8,7 +8,7 @@ const Footer = () => {
                 {`copyright © ${(new Date()).getFullYear()} Kris Urbas @krzysu`}
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Footer;

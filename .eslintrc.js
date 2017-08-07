@@ -1,7 +1,8 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "node": true
     },
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "parserOptions": {
@@ -36,7 +37,7 @@ module.exports = {
         "callback-return": "error",
         "camelcase": "error",
         "class-methods-use-this": "error",
-        "comma-dangle": "off",
+        "comma-dangle": ["error", "always-multiline"],
         "comma-spacing": [
             "error",
             {
@@ -226,15 +227,17 @@ module.exports = {
             "single"
         ],
         "radix": "error",
-        "react/jsx-wrap-multilines": ["error", {
-            declaration: true,
-            assignment: true,
-            return: true,
-            arrow: true,
-        }],
+        "react/jsx-wrap-multilines": [
+            "error",
+            {
+                declaration: true,
+                assignment: true,
+                return: true,
+                arrow: true,
+            }],
         "require-jsdoc": "error",
         "rest-spread-spacing": "error",
-        "semi": "off",
+        "semi": "error",
         "semi-spacing": "error",
         "sort-imports": "off",
         "sort-keys": "off",

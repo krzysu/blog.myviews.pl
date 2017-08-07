@@ -18,7 +18,7 @@ const Intro = ({ t }) => {
             <h2 className="intro__subheadline">{t('intro.subheadline')}</h2>
         </div>
     );
-}
+};
 
 Intro.propTypes = { t: PropTypes.func };
 

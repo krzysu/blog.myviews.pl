@@ -22,18 +22,18 @@ const ReadNext = ({ route, t, i18n }) => {
                         <div key={index} className="read-next__item">
                             <PostItem page={page} headlineTag="h3" />
                         </div>
-                    )
+                    );
                 })}
             </div>
             <hr />
         </div>
-    )
-}
+    );
+};
 
 ReadNext.propTypes = {
     route: PropTypes.object,
     t: PropTypes.func,
     i18n: PropTypes.object,
-}
+};
 
 export default translate()(ReadNext);
