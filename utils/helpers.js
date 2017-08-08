@@ -35,3 +35,9 @@ export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) 
 
     return filteredPages;
 };
+
+export const getEmail = () => {
+    const emailReversed = 'moc.liamg@lp.usyzrk';
+
+    return emailReversed.split('').reverse().join('');
+};

@@ -21,36 +21,4 @@
   &__description {
     overflow: hidden;
   }
-
-  &__p {
-    margin: 0 0 0.75em;
-  }
-
-  &__contact-label {
-    display: inline-block;
-    margin-right: 0.5em;
-  }
-
-  &__contact-list {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-  }
-
-  &__contact-item {
-    display: inline-block;
-    margin: 0 0.5em;
-    padding-left: 1em;
-    position: relative;
-
-    &::before {
-      content: '.';
-      display: inline-block;
-      color: $color-base;
-      font-size: 3em;
-      position: absolute;
-      left: 0;
-      transform: translate(0, -55%);
-    }
-  }
 }
