@@ -21,8 +21,8 @@ i18n.init({
                 authorItem: {
                     body: `My name is <1>Kris Urbas</1> and I help companies build their internet products.
                     I offer help in many different areas of software and product development, management, leadership
-                    and team building. I have more than 8 years of professional experience.
-                    I've worked with more than 10 companies and startups of different sizes.
+                    and team building. With 8 years of professional experience I have worked with more than
+                    10 companies and startups of different sizes.
                     <3>Can I help you? Write me what are you struggling with!</3>`,
                 },
                 footer: { contactButton: 'contact me' },
@@ -33,7 +33,7 @@ i18n.init({
                 intro: {
                     headline1: 'Cześć, nazywam się',
                     headline2: 'Krzysiek Urbas',
-                    subheadline: 'Pomagam firmom budować internetowe produkty',
+                    subheadline: 'Pomagam firmom budować produkty internetowe',
                     button: 'napisz do mnie!',
                 },
                 datePrefix: 'Opublikowano',
