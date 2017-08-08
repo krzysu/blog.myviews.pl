@@ -26,7 +26,7 @@ class TemplateI18n extends Component {
         return (
             <div>
                 <Header location={location} currentPage={currentPage} />
-                {children}
+                <div className="body">{children}</div>
                 <Footer />
             </div>
         );

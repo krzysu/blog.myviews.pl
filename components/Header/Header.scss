@@ -2,10 +2,8 @@
 @import 'stylesheets/mixins';
 
 .header {
-    background: $color-alt;
-    color: $color-reverse-alt;
+    @include reverse-bg;
     line-height: 3em;
-    margin-bottom: 1.5em;
 
     &__inner {
         display: flex;

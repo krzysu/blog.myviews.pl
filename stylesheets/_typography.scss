@@ -1,19 +1,9 @@
-@import './vars';
-
 body {
   font-family: $font-family;
   font-size: 18px;
   line-height: 1.5em;
   color: $color-base;
-  background: $color-reverse;
-  // background-image: url(https://basehold.it/i/27);
-  // background-image: url(/static/img/27.png);
-}
-
-.wrapper {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 0 1em;
+  background-color: $color-alt;
 }
 
 h1, h2, h3, h4, h5, h6 {

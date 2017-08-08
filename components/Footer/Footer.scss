@@ -2,9 +2,7 @@
 @import 'stylesheets/mixins';
 
 .footer {
-  background: $color-alt;
-  color: $color-reverse-alt;
-  margin-top: 4.5em;
+  @include reverse-bg;
   padding: 1.5em 0;
 
   &__menu {
@@ -26,6 +24,6 @@
   &__copyright {
     text-align: center;
     display: block;
-    margin: 3em 0 0;
+    margin: 1.6875em 0 0;
   }
 }

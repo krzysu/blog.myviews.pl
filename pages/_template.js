@@ -5,7 +5,7 @@ import i18n from 'utils/i18n';
 import TemplateI18n from './_template_i18n';
 import { prefixLink } from 'gatsby-helpers';
 import 'normalize.css/normalize.css';
-import 'stylesheets/typography.scss';
+import 'stylesheets/styles.scss';
 
 const Template = (props) => {
     const currentPage = props.route.pages.find((page) => {
