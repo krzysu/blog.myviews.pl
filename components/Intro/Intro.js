@@ -7,7 +7,7 @@ import './Intro.scss';
 
 const Intro = ({ t }) => {
     const random1or2 = Math.round(Math.random()) + 1;
-    const imageFileName = prefixLink(`/static/img/home${random1or2}.jpg`);
+    const imageFileName = prefixLink(`/static/images/intro${random1or2}.jpg`);
 
     return (
         <div className="intro">
