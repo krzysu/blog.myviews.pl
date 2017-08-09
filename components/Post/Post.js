@@ -26,7 +26,6 @@ const Post = ({ route, t }) => {
                 <div className="post-actions">
                     <LikeButton id={route.page.path} />
                 </div>
-                <hr />
             </div>
 
             <ReadNext route={route} />

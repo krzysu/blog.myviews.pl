@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
+import BEMHelper from 'react-bem-helper';
 import PostItem from 'components/PostItem/PostItem';
 import { getPublicPosts } from 'utils/helpers';
 import './ReadNext.scss';
 
+const bem = new BEMHelper('read-next');
 const RECOMMENDATION_COUNT = 3;
 
 const ReadNext = ({ route, t, i18n }) => {
@@ -14,18 +16,19 @@ const ReadNext = ({ route, t, i18n }) => {
     const readNextPages = getPublicPosts(allPages, i18n.language, RECOMMENDATION_COUNT, currentPage);
 
     return (
-        <div className="read-next">
-            <h2 className="read-next__headline">{`${t('readAlso')}:`}</h2>
-            <div className="read-next__posts">
+        <div {...bem()}>
+            <h2 {...bem('headline')}>{`${t('readAlso')}:`}</h2>
+            <div {...bem('posts')}>
                 {readNextPages.map((page, index) => {
                     return (
-                        <div key={index} className="read-next__item">
+                        <div key={index} {...bem('item')}>
                             <PostItem page={page} headlineTag="h3" />
+                            <hr {...bem('line-on-small-screen')}/>
                         </div>
                     );
                 })}
             </div>
-            <hr />
+            <hr {...bem('line-on-big-screen')}/>
         </div>
     );
 };

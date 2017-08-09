@@ -16,7 +16,7 @@ const BlogIndex = ({ route, lang }) => {
             <div style={{ paddingTop: '4.5em' }}>
                 {publicPages.map((publicPage, index) => {
                     return (
-                        <div key={index} style={{ marginBottom: '3em' }}>
+                        <div key={index} style={{ marginBottom: '1.5em' }}>
                             <PostItem page={publicPage} />
                             <hr />
                         </div>

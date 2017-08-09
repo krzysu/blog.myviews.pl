@@ -2,7 +2,6 @@
 @import 'stylesheets/mixins';
 
 .author-item {
-  margin: 3em 0;
   @include clearfix;
 
   &__image {
