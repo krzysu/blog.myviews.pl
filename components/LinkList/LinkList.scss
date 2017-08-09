@@ -1,0 +1,29 @@
+.link-list {
+
+  &__item {
+    border-bottom: 1px solid #111;
+    display: block;
+    padding: 1.466em 2.5em 1.466em 0.5em;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:first-child {
+      border-top: 1px solid #111;
+    }
+
+    &:hover, &:active, &:focus {
+      text-decoration: none;
+      background-color: #f8e7e8;
+    }
+  }
+
+  &__primary {
+    font-size: 1.3333333333333333em;
+  	line-height: 1.125em;
+    text-transform: uppercase;
+  }
+
+  &__secondary {
+
+  }
+}

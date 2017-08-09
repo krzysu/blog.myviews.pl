@@ -235,7 +235,7 @@ module.exports = {
                 return: true,
                 arrow: true,
             }],
-        "require-jsdoc": "error",
+        "require-jsdoc": "off",
         "rest-spread-spacing": "error",
         "semi": "error",
         "semi-spacing": "error",

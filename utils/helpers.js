@@ -36,8 +36,14 @@ export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) 
     return filteredPages;
 };
 
-export const getEmail = () => {
-    const emailReversed = 'moc.liamg@lp.usyzrk';
+const isServer = () => {
+    return !(typeof window !== 'undefined' && window.document);
+};
 
-    return emailReversed.split('').reverse().join('');
+export const getEmail = () => {
+    if (isServer()) {
+        return 'spam-protected@email.com';
+    }
+
+    return 'moc.liamg@sabru.sirk'.split('').reverse().join('');
 };
