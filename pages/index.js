@@ -1,30 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HeadMeta from 'components/HeadMeta';
-import Intro from 'components/Intro/Intro';
-import PostItem from 'components/PostItem/PostItem';
-import { getPublicPosts } from 'utils/helpers';
+import IndexPage from 'components/IndexPage/IndexPage';
 
-const BlogIndex = ({ route, lang }) => {
-    const { page, pages } = route;
-    const publicPages = getPublicPosts(pages, lang);
-
-    return (
-        <div className="wrapper">
-            <HeadMeta {...page} />
-            <Intro />
-            <div style={{ paddingTop: '4.5em' }}>
-                {publicPages.map((publicPage, index) => {
-                    return (
-                        <div key={index} style={{ marginBottom: '1.5em' }}>
-                            <PostItem page={publicPage} />
-                            <hr />
-                        </div>
-                    );
-                })}
-            </div>
-        </div>
-    );
+const BlogIndex = ({ route }) => {
+    return <IndexPage lang="en" route={route} />;
 };
 
 BlogIndex.propTypes = {
@@ -32,7 +11,6 @@ BlogIndex.propTypes = {
         page: PropTypes.object,
         pages: PropTypes.array,
     }),
-    lang: PropTypes.string,
 };
 
 export default BlogIndex;

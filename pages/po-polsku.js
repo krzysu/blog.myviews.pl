@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BlogIndex from 'pages/index';
+import IndexPage from 'components/IndexPage/IndexPage';
 
 const BlogIndexPl = ({ route }) => {
-    return <BlogIndex lang="pl" route={route} />;
+    return <IndexPage lang="pl" route={route} />;
 };
 
 BlogIndexPl.propTypes = {

@@ -1,5 +1,5 @@
+@import 'stylesheets/vars';
 $class-name: 'like-button';
-$color-active: #972F38;
 
 .#{$class-name} {
   border: 0;;
@@ -12,27 +12,27 @@ $color-active: #972F38;
   text-align: center;
 
   &:hover {
-    color: $color-active;
+    color: $color-extra;
 
     .#{$class-name}__icon {
-      stroke: #972F38;
+      stroke: $color-extra;
     }
   }
 
   &--active {
-    color: $color-active;
+    color: $color-extra;
     cursor: auto;
 
     .#{$class-name}__icon {
-      stroke: #972F38;
-      fill: #972F38;
+      stroke: $color-extra;
+      fill: $color-extra;
       animation-name: wishlist-icon-activate;
     }
   }
 
   &__icon {
     fill: #fff;
-    stroke: #333;
+    stroke: $color-base;
     stroke-width: 3px;
     animation-duration: 0.2s;
   }

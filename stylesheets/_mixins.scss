@@ -9,7 +9,7 @@
 }
 
 @mixin reverse-bg {
-  background: $color-alt;
+  background-color: $color-alt;
   color: $color-reverse-alt;
 
   a, em {
