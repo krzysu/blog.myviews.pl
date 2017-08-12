@@ -11,9 +11,10 @@ const Template = (props) => {
     const currentPage = props.route.pages.find((page) => {
         return prefixLink(page.path) === props.location.pathname;
     });
+    const initialLanguage = currentPage ? currentPage.data.lang : 'en';
 
     return (
-        <I18nextProvider i18n={i18n} initialLanguage={currentPage.data.lang}>
+        <I18nextProvider i18n={i18n} initialLanguage={initialLanguage}>
             <TemplateI18n {...props} />
         </I18nextProvider>
     );

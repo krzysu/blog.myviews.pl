@@ -8,7 +8,7 @@ lang: pl
 
 > Słaby management jako jeden z problemów w pracy programisty.
 
-Pracuje jako programista, albo właściwie inżynier oprogramowania, od ponad 8 lat. Specjalizuje się w tak zwanych technologiach front-end. Jeden z poważniejszych problemów, które zauważam w naszej branży to management. Niestety, ale zwykle stoi on na dość niskim poziomie. Przedstawię w punktach kilka moich obserwacji, z identyfikacja problemu i propozycją rozwiązania. Rozwiązanie zakłada zawsze mocny, dobrze zgrany, zmotywowany zespół techniczny. Temat, jak zbudować taki zespół, na pewno będzie poruszany przeze mnie w przyszłości.
+Pracuje jako inżynier oprogramowania, od ponad 8 lat. Specjalizuje się w tak zwanych technologiach front-end. Jeden z poważniejszych problemów, które zauważam w naszej branży to management. Niestety, ale zwykle stoi on na dość niskim poziomie. Przedstawię w punktach kilka moich obserwacji, z identyfikacja problemu i propozycją rozwiązania. Rozwiązanie zakłada zawsze mocny, dobrze zgrany, zmotywowany zespół techniczny. Temat, jak zbudować taki zespół, na pewno będzie poruszany przeze mnie w przyszłości.
 
 #### 1. Oprogramowanie jest "projektowane" przez managerów, którzy nie mają wiedzy o budowie oprogramowania
 
@@ -20,7 +20,7 @@ Rozwiązanie to **lepsza komunikacja i zrozumienie prawdziwej roli managera**. M
 
 W **prawidłowej organizacji tworzącej oprogramowanie** rola managera, który ingeruje w aspekty techniczne, nie powinna tak naprawdę istnieć. Product Owner powinien wyznaczać cele, albo strategie produktu, zespół techniczny powinien opracowywać rozwiązania i je iteratywnie implementować. Product Owner powinien też zgłaszać feedback, aby pomagać w kształtowaniu misji projektu.
 
-> Tak na marginesie to czasem mam wrażenie, że projekt managerowie są jak cząstki elementarne, biegają gdzieś po omacku, odbijając się od ścian, czasem jak się zderzą ze sobą, to wyzwoli się energia, czyli oni wpadną na jakiś nowy, nierealistyczny i nikomu niepotrzebny pomysł. Który, oczywiście, będzie musiał być zaimplementowany ASAP.
+> Jedna z firm dla których pracowałem, była bardzo chaotyczna. Miałem wrażenie, że projekt managerowie są jak cząstki elementarne. Biegają gdzieś po omacku, odbijając się od ścian. Czasem jak się zderzą ze sobą, to wyzwoli się energia, czyli oni wpadną na jakiś nowy, nierealistyczny i nikomu niepotrzebny pomysł. Który, oczywiście, będzie musiał być zaimplementowany ASAP.
 
 #### 2. Produkt jest budowany przez managerów, którzy nie mają pojęcia o produkcie i użytkownikach
 

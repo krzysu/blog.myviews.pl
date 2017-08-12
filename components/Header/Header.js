@@ -8,8 +8,8 @@ import './Header.scss';
 const Header = ({ location, currentPage, i18n }) => {
     const isEnglishHomePage = location.pathname === prefixLink('/');
     const isPolishHomePage = location.pathname === prefixLink('/po-polsku/');
-    const isPolishPage = currentPage.data.lang === 'pl';
-    const isEnglishPage = currentPage.data.lang === 'en';
+    const isPolishPage = currentPage ? currentPage.data.lang === 'pl' : false;
+    const isEnglishPage = currentPage ? currentPage.data.lang === 'en' : true;
 
     const languageSwitch = i18n.language === 'en' ?
         <Link to={prefixLink('/po-polsku/')} className="header__link">po polsku</Link> :
