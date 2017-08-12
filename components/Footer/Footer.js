@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import BEMHelper from 'react-bem-helper';
-import Button from 'components/Button/Button';
+import { prefixLink } from 'gatsby-helpers';
 import './Footer.scss';
 
 const bem = new BEMHelper('footer');
 
 const Footer = ({ t }) => {
-    const links = [{
+    const linksLeft = [{
         href: 'https://twitter.com/krzysu',
         label: 'Twitter',
     }, {
@@ -19,12 +19,20 @@ const Footer = ({ t }) => {
         label: 'SoundCloud',
     }];
 
+    const linksRight = [{
+        href: prefixLink(t('footer.homepageUrl')),
+        label: t('footer.homepage'),
+    }, {
+        href: 'http://myviews.pl/#!/contact',
+        label: t('footer.contact'),
+    }];
+
     return (
         <div {...bem()}>
             <div className="wrapper">
                 <div {...bem('menu')}>
                     <ul {...bem('list')}>
-                        {links.map((link, index) => {
+                        {linksLeft.map((link, index) => {
                             return (
                                 <li key={index}>
                                     <a href={link.href} target="_blank" rel="noopener noreferrer" {...bem('link')}>
@@ -34,9 +42,17 @@ const Footer = ({ t }) => {
                             );
                         })}
                     </ul>
-                    <Button style="alt" href="http://myviews.pl/#!/contact">
-                        {t('footer.contactButton')}
-                    </Button>
+                    <ul {...bem('list')}>
+                        {linksRight.map((link, index) => {
+                            return (
+                                <li key={index}>
+                                    <a href={link.href} {...bem('link')}>
+                                        {link.label}
+                                    </a>
+                                </li>
+                            );
+                        })}
+                    </ul>
                 </div>
                 <small {...bem('copyright')}>{`copyright © ${(new Date()).getFullYear()} Kris Urbas @krzysu`}</small>
             </div>

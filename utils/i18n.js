@@ -25,7 +25,12 @@ i18n.init({
                     10 companies and startups of different sizes.
                     <3>Can I help you? Write me what are you struggling with!</3>`,
                 },
-                footer: { contactButton: 'contact me' },
+                footer: {
+                    contact: 'Contact',
+                    contactUrl: '/contact/',
+                    homepage: 'Home',
+                    homepageUrl: '/',
+                },
             },
         },
         pl: {
@@ -51,7 +56,12 @@ i18n.init({
                     Pracowałem już z ponad 10 firmami i startup'ami w różnych rozmiarach.
                     <3>W czym mogę Ci pomóc? Napisz do mnie!</3>`,
                 },
-                footer: { contactButton: 'kontakt' },
+                footer: {
+                    contact: 'Kontakt',
+                    contactUrl: '/kontakt/',
+                    homepage: 'Strona główna',
+                    homepageUrl: '/po-polsku/',
+                },
             },
         },
     },
