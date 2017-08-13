@@ -7,7 +7,7 @@ const AuthorItem = () => {
     return (
         <div className="author-item">
             <img
-                src={prefixLink('/static/images/intro2.jpg')}
+                src={prefixLink('/static/images/author.jpg')}
                 alt="author picture"
                 className="author-item__image"
             />

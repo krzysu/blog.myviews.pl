@@ -2,12 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import { prefixLink } from 'gatsby-helpers';
+import { getRandomInt } from 'utils/helpers';
 import Button from 'components/Button/Button';
 import './Intro.scss';
 
 const Intro = ({ t }) => {
-    const random1or2 = Math.round(Math.random()) + 1;
-    const imageFileName = prefixLink(`/static/images/intro${random1or2}.jpg`);
+    const randomInt = getRandomInt(1, 3);
+    const imageFileName = prefixLink(`/static/images/intro${randomInt}.jpg`);
 
     return (
         <div className="intro">
@@ -18,6 +19,9 @@ const Intro = ({ t }) => {
             />
             <h2 className="intro__subheadline">{t('intro.subheadline')}</h2>
             <Button href="http://myviews.pl/#!/contact">{t('intro.button')}</Button>
+            {
+                // <Button href={prefixLink('/contact/')}>{t('intro.button')}</Button>
+            }
         </div>
     );
 };

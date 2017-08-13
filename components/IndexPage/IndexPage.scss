@@ -11,9 +11,7 @@
   }
 
   &__author-item {
-    @include reverse-bg;
-    background-color: #232323;
-    color: $color-reverse;
+    background-color: #efefef;
     padding: 1.5em 0;
     position: relative;
     top: 4.5em;
