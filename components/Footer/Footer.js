@@ -23,10 +23,10 @@ const Footer = ({ t }) => {
     }];
 
     const linksRight = [{
-        href: prefixLink(t('footer.homepageUrl')),
+        href: prefixLink(t('urls.homepage')),
         label: t('footer.homepage'),
     }, {
-        href: 'http://myviews.pl/#!/contact',
+        href: prefixLink(t('urls.contact')),
         label: t('footer.contact'),
     }];
 
@@ -57,7 +57,9 @@ const Footer = ({ t }) => {
                         })}
                     </ul>
                 </div>
-                <small {...bem('copyright')}>{`copyright © ${(new Date()).getFullYear()} Kris Urbas @krzysu`}</small>
+                <small {...bem('copyright')}>
+                    {`copyright © ${(new Date()).getFullYear()} Kris Urbas @krzysu`}
+                </small>
             </div>
         </div>
     );

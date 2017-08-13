@@ -16,7 +16,7 @@ Contact.propTypes = {
 export default Contact;
 
 export const data = {
-    title: 'Contact',
-    path: '/contact/',
-    lang: 'en',
+    title: 'Kontakt',
+    path: '/kontakt/',
+    lang: 'pl',
 };

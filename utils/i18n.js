@@ -5,6 +5,10 @@ i18n.init({
     resources: {
         en: {
             blog: {
+                urls: {
+                    homepage: '/',
+                    contact: '/contact/',
+                },
                 intro: {
                     headline1: 'Hi, my name is',
                     headline2: 'Kris Urbas',
@@ -27,14 +31,20 @@ i18n.init({
                 },
                 footer: {
                     contact: 'Contact',
-                    contactUrl: '/contact/',
                     homepage: 'Home',
-                    homepageUrl: '/',
+                },
+                contactPage: {
+                    title: 'contact me!',
+                    subtitle: 'guaranteed: 100% response rate',
                 },
             },
         },
         pl: {
             blog: {
+                urls: {
+                    homepage: '/po-polsku/',
+                    contact: '/kontakt/',
+                },
                 intro: {
                     headline1: 'Cześć, nazywam się',
                     headline2: 'Krzysiek Urbas',
@@ -58,9 +68,11 @@ i18n.init({
                 },
                 footer: {
                     contact: 'Kontakt',
-                    contactUrl: '/kontakt/',
                     homepage: 'Strona główna',
-                    homepageUrl: '/po-polsku/',
+                },
+                contactPage: {
+                    title: 'napisz do mnie!',
+                    subtitle: 'gwarantuję, że odpiszę na każdą wiadomość',
                 },
             },
         },

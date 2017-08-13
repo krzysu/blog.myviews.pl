@@ -5,11 +5,9 @@ import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import './Header.scss';
 
-const Header = ({ location, currentPage, i18n }) => {
-    const isEnglishHomePage = location.pathname === prefixLink('/');
-    const isPolishHomePage = location.pathname === prefixLink('/po-polsku/');
-    const isPolishPage = currentPage ? currentPage.data.lang === 'pl' : false;
-    const isEnglishPage = currentPage ? currentPage.data.lang === 'en' : true;
+const Header = ({ location, i18n, t }) => {
+    const isNotHomePage = location.pathname !== prefixLink('/') &&
+        location.pathname !== prefixLink('/po-polsku/');
 
     const languageSwitch = i18n.language === 'en' ?
         <Link to={prefixLink('/po-polsku/')} className="header__link">po polsku</Link> :
@@ -20,14 +18,8 @@ const Header = ({ location, currentPage, i18n }) => {
             <div className="wrapper">
                 <div className="header__inner">
                     <div>
-                        {(isEnglishPage && !isEnglishHomePage) && (
-                            <Link to={prefixLink('/')} className="header__link">
-                                more than <strong>web developer</strong>
-                            </Link>
-                        )}
-
-                        {(isPolishPage && !isPolishHomePage) && (
-                            <Link to={prefixLink('/po-polsku/')} className="header__link">
+                        {isNotHomePage && (
+                            <Link to={prefixLink(t('urls.homepage'))} className="header__link">
                                 more than <strong>web developer</strong>
                             </Link>
                         )}
@@ -42,8 +34,8 @@ const Header = ({ location, currentPage, i18n }) => {
 
 Header.propTypes = {
     location: PropTypes.object,
-    currentPage: PropTypes.object,
     i18n: PropTypes.object,
+    t: PropTypes.func,
 };
 
 export default translate()(Header);
