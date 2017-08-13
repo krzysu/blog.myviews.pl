@@ -31,7 +31,7 @@ const Post = ({ route, t }) => {
             <ReadNext route={route} />
 
             <div className="wrapper">
-                <h2>{`${t('author')}:`}</h2>
+                <h2>{t('author')}</h2>
                 <AuthorItem />
             </div>
         </div>

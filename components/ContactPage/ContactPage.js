@@ -27,7 +27,7 @@ const ContactPage = ({ route, t }) => {
         },
         {
             href: 'https://www.linkedin.com/in/krzysu/',
-            primary: 'linkedin',
+            primary: 'linkedIn',
             secondary: 'Kris Urbas',
             external: true,
         },

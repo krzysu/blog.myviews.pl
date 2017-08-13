@@ -17,7 +17,7 @@ const ReadNext = ({ route, t, i18n }) => {
 
     return (
         <div {...bem()}>
-            <h2 {...bem('headline')}>{`${t('readAlso')}:`}</h2>
+            <h2 {...bem('headline')}>{t('readAlso')}</h2>
             <div {...bem('posts')}>
                 {readNextPages.map((page, index) => {
                     return (
