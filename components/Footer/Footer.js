@@ -15,6 +15,9 @@ const Footer = ({ t }) => {
         href: 'https://github.com/krzysu',
         label: 'GitHub',
     }, {
+        href: 'https://www.linkedin.com/in/krzysu/',
+        label: 'LinkedIn',
+    }, {
         href: 'https://soundcloud.com/krzysu',
         label: 'SoundCloud',
     }];
