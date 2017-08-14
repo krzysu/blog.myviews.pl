@@ -8,27 +8,39 @@ import './Footer.scss';
 const bem = new BEMHelper('footer');
 
 const Footer = ({ t }) => {
-    const linksLeft = [{
-        href: 'https://twitter.com/krzysu',
-        label: 'Twitter',
-    }, {
-        href: 'https://github.com/krzysu',
-        label: 'GitHub',
-    }, {
-        href: 'https://www.linkedin.com/in/krzysu/',
-        label: 'LinkedIn',
-    }, {
-        href: 'https://soundcloud.com/krzysu',
-        label: 'SoundCloud',
-    }];
+    const linksLeft = [
+        {
+            href: 'https://twitter.com/krzysu',
+            label: 'Twitter',
+        },
+        {
+            href: 'https://github.com/krzysu',
+            label: 'GitHub',
+        },
+        {
+            href: 'https://www.linkedin.com/in/krzysu/',
+            label: 'LinkedIn',
+        },
+        {
+            href: 'https://soundcloud.com/krzysu',
+            label: 'SoundCloud',
+        },
+    ];
 
-    const linksRight = [{
-        href: prefixLink(t('urls.homepage')),
-        label: t('footer.homepage'),
-    }, {
-        href: prefixLink(t('urls.contact')),
-        label: t('footer.contact'),
-    }];
+    const linksRight = [
+        {
+            href: prefixLink(t('urls.homepage')),
+            label: t('footer.homepage'),
+        },
+        {
+            href: prefixLink(t('urls.games')),
+            label: t('footer.games'),
+        },
+        {
+            href: prefixLink(t('urls.contact')),
+            label: t('footer.contact'),
+        },
+    ];
 
     return (
         <div {...bem()}>

@@ -6,9 +6,8 @@ import HeadMeta from 'components/HeadMeta';
 import LinkList from 'components/LinkList/LinkList';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
 import { getEmail } from 'utils/helpers';
-import './ContactPage.scss';
 
-const bem = new BEMHelper('contact-page');
+const bem = new BEMHelper('page'); // global styles
 
 const ContactPage = ({ route, t }) => {
     const { page } = route;
@@ -34,13 +33,13 @@ const ContactPage = ({ route, t }) => {
     ];
 
     return (
-        <div>
+        <div {...bem()}>
             <div className="wrapper">
                 <HeadMeta {...page} />
 
                 <div {...bem('header')}>
                     <h1 {...bem('title')}>{t('contactPage.title')}</h1>
-                    <div>{t('contactPage.subtitle')}</div>
+                    <div {...bem('subtitle')}>{t('contactPage.subtitle')}</div>
                 </div>
 
                 <div {...bem('links')}>

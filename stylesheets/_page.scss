@@ -1,0 +1,37 @@
+.page {
+  &__header {
+    text-align: center;
+    margin: 3em 0;
+  }
+
+  &__title {}
+
+  &__subtitle {
+    max-width: 75%;
+    margin: 0 auto;
+
+    @media (max-width: $break-point) {
+        max-width: none;
+    }
+  }
+
+  &__links {
+    margin-bottom: 3em;
+  }
+
+  &__footer {
+    text-align: center;
+    margin: 3em 0;
+  }
+
+  &__footer-copy {
+    margin-bottom: 1.5em;
+  }
+
+  &__author-item {
+    background-color: #efefef;
+    padding: 1.5em 0;
+    position: relative;
+    top: 4.5em;
+  }
+}

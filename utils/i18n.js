@@ -8,6 +8,7 @@ i18n.init({
                 urls: {
                     homepage: '/',
                     contact: '/contact/',
+                    games: '/games/',
                 },
                 intro: {
                     headline1: 'Hi, my name is',
@@ -32,10 +33,21 @@ i18n.init({
                 footer: {
                     contact: 'Contact',
                     homepage: 'Home',
+                    games: 'Games',
                 },
                 contactPage: {
                     title: 'contact me!',
                     subtitle: 'guaranteed: 100% response rate',
+                },
+                gamesPage: {
+                    title: 'HTML5 game development',
+                    subtitle: `a few years ago, I did some game development,
+                        here you can find the outcome`,
+                    footer: 'questions, feedback, coffee?',
+                    button: 'contact me',
+                    zombieSubtitle: 'what if zombies plague can be stopped?',
+                    breakoutSubtitle: 'it was just a weekend challenge',
+                    slidesSubtitle: 'slides from my talk on Berlin.JS',
                 },
             },
         },
@@ -44,6 +56,7 @@ i18n.init({
                 urls: {
                     homepage: '/po-polsku/',
                     contact: '/kontakt/',
+                    games: '/tworzenie-gier/',
                 },
                 intro: {
                     headline1: 'Cześć, nazywam się',
@@ -69,10 +82,21 @@ i18n.init({
                 footer: {
                     contact: 'Kontakt',
                     homepage: 'Strona główna',
+                    games: 'Tworzenie gier',
                 },
                 contactPage: {
                     title: 'napisz do mnie!',
                     subtitle: 'gwarantuję, że odpiszę na każdą wiadomość',
+                },
+                gamesPage: {
+                    title: 'tworzenie gier w HTML5',
+                    subtitle: `kilka lat temu interesowałem się pisaniem gier
+                        komputerowych, oto co z tego wynikło`,
+                    footer: 'pytania, komentarze, zaproszenia na kawe?',
+                    button: 'napisz do mnie',
+                    zombieSubtitle: 'zatrzymaj atak zombie',
+                    breakoutSubtitle: 'projekt weekendowy',
+                    slidesSubtitle: 'slajdy z mojej prezentacji na Berlin.JS',
                 },
             },
         },

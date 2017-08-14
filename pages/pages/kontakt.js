@@ -2,18 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ContactPage from 'components/ContactPage/ContactPage';
 
-const Contact = ({ route }) => {
+const ContactPl = ({ route }) => {
     return <ContactPage route={route} />;
 };
 
-Contact.propTypes = {
+ContactPl.propTypes = {
     route: PropTypes.shape({
         page: PropTypes.object,
         pages: PropTypes.array,
     }),
 };
 
-export default Contact;
+export default ContactPl;
 
 export const data = {
     title: 'Kontakt',
