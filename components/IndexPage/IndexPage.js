@@ -19,6 +19,7 @@ const IndexPage = ({ route, lang }) => {
             <div className="wrapper">
                 <HeadMeta {...page} />
                 <Intro />
+                <i className="icon-twitter"></i>
                 <div {...bem('post-list')}>
                     {publicPages.map((publicPage, index) => {
                         return (

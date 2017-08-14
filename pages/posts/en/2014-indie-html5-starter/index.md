@@ -8,33 +8,33 @@ lang: en
 
 > From my experience and knowledge I gathered in the last few months.
 
-Short and straight to the point. I mention only resources I consider useful an what I am using in my projects, means what works for me and **might not work** for you. HTML5 as a technology for game development is quite new and having great traction right now. That means it is a good time to start playing with it!
+Short and straight to the point. I mention only resources I consider useful. But what works for me **might not work** for you. HTML5 as a technology for game development is quite new and having a great traction right now. It is a good time to start playing with it!
 
 
 ## Frameworks & Software
 
 There are way too many frameworks available out there, most of them for free. Below is my selection:
 
-- [Quintus](http://html5quintus.com/) - my framework of choice, mainly because of modular architecture, mobile support, and nicely written documentation. It is also lightweight enough that you can just read and modify the source if you need to. Regarding shortcomings, it is not quite optimised and renders only to Canvas. Check [examples & tutorials](http://html5quintus.com/documentation) if you are interested.
+- [Quintus](http://html5quintus.com/) - my framework of choice, mainly because of modular architecture, mobile support, and nicely written documentation. It is also lightweight enough that you can just read and modify the source, if you need to. Regarding shortcomings, it is not quite optimised and renders only to Canvas. Check [examples & tutorials](http://html5quintus.com/documentation) if you are interested.
 
 - [Phaser](http://phaser.io/) - I think the most powerful and well maintained framework out there, uses great pixi.js as renderer, means it supports both Canvas and WebGL. Developed by real HTML5 gaming studio, so battle-tested and regularly updated. I hadn't liked the way of using it (one huge game loop), but [this article changed that](http://toastedware.com/?p=258). Probably I would use it in big, performance focused project, but it is too heavy for weekend hacking.
 
-- [Tiled Map Editor](http://www.mapeditor.org/index.html) - not framework, but very nice software to develop maps and levels for your game, works both with Quintus and Phaser and many other frameworks.
+- [Tiled Map Editor](http://www.mapeditor.org/index.html) - not a framework, but a very nice software to develop maps and levels for your game, works both with Quintus and Phaser and many other frameworks.
 
 Others that look interesting, but I had no time to play with them:
 
-- [Impact.js](http://impactjs.com/) - the only one that you need to pay for, but a lot of people recommended it to me. I'm just too much into open source and open web to give it a try. But maybe you would like to.
+- [Impact.js](http://impactjs.com/) - the only one game engine that you need to pay for, but a lot of people recommended it to me. I'm just too much into open source and open web to give it a try. But maybe you would like to.
 
-- [Turbulenz Engine](http://news.turbulenz.com/post/49430669886/turbulenz-engine-goes-open-source) - heavy, powerful, 3D and WebGL framework, connected with their platform for publishing games. Open sourced. But I think it is more for teams rather that single indie developers, that to be profitable, need to finish their game in a few months rather than years.
+- [Turbulenz Engine](http://news.turbulenz.com/post/49430669886/turbulenz-engine-goes-open-source) - heavy, powerful, 3D and WebGL framework, connected with their platform for publishing games. Open sourced. I think it is more suitable for teams rather than for a single indie developer.
 
 - [Goo Technologies](http://www.gootechnologies.com/) - as they say "Professional HTML5 tools for 3D graphics".
 
-- [Unity3d](http://unity3d.com/) - little off topic, not HTML5 framework, but very popular among indie developers, free game engine, that allows you also to create 2d games and publish them to many platforms.
+- [Unity3d](http://unity3d.com/) - a little off topic, not HTML5 framework, but very popular among indie developers, free game engine, that allows you also to create 2d games and publish them to many platforms.
 
 
 ## Free game assets
 
-What you will need as indie game developer are some game assets, like sprites, tiles or music files. With them you will be able to build a prototype of your game without even need for a graphic designer, or wasting time with graphic programs that you  might not be good at. That was my case.
+What you will need as an indie game developer are some game assets, like sprites, tiles or music files. With them you will be able to build a prototype of your game without even need for a graphic designer, or wasting time with graphic programs that you  might not be good at. That was my case.
 
 - [OpenGameArt.org](http://opengameart.org/) - royalty-free art, good for prototypes, but nothing more
 
@@ -44,7 +44,7 @@ What you will need as indie game developer are some game assets, like sprites, t
 
 - [Platformer Game Starter Kit](http://wootstudio.ca/win8platstarter) - they wrote it is for Windows 8, but you can use them for any HTML5 game, I like the style.
 
-- [Art & Code from the Glitch](http://www.glitchthegame.com/public-domain-game-art/) - the collaborative, web-based, massively multiplayer game Glitch was shut down. But the entire library of art assets from the game, was made freely available, dedicated to the public domain.
+- [Art & Code from the Glitch](http://www.glitchthegame.com/public-domain-game-art/) - the collaborative, web-based, massive multiplayer game Glitch was shut down. But the entire library of art assets from the game was made freely available, dedicated to the public domain.
 
 
 ## Publishers and web stores
