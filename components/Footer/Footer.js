@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import BEMHelper from 'react-bem-helper';
 import { prefixLink } from 'gatsby-helpers';
+import { Link } from 'react-router';
 import './Footer.scss';
 
 const bem = new BEMHelper('footer');
@@ -69,9 +70,9 @@ const Footer = ({ t, i18n }) => {
                         {linksRight.map((link, index) => {
                             return (
                                 <li key={index}>
-                                    <a href={link.href} {...bem('link')}>
+                                    <Link to={link.href} {...bem('link')}>
                                         {link.label}
-                                    </a>
+                                    </Link>
                                 </li>
                             );
                         })}

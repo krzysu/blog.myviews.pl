@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import BEMHelper from 'react-bem-helper';
 import { prefixLink } from 'gatsby-helpers';
+import { Link } from 'react-router';
 import './Navigation.scss';
 
 const bem = new BEMHelper('navigation');
@@ -24,9 +25,9 @@ const Navigation = ({ t }) => {
             {links.map((link, index) => {
                 return (
                     <li key={index} {...bem('item')}>
-                        <a href={link.href} {...bem('link')}>
+                        <Link to={link.href} {...bem('link')}>
                             {link.label}
-                        </a>
+                        </Link>
                     </li>
                 );
             })}
