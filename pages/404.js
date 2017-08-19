@@ -7,14 +7,16 @@ const Page404 = () => {
         <div className="wrapper">
             <div
                 style={{
-                    margin: '9em 0 12em',
+                    padding: '9em 0 12em',
                     textAlign: 'center',
                 }}
             >
                 <h1>404 - page not found</h1>
                 <Button href="/">back to home</Button>
             </div>
-            <AuthorItem />
+            <div style={{ paddingBottom: '1.5em' }}>
+                <AuthorItem />
+            </div>
         </div>
     );
 };
