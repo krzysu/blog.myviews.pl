@@ -9,6 +9,7 @@ i18n.init({
                     homepage: '/',
                     contact: '/contact/',
                     games: '/games/',
+                    blog: '/blog/',
                 },
                 intro: {
                     headline1: 'Hi, my name is',
@@ -34,6 +35,7 @@ i18n.init({
                     contact: 'Contact',
                     homepage: 'Home',
                     games: 'Games',
+                    blog: 'Blog',
                 },
                 contactPage: {
                     title: 'contact me!',
@@ -49,6 +51,9 @@ i18n.init({
                     breakoutSubtitle: 'it was just a weekend challenge',
                     slidesSubtitle: 'slides from my talk on Berlin.JS',
                 },
+                blogPage: {
+                    title: 'Everything what I\'ve written so far',
+                },
             },
         },
         pl: {
@@ -57,6 +62,7 @@ i18n.init({
                     homepage: '/po-polsku/',
                     contact: '/kontakt/',
                     games: '/tworzenie-gier/',
+                    blog: '/polski-blog/',
                 },
                 intro: {
                     headline1: 'Cześć, nazywam się',
@@ -83,6 +89,7 @@ i18n.init({
                     contact: 'Kontakt',
                     homepage: 'Strona główna',
                     games: 'Tworzenie gier',
+                    blog: 'Blog',
                 },
                 contactPage: {
                     title: 'napisz do mnie!',
@@ -97,6 +104,9 @@ i18n.init({
                     zombieSubtitle: 'zatrzymaj atak zombie',
                     breakoutSubtitle: 'projekt weekendowy',
                     slidesSubtitle: 'slajdy z mojej prezentacji na Berlin.JS',
+                },
+                blogPage: {
+                    title: 'Wszystko, co do tej pory napisałem',
                 },
             },
         },

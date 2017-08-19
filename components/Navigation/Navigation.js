@@ -10,6 +10,10 @@ const bem = new BEMHelper('navigation');
 const Navigation = ({ t }) => {
     const links = [
         {
+            href: prefixLink(t('urls.blog')),
+            label: t('navigation.blog'),
+        },
+        {
             href: prefixLink(t('urls.contact')),
             label: t('navigation.contact'),
         },

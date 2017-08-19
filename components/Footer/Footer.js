@@ -33,6 +33,10 @@ const Footer = ({ t, i18n }) => {
             label: t('navigation.homepage'),
         },
         {
+            href: prefixLink(t('urls.blog')),
+            label: t('navigation.blog'),
+        },
+        {
             href: prefixLink(t('urls.games')),
             label: t('navigation.games'),
         },
