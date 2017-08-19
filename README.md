@@ -1,6 +1,6 @@
 # Kris Urbas: personal website
 
-> I help startups build their products
+> I help startups build their internet products
 
 This website is open sourced for learning and recruitment purposes. Do not use for profit.
 
@@ -10,4 +10,4 @@ This website is open sourced for learning and recruitment purposes. Do not use f
 - gatsby.js
 
 * * *
-created by Kris Urbas (@krzysu), all rights reserved
+created by Kris Urbas [@krzysu](http://twitter.com/krzysu), all rights reserved
