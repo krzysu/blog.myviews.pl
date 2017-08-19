@@ -8,7 +8,7 @@ import './Navigation.scss';
 
 const bem = new BEMHelper('navigation');
 
-const Navigation = ({ t }) => {
+const Navigation = ({ t, i18n }) => {
     const links = [
         {
             href: prefixLink(t('urls.blog')),
@@ -17,6 +17,10 @@ const Navigation = ({ t }) => {
         {
             href: prefixLink(t('urls.contact')),
             label: t('navigation.contact'),
+        },
+        {
+            href: i18n.language === 'en' ? prefixLink('/po-polsku/') : prefixLink('/'),
+            label: i18n.language === 'en' ? 'PL' : 'EN',
         },
     ];
 
@@ -35,6 +39,9 @@ const Navigation = ({ t }) => {
     );
 };
 
-Navigation.propTypes = { t: PropTypes.func };
+Navigation.propTypes = {
+    t: PropTypes.func,
+    i18n: PropTypes.object,
+};
 
 export default translate()(Navigation);

@@ -18,10 +18,7 @@ class TemplateI18n extends Component {
     }
 
     render() {
-        const { location, route, children } = this.props;
-        const currentPage = route.pages.find((page) => {
-            return prefixLink(page.path) === location.pathname;
-        });
+        const { location, children } = this.props;
 
         return (
             <div>

@@ -51,9 +51,7 @@ i18n.init({
                     breakoutSubtitle: 'it was just a weekend challenge',
                     slidesSubtitle: 'slides from my talk on Berlin.JS',
                 },
-                blogPage: {
-                    title: 'Everything what I\'ve written so far',
-                },
+                blogPage: { title: 'Everything what I\'ve written so far' },
                 indexPage: {
                     blogTitle: 'Latest on blog',
                     blogButton: 'read more',
@@ -109,9 +107,7 @@ i18n.init({
                     breakoutSubtitle: 'projekt weekendowy',
                     slidesSubtitle: 'slajdy z mojej prezentacji na Berlin.JS',
                 },
-                blogPage: {
-                    title: 'Wszystko, co do tej pory napisałem',
-                },
+                blogPage: { title: 'Wszystko, co do tej pory napisałem' },
                 indexPage: {
                     blogTitle: 'Najnowsze na blogu',
                     blogButton: 'zobacz więcej',
