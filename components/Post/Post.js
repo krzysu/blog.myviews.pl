@@ -31,8 +31,12 @@ const Post = ({ route, t }) => {
             <ReadNext route={route} />
 
             <div className="wrapper">
-                <h2>{t('author')}</h2>
-                <AuthorItem />
+                <div className="page__header">
+                    <h2 className="page__title">{t('author')}</h2>
+                </div>
+                <div className="post-author-item">
+                    <AuthorItem />
+                </div>
             </div>
         </div>
     );

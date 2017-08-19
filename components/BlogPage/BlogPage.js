@@ -5,9 +5,9 @@ import { translate } from 'react-i18next';
 import HeadMeta from 'components/HeadMeta';
 import PostList from 'components/PostList/PostList';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
-import './BlogPage.scss';
+import Button from 'components/Button/Button';
 
-const bem = new BEMHelper('blog-page');
+const bem = new BEMHelper('page');
 
 const BlogPage = ({ route, t }) => {
     const { page, pages } = route;
@@ -16,9 +16,19 @@ const BlogPage = ({ route, t }) => {
         <div {...bem()}>
             <div className="wrapper">
                 <HeadMeta {...page} />
-                <h1>{t('blogPage.title')}</h1>
-                <div {...bem('post-list')}>
+
+                <div {...bem('header')}>
+                    <h1 {...bem('title')}>{t('blogPage.title')}</h1>
+                    <div {...bem('subtitle')}>{t('blogPage.subtitle')}</div>
+                </div>
+
+                <div {...bem('links')}>
                     <PostList pages={pages} />
+                </div>
+
+                <div {...bem('footer')}>
+                    <div {...bem('footer-copy')}>{t('page.footer')}</div>
+                    <Button href={t('urls.contact')}>{t('page.footerButton')}</Button>
                 </div>
             </div>
             <div {...bem('author-item')}>

@@ -37,6 +37,10 @@ i18n.init({
                     games: 'Games',
                     blog: 'Blog',
                 },
+                page: {
+                    footer: 'questions, feedback, coffee?',
+                    footerButton: 'contact me',
+                },
                 contactPage: {
                     title: 'contact me!',
                     subtitle: 'guaranteed: 100% response rate',
@@ -45,15 +49,16 @@ i18n.init({
                     title: 'HTML5 game development',
                     subtitle: `I was into game development a few years ago,
                         here you can find the outcome`,
-                    footer: 'questions, feedback, coffee?',
-                    button: 'contact me',
                     zombieSubtitle: 'what if zombies plague can be stopped?',
                     breakoutSubtitle: 'it was just a weekend challenge',
                     slidesSubtitle: 'slides from my talk on Berlin.JS',
                 },
-                blogPage: { title: 'Everything what I\'ve written so far' },
+                blogPage: {
+                    title: 'everything what I\'ve written',
+                    subtitle: '',
+                },
                 indexPage: {
-                    blogTitle: 'Latest on blog',
+                    blogTitle: 'Latest blog posts',
                     blogButton: 'read more',
                 },
             },
@@ -93,6 +98,10 @@ i18n.init({
                     games: 'Tworzenie gier',
                     blog: 'Blog',
                 },
+                page: {
+                    footer: 'pytania, komentarze, zaproszenia na kawe?',
+                    footerButton: 'napisz do mnie',
+                },
                 contactPage: {
                     title: 'napisz do mnie!',
                     subtitle: 'gwarantuję, że odpiszę na każdą wiadomość',
@@ -101,13 +110,14 @@ i18n.init({
                     title: 'tworzenie gier w HTML5',
                     subtitle: `kilka lat temu interesowałem się pisaniem gier
                         komputerowych, oto co z tego wynikło`,
-                    footer: 'pytania, komentarze, zaproszenia na kawe?',
-                    button: 'napisz do mnie',
                     zombieSubtitle: 'zatrzymaj atak zombie',
                     breakoutSubtitle: 'projekt weekendowy',
                     slidesSubtitle: 'slajdy z mojej prezentacji na Berlin.JS',
                 },
-                blogPage: { title: 'Wszystko, co do tej pory napisałem' },
+                blogPage: {
+                    title: 'wszystko co napisałem',
+                    subtitle: '',
+                },
                 indexPage: {
                     blogTitle: 'Najnowsze na blogu',
                     blogButton: 'zobacz więcej',

@@ -8,12 +8,11 @@ import './PostList.scss';
 
 const bem = new BEMHelper('post-list');
 
-const PostList = ({ pages, i18n, title, limit }) => {
+const PostList = ({ pages, i18n, limit }) => {
     const publicPages = getPublicPosts(pages, i18n.language, limit);
 
     return (
         <div {...bem()}>
-            {title && <h2>{title}</h2>}
             {publicPages.map((publicPage, index) => {
                 return (
                     <div key={index} {...bem('item')}>
@@ -28,9 +27,7 @@ const PostList = ({ pages, i18n, title, limit }) => {
 
 PostList.propTypes = {
     pages: PropTypes.array,
-    t: PropTypes.func,
     i18n: PropTypes.object,
-    title: PropTypes.string,
     limit: PropTypes.number,
 };
 

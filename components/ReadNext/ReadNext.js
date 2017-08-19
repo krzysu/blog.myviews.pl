@@ -17,7 +17,9 @@ const ReadNext = ({ route, t, i18n }) => {
 
     return (
         <div {...bem()}>
-            <h2 {...bem('headline')}>{t('readAlso')}</h2>
+            <div className="page__header">
+                <h2 className="page__title">{t('readAlso')}</h2>
+            </div>
             <div {...bem('posts')}>
                 {readNextPages.map((page, index) => {
                     return (

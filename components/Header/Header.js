@@ -22,6 +22,8 @@ const Header = ({ location, t }) => {
                         )}
                     </div>
 
+                    &nbsp;
+
                     <Navigation />
                 </div>
             </div>

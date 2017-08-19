@@ -1,13 +1,15 @@
 @import 'stylesheets/mixins';
 
 .index-page {
+  padding-top: 3em;
+
   &__post-list {
-    padding-top: 4.5em;
+    padding: 4.5em 0 3em;
   }
 
   &__post-list-button {
     text-align: center;
-    margin: 1.5em 0;
+    padding: 1.5em 0;
   }
 
   &__author-item {

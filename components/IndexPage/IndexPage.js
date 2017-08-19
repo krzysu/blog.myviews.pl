@@ -21,11 +21,15 @@ const IndexPage = ({ route, t }) => {
                 <HeadMeta {...page} />
                 <Intro />
                 <div {...bem('post-list')}>
+                    <div className="page__header">
+                        <h2 className="page__title">{t('indexPage.blogTitle')}</h2>
+                    </div>
+
                     <PostList
                         pages={pages}
-                        title={t('indexPage.blogTitle')}
                         limit={POST_LIMIT}
                     />
+
                     <div {...bem('post-list-button')}>
                         <Button href={t('urls.blog')}>
                             {t('indexPage.blogButton')}

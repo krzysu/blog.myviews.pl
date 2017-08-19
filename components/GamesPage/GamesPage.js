@@ -48,8 +48,8 @@ const GamesPage = ({ route, t }) => {
                 </div>
 
                 <div {...bem('footer')}>
-                    <div {...bem('footer-copy')}>{t('gamesPage.footer')}</div>
-                    <Button href={t('urls.contact')}>{t('gamesPage.button')}</Button>
+                    <div {...bem('footer-copy')}>{t('page.footer')}</div>
+                    <Button href={t('urls.contact')}>{t('page.footerButton')}</Button>
                 </div>
             </div>
 
