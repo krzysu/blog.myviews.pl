@@ -1,10 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { prefixLink } from 'gatsby-helpers';
 import Button from 'components/Button/Button';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
 
-const Page404 = ({ route }) => {
+const Page404 = () => {
     return (
         <div className="wrapper">
             <div
@@ -14,19 +12,14 @@ const Page404 = ({ route }) => {
                 }}
             >
                 <h1>404 - page not found</h1>
-                <Button href={prefixLink('/')}>back to home</Button>
+                <Button href="/">back to home</Button>
             </div>
             <AuthorItem />
         </div>
     );
 };
 
-Page404.propTypes = {
-    route: PropTypes.shape({
-        page: PropTypes.object,
-        pages: PropTypes.array,
-    }),
-};
+Page404.propTypes = {};
 
 export default Page404;
 

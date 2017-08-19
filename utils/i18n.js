@@ -54,6 +54,10 @@ i18n.init({
                 blogPage: {
                     title: 'Everything what I\'ve written so far',
                 },
+                indexPage: {
+                    blogTitle: 'Latest on blog',
+                    blogButton: 'read more',
+                },
             },
         },
         pl: {
@@ -107,6 +111,10 @@ i18n.init({
                 },
                 blogPage: {
                     title: 'Wszystko, co do tej pory napisałem',
+                },
+                indexPage: {
+                    blogTitle: 'Najnowsze na blogu',
+                    blogButton: 'zobacz więcej',
                 },
             },
         },

@@ -1,15 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import BEMHelper from 'react-bem-helper';
+import { Link } from 'react-router';
+import { prefixLink } from 'gatsby-helpers';
 import './Button.scss';
 
 const bem = new BEMHelper('button');
 
-const Button = ({ children, style, href }) => {
+const Button = ({ children, style, href, external }) => {
+    const path = external ? href : prefixLink(href);
+
     return (
-        <a href={href || '#'} {...bem('', { alt: style === 'alt' })}>
+        <Link to={path} {...bem('', { alt: style === 'alt' })}>
             {children}
-        </a>
+        </Link>
     );
 };
 
@@ -17,6 +21,7 @@ Button.propTypes = {
     children: PropTypes.any,
     style: PropTypes.oneOf(['alt']),
     href: PropTypes.string,
+    external: PropTypes.bool,
 };
 
 export default Button;

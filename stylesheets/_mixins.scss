@@ -25,3 +25,10 @@
       text-decoration: underline;
   }
 }
+
+@mixin author-item-reversed {
+  background-color: #efefef;
+  padding: 1.5em 0;
+  position: relative;
+  top: 4.5em;
+}

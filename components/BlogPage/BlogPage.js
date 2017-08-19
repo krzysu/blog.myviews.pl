@@ -3,16 +3,14 @@ import PropTypes from 'prop-types';
 import BEMHelper from 'react-bem-helper';
 import { translate } from 'react-i18next';
 import HeadMeta from 'components/HeadMeta';
-import PostItem from 'components/PostItem/PostItem';
+import PostList from 'components/PostList/PostList';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
-import { getPublicPosts } from 'utils/helpers';
 import './BlogPage.scss';
 
 const bem = new BEMHelper('blog-page');
 
-const BlogPage = ({ route, t, i18n }) => {
+const BlogPage = ({ route, t }) => {
     const { page, pages } = route;
-    const publicPages = getPublicPosts(pages, i18n.language);
 
     return (
         <div {...bem()}>
@@ -20,14 +18,7 @@ const BlogPage = ({ route, t, i18n }) => {
                 <HeadMeta {...page} />
                 <h1>{t('blogPage.title')}</h1>
                 <div {...bem('post-list')}>
-                    {publicPages.map((publicPage, index) => {
-                        return (
-                            <div key={index} {...bem('post-item')}>
-                                <PostItem page={publicPage} />
-                                <hr />
-                            </div>
-                        );
-                    })}
+                    <PostList pages={pages} />
                 </div>
             </div>
             <div {...bem('author-item')}>
@@ -45,7 +36,6 @@ BlogPage.propTypes = {
         pages: PropTypes.array,
     }),
     t: PropTypes.func,
-    i18n: PropTypes.object,
 };
 
 export default translate()(BlogPage);

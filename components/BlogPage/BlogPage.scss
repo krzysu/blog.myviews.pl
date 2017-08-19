@@ -1,16 +1,11 @@
+@import 'stylesheets/mixins';
+
 .blog-page {
   &__post-list {
     padding-top: 3em;
   }
 
-  &__post-item {
-    margin-bottom: 1.5em;
-  }
-
   &__author-item {
-    background-color: #efefef;
-    padding: 1.5em 0;
-    position: relative;
-    top: 4.5em;
+    @include author-item-reversed;
   }
 }

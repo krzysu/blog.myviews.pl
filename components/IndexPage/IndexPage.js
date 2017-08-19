@@ -1,34 +1,36 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import BEMHelper from 'react-bem-helper';
+import { translate } from 'react-i18next';
 import HeadMeta from 'components/HeadMeta';
 import Intro from 'components/Intro/Intro';
-import PostItem from 'components/PostItem/PostItem';
+import PostList from 'components/PostList/PostList';
+import Button from 'components/Button/Button';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
-import { getPublicPosts } from 'utils/helpers';
 import './IndexPage.scss';
 
 const bem = new BEMHelper('index-page');
+const POST_LIMIT = 3;
 
-const IndexPage = ({ route, lang }) => {
+const IndexPage = ({ route, t }) => {
     const { page, pages } = route;
-    const publicPages = getPublicPosts(pages, lang);
 
     return (
         <div {...bem()}>
             <div className="wrapper">
                 <HeadMeta {...page} />
                 <Intro />
-                <i className="icon-twitter"></i>
                 <div {...bem('post-list')}>
-                    {publicPages.map((publicPage, index) => {
-                        return (
-                            <div key={index} {...bem('post-item')}>
-                                <PostItem page={publicPage} />
-                                <hr />
-                            </div>
-                        );
-                    })}
+                    <PostList
+                        pages={pages}
+                        title={t('indexPage.blogTitle')}
+                        limit={POST_LIMIT}
+                    />
+                    <div {...bem('post-list-button')}>
+                        <Button href={t('urls.blog')}>
+                            {t('indexPage.blogButton')}
+                        </Button>
+                    </div>
                 </div>
             </div>
             <div {...bem('author-item')}>
@@ -45,7 +47,7 @@ IndexPage.propTypes = {
         page: PropTypes.object,
         pages: PropTypes.array,
     }),
-    lang: PropTypes.string,
+    t: PropTypes.func,
 };
 
-export default IndexPage;
+export default translate()(IndexPage);
