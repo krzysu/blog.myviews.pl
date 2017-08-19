@@ -7,7 +7,7 @@ import './Footer.scss';
 
 const bem = new BEMHelper('footer');
 
-const Footer = ({ t }) => {
+const Footer = ({ t, i18n }) => {
     const linksLeft = [
         {
             href: 'https://twitter.com/krzysu',
@@ -30,15 +30,19 @@ const Footer = ({ t }) => {
     const linksRight = [
         {
             href: prefixLink(t('urls.homepage')),
-            label: t('footer.homepage'),
+            label: t('navigation.homepage'),
         },
         {
             href: prefixLink(t('urls.games')),
-            label: t('footer.games'),
+            label: t('navigation.games'),
         },
         {
             href: prefixLink(t('urls.contact')),
-            label: t('footer.contact'),
+            label: t('navigation.contact'),
+        },
+        {
+            href: i18n.language === 'en' ? prefixLink('/po-polsku/') : prefixLink('/'),
+            label: i18n.language === 'en' ? 'Po polsku' : 'English',
         },
     ];
 
@@ -77,6 +81,9 @@ const Footer = ({ t }) => {
     );
 };
 
-Footer.propTypes = { t: PropTypes.func };
+Footer.propTypes = {
+    t: PropTypes.func,
+    i18n: PropTypes.object,
+};
 
 export default translate()(Footer);

@@ -30,7 +30,7 @@ i18n.init({
                     10 companies and startups of different sizes.
                     <3>Can I help you? Write me what are you struggling with!</3>`,
                 },
-                footer: {
+                navigation: {
                     contact: 'Contact',
                     homepage: 'Home',
                     games: 'Games',
@@ -41,7 +41,7 @@ i18n.init({
                 },
                 gamesPage: {
                     title: 'HTML5 game development',
-                    subtitle: `a few years ago, I did some game development,
+                    subtitle: `I was into game development a few years ago,
                         here you can find the outcome`,
                     footer: 'questions, feedback, coffee?',
                     button: 'contact me',
@@ -79,7 +79,7 @@ i18n.init({
                     Pracowałem już z ponad 10 firmami i startup'ami w różnych rozmiarach.
                     <3>W czym mogę Ci pomóc? Napisz do mnie!</3>`,
                 },
-                footer: {
+                navigation: {
                     contact: 'Kontakt',
                     homepage: 'Strona główna',
                     games: 'Tworzenie gier',

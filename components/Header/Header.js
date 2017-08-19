@@ -3,15 +3,12 @@ import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
+import Navigation from 'components/Navigation/Navigation';
 import './Header.scss';
 
-const Header = ({ location, i18n, t }) => {
+const Header = ({ location, t }) => {
     const isNotHomePage = location.pathname !== prefixLink('/') &&
         location.pathname !== prefixLink('/po-polsku/');
-
-    const languageSwitch = i18n.language === 'en' ?
-        <Link to={prefixLink('/po-polsku/')} className="header__link">po polsku</Link> :
-        <Link to={prefixLink('/')} className="header__link">english</Link>;
 
     return (
         <div className="header">
@@ -25,7 +22,7 @@ const Header = ({ location, i18n, t }) => {
                         )}
                     </div>
 
-                    {languageSwitch}
+                    <Navigation />
                 </div>
             </div>
         </div>
