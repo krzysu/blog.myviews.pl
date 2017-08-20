@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
-import { prefixLink } from 'gatsby-helpers';
+import { getCurrentPage } from 'utils/helpers';
 import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
 
 class TemplateI18n extends Component {
     componentWillUpdate(nextProps) {
         const { route, location } = nextProps;
-        const currentPage = route.pages.find((page) => {
-            return prefixLink(page.path) === location.pathname;
-        });
+        const currentPage = getCurrentPage(route.pages, location);
 
         if (currentPage.data.lang !== this.props.i18n.language) {
             this.props.i18n.changeLanguage(currentPage.data.lang);

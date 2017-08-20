@@ -2,6 +2,8 @@ import sortBy from 'lodash/sortBy';
 import get from 'lodash/get';
 import truncate from 'lodash/truncate';
 import includes from 'lodash/includes';
+import find from 'lodash/find';
+import { prefixLink } from 'gatsby-helpers';
 
 export const getAbstract = (post, length = 240) => {
     const html = post.description || post.body;
@@ -10,16 +12,13 @@ export const getAbstract = (post, length = 240) => {
         separator: /,? +/,
     };
 
-
     return html ? truncate(html.replace(/<[^>]*>/g, ''), truncateOptions) : '';
 };
 
 export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) => {
-
     const sortedPages = sortBy(pages, (page) => {
         return get(page, 'data.date');
-    }
-    ).reverse();
+    }).reverse();
 
     const filteredPages = sortedPages.filter((page) => {
         return get(page, 'file.ext') === 'md' &&
@@ -50,4 +49,10 @@ export const getEmail = () => {
 
 export const getRandomInt = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+export const getCurrentPage = (pages, location) => {
+    return find(pages, (page) => {
+        return prefixLink(page.path) === location.pathname;
+    });
 };
