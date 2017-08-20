@@ -7,11 +7,23 @@ import './Button.scss';
 
 const bem = new BEMHelper('button');
 
-const Button = ({ children, style, href, external }) => {
-    const path = external ? href : prefixLink(href);
+const Button = ({ children, style, href, external, className }) => {
+    if (external) {
+        const externalProps = {
+            href,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+        };
+
+        return (
+            <a {...externalProps} {...bem('', { alt: style === 'alt' }, className)}>
+                {children}
+            </a>
+        );
+    }
 
     return (
-        <Link to={path} {...bem('', { alt: style === 'alt' })}>
+        <Link to={prefixLink(href)} {...bem('', { alt: style === 'alt' }, className)}>
             {children}
         </Link>
     );
@@ -22,6 +34,7 @@ Button.propTypes = {
     style: PropTypes.oneOf(['alt']),
     href: PropTypes.string,
     external: PropTypes.bool,
+    className: PropTypes.string,
 };
 
 export default Button;

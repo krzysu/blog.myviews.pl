@@ -44,6 +44,7 @@ i18n.init({
                 contactPage: {
                     title: 'contact me!',
                     subtitle: 'guaranteed: 100% response rate',
+                    footer: 'like it? share it!',
                 },
                 gamesPage: {
                     title: 'HTML5 game development',
@@ -105,6 +106,7 @@ i18n.init({
                 contactPage: {
                     title: 'napisz do mnie!',
                     subtitle: 'gwarantuję, że odpiszę na każdą wiadomość',
+                    footer: 'podobało się? przekaż dalej!',
                 },
                 gamesPage: {
                     title: 'tworzenie gier w HTML5',

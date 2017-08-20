@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BEMHelper from 'react-bem-helper';
 import { translate } from 'react-i18next';
+import { getEmail } from 'utils/helpers';
 import HeadMeta from 'components/HeadMeta';
 import LinkList from 'components/LinkList/LinkList';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
-import { getEmail } from 'utils/helpers';
+import Button from 'components/Button/Button';
 
 const bem = new BEMHelper('page'); // global styles
 
@@ -44,6 +45,24 @@ const ContactPage = ({ route, t }) => {
 
                 <div {...bem('links')}>
                     <LinkList links={contactLinks} />
+                </div>
+
+                <div {...bem('footer')}>
+                    <div {...bem('footer-copy')}>{t('contactPage.footer')}</div>
+                    <Button
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://blog.myviews.pl"
+                        external={true}
+                        {...bem('footer-button')}
+                    >
+                        facebook
+                    </Button>
+                    <Button
+                        href="https://twitter.com/share?url=https://blog.myviews.pl&via=krzysu&text=I%27ve+just+visited+this+website%2C+you+should+too+-%3E&"
+                        external={true}
+                        {...bem('footer-button')}
+                    >
+                        twitter
+                    </Button>
                 </div>
             </div>
 
