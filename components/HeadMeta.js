@@ -25,7 +25,7 @@ const HeadMeta = (props) => {
             <meta property="og:description" content={metaDescription} />
             <meta property="og:url" content={prefixLink(path)} />
             <meta property="og:type" content={type} />
-            <meta property="og:image" content={metaImageUrl} />
+            <meta property="og:image" content={prefixLink(metaImageUrl)} />
             <meta property="og:locale" content="pl_PL" />
 
             <meta name="twitter:card" content="summary" />
