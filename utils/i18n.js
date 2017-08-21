@@ -135,7 +135,7 @@ i18n.init({
         formatSeparator: ',',
     },
 
-    react: { wait: true },
+    react: { wait: false },
     // debug: true,
 });
 
