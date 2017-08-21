@@ -15,6 +15,16 @@ export const getAbstract = (post, length = 240) => {
     return html ? truncate(html.replace(/<[^>]*>/g, ''), truncateOptions) : '';
 };
 
+export const truncateForTwitter = (text) => {
+    const textLength = 80;
+    const truncateOptions = {
+        length: textLength,
+        separator: /,? +/,
+    };
+
+    return truncate(text, truncateOptions);
+};
+
 export const getPublicPosts = (pages, lang = 'en', limit = 0, excludePage = {}) => {
     const sortedPages = sortBy(pages, (page) => {
         return get(page, 'data.date');

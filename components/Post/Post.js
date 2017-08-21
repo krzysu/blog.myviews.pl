@@ -24,7 +24,7 @@ const Post = ({ route, t }) => {
                     <div dangerouslySetInnerHTML={{ __html: post.body }} />
                 </div>
                 <div className="post-actions">
-                    <LikeButton id={route.page.path} />
+                    <LikeButton page={route.page} />
                 </div>
             </div>
 

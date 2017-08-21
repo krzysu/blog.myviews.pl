@@ -19,7 +19,7 @@ module.exports = {
         "accessor-pairs": "error",
         "array-bracket-spacing": "error",
         "array-callback-return": "error",
-        "arrow-body-style": ["error", "always"],
+        "arrow-body-style": "off",
         "arrow-parens": [
             "error",
             "always"
@@ -199,7 +199,7 @@ module.exports = {
         "no-warning-comments": "error",
         "no-whitespace-before-property": "error",
         "no-with": "error",
-        "object-curly-newline": "error",
+        "object-curly-newline": "off",
         "object-curly-spacing": [
             "error",
             "always"

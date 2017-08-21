@@ -30,10 +30,6 @@
     margin-bottom: 1.5em;
   }
 
-  &__footer-button {
-    margin: 0 1em;
-  }
-
   &__author-item {
     @include author-item-reversed;
   }

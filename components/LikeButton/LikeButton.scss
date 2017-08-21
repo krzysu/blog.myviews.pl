@@ -51,3 +51,10 @@ $class-name: 'like-button';
     transform: scale(1.15)
   }
 }
+
+.like-button-wrapper {
+  &__share-buttons {
+    margin-top: 1.5em;
+    min-height: 53px;
+  }
+}

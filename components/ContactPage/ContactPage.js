@@ -6,7 +6,7 @@ import { getEmail } from 'utils/helpers';
 import HeadMeta from 'components/HeadMeta';
 import LinkList from 'components/LinkList/LinkList';
 import AuthorItem from 'components/AuthorItem/AuthorItem';
-import Button from 'components/Button/Button';
+import ShareButtons from 'components/ShareButtons';
 
 const bem = new BEMHelper('page'); // global styles
 
@@ -49,20 +49,7 @@ const ContactPage = ({ route, t }) => {
 
                 <div {...bem('footer')}>
                     <div {...bem('footer-copy')}>{t('contactPage.footer')}</div>
-                    <Button
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://blog.myviews.pl"
-                        external={true}
-                        {...bem('footer-button')}
-                    >
-                        facebook
-                    </Button>
-                    <Button
-                        href="https://twitter.com/share?url=https://blog.myviews.pl&via=krzysu&text=I%27ve+just+visited+this+website%2C+you+should+too+-%3E&"
-                        external={true}
-                        {...bem('footer-button')}
-                    >
-                        twitter
-                    </Button>
+                    <ShareButtons />
                 </div>
             </div>
 

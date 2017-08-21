@@ -7,7 +7,13 @@ import './Button.scss';
 
 const bem = new BEMHelper('button');
 
-const Button = ({ children, style, href, external, className }) => {
+const Button = ({ children, style, href, external, className, styleObject }) => {
+    const buttonProps = {
+        className,
+        style: styleObject,
+        ...bem('', { alt: style === 'alt' }),
+    };
+
     if (external) {
         const externalProps = {
             href,
@@ -16,14 +22,14 @@ const Button = ({ children, style, href, external, className }) => {
         };
 
         return (
-            <a {...externalProps} {...bem('', { alt: style === 'alt' }, className)}>
+            <a {...externalProps} {...buttonProps}>
                 {children}
             </a>
         );
     }
 
     return (
-        <Link to={prefixLink(href)} {...bem('', { alt: style === 'alt' }, className)}>
+        <Link to={prefixLink(href)} {...buttonProps}>
             {children}
         </Link>
     );
@@ -35,6 +41,7 @@ Button.propTypes = {
     href: PropTypes.string,
     external: PropTypes.bool,
     className: PropTypes.string,
+    styleObject: PropTypes.object,
 };
 
 export default Button;
