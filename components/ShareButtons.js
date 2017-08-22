@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { config } from 'config';
 import { translate } from 'react-i18next';
 import { prefixLink } from 'gatsby-helpers';
 import { truncateForTwitter } from 'utils/helpers';
 import Button from 'components/Button/Button';
 
 const ShareButtons = ({ url, text }) => {
-    const shareUrl = `https://blog.myviews.pl${url ? prefixLink(url) : ''}`;
+    const shareUrl = `${config.hostname}${url ? prefixLink(url) : ''}`;
     const twitterMessage = truncateForTwitter(text) || 'Check this out! -> ';
 
     const links = [
