@@ -1,6 +1,5 @@
 const fs = require('fs-extra-promise');
 const sm = require('sitemap');
-const config = require('config');
 
 const pagesToSitemap = (pages) => {
     const urls = pages.map((page) => {
@@ -20,7 +19,7 @@ const pagesToSitemap = (pages) => {
 
 const generateSiteMap = (pages) => {
     const sitemap = sm.createSitemap({
-        hostname: config.hostname,
+        hostname: 'https://blog.myviews.pl',
         cacheTime: '60000',
         urls: pagesToSitemap(pages),
     });
