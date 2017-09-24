@@ -7,11 +7,16 @@ import './Button.scss';
 
 const bem = new BEMHelper('button');
 
-const Button = ({ children, style, href, external, className, styleObject }) => {
+const Button = ({ children, style, href, external, className, styleObject, icon }) => {
     const buttonProps = {
         className,
         style: styleObject,
-        ...bem('', { alt: style === 'alt' }),
+        ...bem('', {
+            alt: style === 'alt',
+            'with-icon': !!icon,
+        }, {
+            [`icon-${icon}`]: !!icon,
+        }),
     };
 
     if (external) {
@@ -42,6 +47,7 @@ Button.propTypes = {
     external: PropTypes.bool,
     className: PropTypes.string,
     styleObject: PropTypes.object,
+    icon: PropTypes.string,
 };
 
 export default Button;

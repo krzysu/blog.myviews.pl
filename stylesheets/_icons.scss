@@ -20,9 +20,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
   text-align: center;
-  /* opacity: .8; */
 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
@@ -48,7 +46,7 @@
 .icon-pencil:before { content: '\270e'; } /* '✎' */
 .icon-feather:before { content: '\2712'; } /* '✒' */
 .icon-target:before { content: '\27a2'; } /* '➢' */
-.icon-export:before { content: '\e715'; } /* '' */
+.icon-external:before { content: '\e715'; } /* '' */
 .icon-chat:before { content: '\e720'; } /* '' */
 .icon-vcard:before { content: '\e722'; } /* '' */
 .icon-address:before { content: '\e723'; } /* '' */
@@ -67,6 +65,8 @@
 .icon-heart-empty:before { content: '\e801'; } /* '' */
 .icon-github:before { content: '\f300'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
-.icon-facebook-squared:before { content: '\f30e'; } /* '' */
+.icon-facebook:before { content: '\f30e'; } /* '' */
 .icon-skype:before { content: '\f339'; } /* '' */
 .icon-soundcloud:before { content: '\f348'; } /* '' */
+
+.icon-list-default::before { content: '\E75A'; }

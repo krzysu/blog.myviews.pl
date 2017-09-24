@@ -14,10 +14,12 @@ const ShareButtons = ({ url, text }) => {
         {
             href: `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`,
             text: 'facebook',
+            icon: 'facebook',
         },
         {
             href: `https://twitter.com/share?url=${shareUrl}&via=krzysu&text=${encodeURIComponent(twitterMessage)}`,
             text: 'twitter',
+            icon: 'twitter',
         },
     ];
 
@@ -29,6 +31,7 @@ const ShareButtons = ({ url, text }) => {
                     href={link.href}
                     external={true}
                     styleObject={{ margin: '0 1em' }}
+                    icon={link.icon}
                 >
                     {link.text}
                 </Button>

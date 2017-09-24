@@ -16,7 +16,12 @@ const LinkList = ({ links }) => {
                 } : {};
 
                 return (
-                    <a key={index} href={link.href} {...bem('item')} {...externalProps}>
+                    <a
+                        key={index}
+                        href={link.href}
+                        {...bem('item', null, link.icon ? `icon-${link.icon}` : 'icon-list-default')}
+                        {...externalProps}
+                    >
                         <div {...bem('primary')}>
                             {link.primary}
                         </div>

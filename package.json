@@ -29,7 +29,6 @@
     "lint": "eslint --ext .js --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gatsby build --prefix-links",
-    "deploy": "echo \"Error: no deploy specified\" && exit 1",
-    "deliver": "npm run build && npm run deploy"
+    "deploy": "echo \"Error: no deploy specified\" && exit 1"
   }
 }

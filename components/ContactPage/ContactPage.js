@@ -18,17 +18,20 @@ const ContactPage = ({ route, t }) => {
             href: `mailto:${getEmail()}`,
             primary: 'email',
             secondary: getEmail(),
+            icon: 'mail',
         },
         {
             href: 'https://twitter.com/krzysu',
             primary: 'twitter',
             secondary: '@krzysu',
+            icon: 'twitter',
             external: true,
         },
         {
             href: 'https://www.linkedin.com/in/krzysu/',
             primary: 'linkedIn',
             secondary: 'Kris Urbas',
+            icon: 'vcard',
             external: true,
         },
     ];

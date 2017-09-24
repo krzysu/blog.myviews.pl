@@ -33,7 +33,15 @@ const generateSiteMap = (pages) => {
     );
 };
 
+const copyFonts = () => {
+    // eslint-disable-next-line no-console
+    console.log('Copying fonts');
+
+    fs.copySync(`${__dirname}/pages/static/fonts`, `${__dirname}/public/static/fonts`);
+};
+
 module.exports.postBuild = (pages, callback) => {
     generateSiteMap(pages);
+    copyFonts();
     callback();
 };

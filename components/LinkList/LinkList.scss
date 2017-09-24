@@ -1,4 +1,5 @@
 @import 'stylesheets/vars';
+@import 'stylesheets/mixins';
 
 .link-list {
 
@@ -9,6 +10,7 @@
     padding: 1em 2.5em 1em 0.5em;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    position: relative;
 
     &:first-child {
       border-top: 1px solid #111;
@@ -18,6 +20,14 @@
       text-decoration: none;
       background-color: #f8e7e8;
     }
+
+    &::before {
+      @include icon-base;
+      position: absolute;
+      right: 0.2em;
+      top: 50%;
+      transform: translateY(-50%);
+    }
   }
 
   &__primary {
@@ -25,9 +35,5 @@
     line-height: 1.2272727272727273em;
     font-family: $font-header;
     font-weight: 900;
-  }
-
-  &__secondary {
-
   }
 }

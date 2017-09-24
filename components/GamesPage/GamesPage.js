@@ -17,18 +17,21 @@ const GamesPage = ({ route, t }) => {
             href: 'http://games.myviews.pl/heal-em-all/',
             primary: 'Heal\'em All. There\'s a Cure for Zombies',
             secondary: t('gamesPage.zombieSubtitle'),
+            icon: 'rocket',
             external: true,
         },
         {
             href: 'http://games.myviews.pl/breakout/',
             primary: 'Another Breakout',
             secondary: t('gamesPage.breakoutSubtitle'),
+            icon: 'rocket',
             external: true,
         },
         {
             href: 'http://games.myviews.pl/indie-html5-game-dev-slides/',
             primary: 'Indie HTML5 Game Development: Lessons Learned',
             secondary: t('gamesPage.slidesSubtitle'),
+            icon: 'newspaper',
             external: true,
         },
     ];
