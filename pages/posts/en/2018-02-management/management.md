@@ -1,6 +1,6 @@
 ---
 title: "What is wrong with software development: management"
-date: "2018-02-11"
+date: "2018-02-09"
 layout: post
 path: "/what-is-wrong-with-software-development-management/"
 lang: en
@@ -66,7 +66,7 @@ Why there is a believe that every few years you should rewrite your application?
 
 ---
 
-I could add a few more points to this list. For example: inefficient recruitment and onboarding, wasted resources on meaningless tasks or meetings, lack of design or UX basics, that leads to terrible ideas. But I think I gave you enough to think about.
+I could add a few more points to this list. For example: inefficient recruitment and onboarding or hiring wrong people, wasted resources on meaningless tasks or meetings, lack of design or UX basics, that leads to terrible ideas. But I think I gave you enough to think about.
 
 To sum up: great manager knows how to identify and hire right people, organizes them in self efficient team, introduces them to product, then let them do their job, keeping them away from all the managerial distractions. Then feeding them with new problems to solve, slightly directing with new goals and objectives. And never impacts technical decisions!
 

@@ -8,7 +8,7 @@ lang: pl
 
 > With great power comes great responsibility!
 
-Oto część druga mojego cyklu o problemach branży IT. [W części pierwszej](https://blog.myviews.pl/co-mnie-boli-w-it-management/) napisałem o słabych managerach, którzy nie znają swojej roli w procesie tworzenia oprogramowania. Rezultatem tego jest marna jakość systemu i produktu, niewykorzystywanie potencjału zespołu technicznego oraz brak satysfakcji z wykonywanej pracy.
+Oto część druga mojego cyklu o problemach branży IT. [W części pierwszej](/co-mnie-boli-w-it-management/) napisałem o słabych managerach, którzy nie znają swojej roli w procesie tworzenia oprogramowania. Rezultatem tego jest marna jakość systemu i produktu, niewykorzystywanie potencjału zespołu technicznego oraz brak satysfakcji z wykonywanej pracy.
 
 Dzisiaj spojrzymy na nasz zawód z dalszej perspektywy. Rozwój technologiczny postępuje niesamowicie szybko. My jako inżynierowie, znający te technologie, możemy wykorzystać naszą wiedzę i umiejętności na wiele różnych sposobów. Spójrzmy na możliwe odpowiedzialności, które są z tym związane.
 
