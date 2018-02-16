@@ -57,4 +57,4 @@ Zastanów się teraz nad tym. Na pewno już nie jednego takiego "szefa" spotkał
 
 Ważne! Bądź spokojny, obserwuj, przeanalizuj fakty kilka razy, bo **możesz się też mylić w swoich osądach**. Nie wyrażaj swojej opinii zbyt szybko, bo może to jednak ty nie rozumiesz sytuacji. Ale jeżeli jesteś całkowicie pewien, że coś jest nie tak, to musisz działać. Porozmawiaj, zaproponuj zmiany, przedstaw im swoją wersję. Może oni nauczą się czegoś od ciebie, a może ty nauczysz się od nich. Jeżeli jednak widzisz brak zrozumienia, a jesteś pewien swojej racji, to idź i szukaj innej pracy. Szkoda twojego życia i zdrowia na pracę z takimi ludźmi.
 
-W kolejnych wpisach planuję poruszać **więcej tematów związanych ze szczęśliwym i spełnionym życiem programisty**. Zachęcam Cię też do sprawdzenia mojego profilu na [Twitterze](http://twitter.com/krzysu).
+W kolejnych wpisach planuję poruszać **więcej tematów związanych ze szczęśliwym i spełnionym życiem programisty**. Zachęcam Cię też do sprawdzenia mojego profilu na [Twitterze](https://twitter.com/krzysu).

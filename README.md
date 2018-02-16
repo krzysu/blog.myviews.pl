@@ -10,4 +10,4 @@ This website is open sourced for learning and recruitment purposes. Do not use f
 - gatsby.js
 
 * * *
-created by Kris Urbas [@krzysu](http://twitter.com/krzysu), all rights reserved
+created by Kris Urbas [@krzysu](https://twitter.com/krzysu), all rights reserved

@@ -95,4 +95,4 @@ Below is the list of online places where I think might be good to put your game,
 - [Another Breakout](http://games.myviews.pl/breakout/) - written in about 11 hours, weekend project, includes "responsive game design" approach
 
 
-If you like the above compilation of resources [follow me on twitter](http://twitter.com/krzysu) for more about front-end and game development.
+If you like the above compilation of resources [follow me on twitter](https://twitter.com/krzysu) for more about front-end and game development.

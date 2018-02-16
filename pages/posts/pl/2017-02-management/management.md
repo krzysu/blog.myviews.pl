@@ -50,4 +50,4 @@ Myślę, że mógłbym dodać jeszcze kilka kolejnych punktów do tej listy. We�
 
 Zmierzając do podsumowania, **dobry manager** to taki, który współpracuje z zespołem, ale nie ingeruje w jego wewnętrzną pracę. Zespół oczywiście musi być samowystarczalny, zapoznany z problemem i produktem, zorientowany na cel, w który wierzy. Jak zbudować taki zespół dowiecie się z kolejnych wpisów.
 
-Zachęcam do sprawdzenia mojego profilu na [Twitterze](http://twitter.com/krzysu). Tam też przyjmuję komentarze!
+Zachęcam do sprawdzenia mojego profilu na [Twitterze](https://twitter.com/krzysu). Tam też przyjmuję komentarze!

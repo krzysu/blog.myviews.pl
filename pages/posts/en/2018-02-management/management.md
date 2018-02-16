@@ -70,11 +70,11 @@ I could add a few more points to this list. For example: inefficient recruitment
 
 To sum up: great manager knows how to identify and hire right people, organizes them in self efficient team, introduces them to product, then let them do their job, keeping them away from all the managerial distractions. Then feeding them with new problems to solve, slightly directing with new goals and objectives. And never impacts technical decisions!
 
-If you agree with me or not, let me know either way! You can find me on [Twitter](http://twitter.com/krzysu).
+If you agree with me or not, let me know either way! You can find me on [Twitter](https://twitter.com/krzysu).
 
 ---
 
-My goal is to show you **how to be happy as a software engineer**. It doesn't matter if you are senior or junior. Follow me on [Twitter](http://twitter.com/krzysu) and check this blog regularly to find out:
+My goal is to show you **how to be happy as a software engineer**. It doesn't matter if you are senior or junior. Follow me on [Twitter](https://twitter.com/krzysu) and check this blog regularly to find out:
 - what to learn and how to develop your skills,
 - how to find a nice, meaningful job and professional fulfillment,
 - how to work less but efficient, avoid stress and over-hours,

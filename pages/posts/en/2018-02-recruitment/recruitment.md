@@ -34,4 +34,4 @@ Instead of hiring more you can also just optimize your already existing workforc
 I wrote a long post about what is wrong with management in software development, so you should just
 [read it now](/what-is-wrong-with-software-development-management/).
 
-If you agree with me or not, let me know either way! You can find me on [Twitter](http://twitter.com/krzysu).
+If you agree with me or not, let me know either way! You can find me on [Twitter](https://twitter.com/krzysu).

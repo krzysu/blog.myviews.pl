@@ -86,7 +86,7 @@ You can figure out by yourself how to make your webite more social. Just remembe
 - encourage to share only relevant information - no point in sharing sign-up form
 - people like to see a social proof
 
-As always, comments are welcomed! Find me on [Twitter](http://twitter.com/krzysu).
+As always, comments are welcomed! Find me on [Twitter](https://twitter.com/krzysu).
 
 Reference:
 

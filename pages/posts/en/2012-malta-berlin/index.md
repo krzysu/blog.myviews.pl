@@ -43,5 +43,5 @@ So you know a bit about possibilities for developers on Malta and in Berlin. But
 
 I once heard this [here](http://vimeo.com/44130258): „Are you doing what you love right now? No? So start”. Each of us can find a better place and better opportunities to live and, as you can see, **nothing is perfect** (and nothing lasts forever). The decision is yours. But make that decision and be proud of it. There are no excuses.
 
-Comments are welcomed. Find me on [Twitter](http://twitter.com/krzysu).
+Comments are welcomed. Find me on [Twitter](https://twitter.com/krzysu).
 Tschüss.

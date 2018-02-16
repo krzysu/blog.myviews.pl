@@ -41,7 +41,30 @@ Now look: **this "bridge" will be successfully implemented only if you have nece
 - accommodation option inside the bridge is completely not relevant here. I believe management wants to offer our clients another product so let's talk about it when bridge project is done.
 - why our bridge should auto-scale now if we only have 100 users so far? Let's go back to it when we really have such a problem.
 
-Do you see now what I'm talking about? A regular "production line programmer" will jump into this project without asking any questions. He will code during days and nights or even weekends and accept anything what his boss or manager will throw on him.
+Do you see now where I'm going with this? A regular "production line programmer" will jump into this project without asking any questions. He will code during days and nights or even weekends and accept anything what his manager will throw on him. The result? Programmer is exhausted and unhappy, product is of a bad quality and full of bugs, and users cannot get any real value of it anyway. So they most likely will go for a solution of a competitor. Business is losing here too. Sounds like **lose-lose situation**.
 
+Why I'm sure the bridge project will end up like that? There are always three variables in a project: time, people (but some managers call us resources) and scope. The rule is easy: **you cannot alter any of them without impacting the others**. For example, you cannot add more tasks to a running project without giving people more time to accomplish them, or without adding more people to a team. But be careful with the last one, as 10 programmers won't do the same work in one day as one programmer in 10 days.
 
-Widzisz, do czego zmierzam? Programista-robol rzuci się na powyższy projekt **bez zastanowienia**. Będzie kodował w dzień, w nocy i w weekend, zbuduje wszystko, co szefowie na niego rzucą. Rezultat? Programista będzie zmęczony i nieszczęśliwy, produkt będzie marnej jakości i pełen błędów, a użytkownicy i tak nie będą w stanie z niego skorzystać i sfrustrowani zainteresują się produktem konkurencji. Straci więc i biznes.
+This leads us to another reason why we, software engineers, should be constantly improving our skills and not only the technical ones. The reason are our managers. **We need to know how to distinguish a good manager from a bad one**. I'm sure each of you have met a bad one on your carrier path already. And it's just a waste of your time and health to work with them.
+
+I would argue that poorly skilled and educated management is one of the biggest pain points in our profession. I wrote [a separate post on that issue only](/what-is-wrong-with-software-development-management/). Their lack of understanding of a problem, a product, users, technology, people or business can ruin a project, team or even a whole company. I've seen enough.
+
+Luckily **there is never too late for a change**. You can educate yourself, your colleagues and your managers. You can try to change the work environment around you and your team. You can also learn a lot from them. Start introducing change from your closest circle. Convince your manager that you will try different approach on the next project. As the last resort, you can always change your job or start your own company with all that knowledge and experience you gathered along the way.
+
+Important! Be careful with your judgment. Take your time to fully understand processes in your company. Ask hard questions, ask "why" a lot. This will give you an impression if your managers know what they are doing. Never insult other people, even if you know they are wrong. **It's all about discussion and cooperation to a common goal, which always should be a valuable product and happy users**.
+
+But if you don't see any progress or willingness to improve, if you feel ignored, if you are sure software and product development could be done better but no one around understands you, then it's time for a change. Quit your job and search for a better work environment for you. It's possible, you just need to put more effort to find them. Don't lose your life and health to work with bad people.
+
+If you agree with me or not, let me know either way! You can find me on [Twitter](https://twitter.com/krzysu).
+
+---
+
+My goal is to show you **how to be happy as a software engineer**. It doesn't matter if you are senior or junior. Follow me on [Twitter](https://twitter.com/krzysu) and check this blog regularly to find out:
+- what to learn and how to develop your skills,
+- how to find a nice, meaningful job and professional fulfillment,
+- how to work less but efficient, avoid stress and over-hours,
+- how to be a part of a great team and what type of people to avoid,
+- how to find work-life balance,
+- and finally, how all of it can lead to happy and full life.
+
+If you are not a software engineer but your job is anyhow related to software production, then you can also learn a lot along the way. Just read between the lines ;)

@@ -53,4 +53,4 @@ Co za tym idzie, powinniśmy być w stanie powiedzieć ***nie*** w sytuacjach, g
 
 Jesteśmy inżynierami, w naszych rękach mamy nieograniczone możliwości tworzenia internetowych produktów, używajmy technologii z głową. Nie pracujmy dla firm, które nie dbają o pracowników, o środowisko, o użytkowników. Wybierajmy nasze projekty i miejsca zatrudnienia świadomie, nie tylko na podstawie wysokości wynagrodzenia. Bądźmy profesjonalistami i bądźmy odpowiedzialni za nasze działania!
 
-Podziel się ze mną swoją opinią. Znajdziesz mnie w serwisie [Twitter](http://twitter.com/krzysu).
+Podziel się ze mną swoją opinią. Znajdziesz mnie w serwisie [Twitter](https://twitter.com/krzysu).
