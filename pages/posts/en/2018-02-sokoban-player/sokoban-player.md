@@ -15,8 +15,6 @@ Other features include:
 - you can easily share any level,
 - levels shared with you are automatically added to your playlist.
 
-![sokoban player screenshot](./sokoban-player-1.png)
-
 Check it out here: [Sokoban Player](https://sokoban-player.netlify.com/)
 
 I would like to recommend you a few nice and easy levels to play as a starter:
@@ -27,3 +25,5 @@ And one a little bit more challenging:
 - level by Thomas Reinke, from pack "81" - [play it now](https://sokoban-player.netlify.com/2G4AH2GA2G5AH3AGFA3GAHAB2GD4GAHAG2AE5AHA3GD2GAH3AGF2GAH2GA2G3AH2G4A)
 
 I'm looking forward to your feedback! You can find me on [Twitter](https://twitter.com/krzysu).
+
+[![sokoban player screenshot](./sokoban-player-1.png)](https://sokoban-player.netlify.com/8AHA2GA3GAHA3GD2GAHA2GA2DGAH2AGA3GAHA2FGDAGAHA2F3GBAH8A)
