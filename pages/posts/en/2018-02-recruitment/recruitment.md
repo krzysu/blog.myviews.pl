@@ -6,7 +6,7 @@ path: "/you-dont-need-another-software-engineer/"
 lang: en
 ---
 
-> A note on recruitment in todays IT companies.
+> A note on recruitment in today's IT companies.
 
 A few months ago I attended a meetup titled "Building your Engineering Team". What I found out was that all companies are striving to get the best talent out there. It's not that I didn't know that before. But it somehow struck me that day. **They are all looking for some magical trick to hire the best people**. It is mainly about optimizing process to go through as many candidates as possible in very short time. It's about how to figure out puzzles and other questions or assignments to validate candidate skills and fit for the job. I see the same tendency as in other areas of western life: go for more, and more, and more.
 

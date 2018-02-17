@@ -12,10 +12,10 @@ I work with Internet and software for more than 9 years. One of the biggest prob
 
 #### 1. Software is managed by people who have no idea about software development
 
-Let's face it, most of people who are telling you what to do, have no education or experience in software development.
+Let's face it, many people who are telling you what to do, have no education or experience in software development.
 
 How many times did you receive a feature specification, which after further examination, **didn't make any sense?**
-Managers like to spend time on long meetings and create their roadmaps and specifications. The problem is that they almost never invite engineers. And later, when presenting their "next big thing" to us, they get stuck on the second question we ask. In other cases, problems start to happen later in the development process. Nobody is able to predict, plan and prepare for all possibilities when producing software, without actually writing it and testing.
+Managers like to spend time on long meetings and create their road-maps and specifications. The problem is that they almost never invite engineers. And later, when presenting their "next big thing" to us, they get stuck on the second question we ask. In other cases, problems start to happen later in the development process. Nobody is able to predict, plan and prepare for all possibilities when producing software, without actually writing it and testing.
 
 How many times did you receive a short message from your PM, like: "hey, could you just change this [one little thing]?". But after checking and understanding what it is really about you felt bad and sad. Because you knew that this "small" change doesn't fit into your system "just like that" and it will be a pain to maintain it in the future. Managers think they are clever and they will save development time now. But **why they never include time needed to maintain and clean it up later in the future?**
 
@@ -49,7 +49,7 @@ The solution is again, to involve a technical team early in a product developmen
 In many IT organizations a technology department is responsible only for executive part of projects. Responsibilities are very clearly split. Product department plans and prepares specification, then delivers it together with designs to engineers.
 
 I would argue that's very bad for their business. It leads to poor quality of final product and little motivated workers.
-Programmers in such hierarchical structures are **labor force of XXI centaury**. They will implement anything that you throw on them. If it makes sense or not, as no one ever expected any feedback from them.
+Programmers in such hierarchical structures are **labor force of XXI century**. They will implement anything that you throw on them. If it makes sense or not, as no one ever expected any feedback from them.
 
 > Manager: Could you delete our production database? It takes too much space on our hard drives.   
 Demotivated engineer: Wait, what did you say? Oh, whatever... done!
@@ -62,11 +62,11 @@ The solution to above is: **always approach your tech team with a problem, not w
 
 Agile methodologies of software development rule our workflows for a long time. That's very good, they have many advantages over its predecessor. Problem is, **very few managers understand iterative process of keeping source code in a good quality**. That's not covered with Agile. A few people understand that technical debt has to be payed back. That libraries, frameworks, databases and other elements of the system have to be regularly updated. That performance of our apps is important. That refactoring and tests are part of everyday work of a software engineer.
 
-Why there is a believe that every few years you should rewrite your application? Why every change takes weeks and introduces even more bugs? Why none of time estimates is true? Because management doesn't understand *how* and even worse, *why*, to build code of good quality. They don't realize that it's an investment that will payoff with every new feature.
+Why there is believe that every few years you should rewrite your application? Why every change takes weeks and introduces even more bugs? Why none of time estimates is true? Because management doesn't understand *how* and even worse, *why*, to build code of good quality. They don't realize that it's an investment that will payoff with every new feature.
 
 ---
 
-I could add a few more points to this list. For example: inefficient recruitment and onboarding or hiring wrong people, wasted resources on meaningless tasks or meetings, lack of design or UX basics, that leads to terrible ideas. But I think I gave you enough to think about.
+I could add a few more points to this list. For example: inefficient recruitment and on-boarding or hiring wrong people, wasted resources on meaningless tasks or meetings, lack of design or UX basics, that leads to terrible ideas. But I think I gave you enough to think about.
 
 To sum up: great manager knows how to identify and hire right people, organizes them in self efficient team, introduces them to product, then let them do their job, keeping them away from all the managerial distractions. Then feeding them with new problems to solve, slightly directing with new goals and objectives. And never impacts technical decisions!
 
