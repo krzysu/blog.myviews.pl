@@ -13,7 +13,7 @@ My goal is to show you how to be happy as a software engineer. It doesn't matter
 Now, attention please. This is important. Self-development of a great programmer **is not only about improving your technical skills(!)**. Of course, your technical knowledge and experience are important but let's consider following examples:
 - so what, if you've implemented hundreds of features in a product that no one needs?
 - so what, if your backend is optimized for performance while user interface is terrible and no one knows how to use your app?
-- so what, if you are using all the latest and coolest technologies while you are loosing your health and friends to over-hours in badly managed project?
+- so what, if you are using all the latest and coolest technologies while you are losing your health and friends to over-hours in badly managed project?
 - so what, if you know by heart the whole ECMAScript specification while no one from your team understands what you are talking about?
 - so what, if you configured servers to handle million of request per second while your boss is not able to pay your next salary?
 
