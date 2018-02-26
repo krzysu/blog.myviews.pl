@@ -14,13 +14,13 @@ It took me more than a year to find time and motivation to experience Elm by mys
 
 ### Compiler is your friend
 
-The first thing you will notice when working with Elm is it's compiler. In short, it's great! It leads you by hand and tells you about everything what is still needed to be fixed before your program can compile. In the beginning I struggled a lot with types. Elm is strongly typed but compiler always helped me with figuring out what is wrong or missing.
+The first thing you will notice when working with Elm is a compiler. In short, it's great! It leads you by hand and tells you about everything what is still needed to be fixed before your program can compile. In the beginning I struggled a lot with types. Elm is strongly typed but compiler always helped me with figuring out what is wrong or missing.
 
 I learned fast that **default tools provided with Elm are not enough**. I would not recommend to use `elm reactor` for any project outside of "hello world". It runs local dev server for you but after every code change you need to refresh a browser window manually to see update (or most likely: compiler error report). So far [create-elm-app](https://github.com/halfzebra/create-elm-app) works for me really well. I'm missing SASS support out of the box, but you can always run `elm-app eject` and configure webpack loaders by yourself. However I avoided that in my projects and just kept with oldschool plain CSS.
 
 So with create-elm-app my workflow looks like on the screen below. On the right side of my screen I have a terminal with elm-app running. On every change it recompiles my code and gives me instant feedback. On the left side I have my code editor. I'm also using [elm-format](https://github.com/avh4/elm-format) which saves me a lot of time. What does it do? It formats my source code based on the official Elm Style Guide on every file save. Great stuff!
 
-![my elm workspace](./workspace.png)
+[![my elm workspace](./workspace.png)](./workspace.png)
 
 ### Thinking the functional way
 
@@ -105,9 +105,9 @@ The biggest project I've built with Elm so far is the [Sokoban Player](https://s
 
 ![sokoban player](./sokoban-player.gif)
 
-Along the way **I went through a lot of challenges that required me to learn different aspects of the language**. I tried all possible Elm data structures to model properly data behind my app. I moved from List to Array to Dict and Set to finally end up with Array to keep levels in player playlist. I used Navigation package to be able to easily share levels and to switch between other pages. I learned about Subscriptions, together with Keyboard and Window packages. I build my own Encoders and Decoders, but that aspect of Elm is still hard to fully grasp for me. I used Commands and ports to store player scores into LocalStorage and handle other Elm limits (I will go back to limitations later). I also wrote quite a lot of tests to cover most critical business logic of my app.
+Along the way **I went through a lot of challenges that required me to learn different aspects of the language**. I tried all possible Elm data structures to model properly data behind my app. I moved from List to Array to Dict and Set to finally end up with Array to keep levels in player playlist. I used Navigation package to be able to easily share levels and to switch between other pages. I learned about Subscriptions, together with Keyboard and Window packages. I build my own Encoders and Decoders, but that aspect of Elm is still hard to fully grasp for me. I used Commands and ports to store player scores in LocalStorage and handle other Elm limits (I will go back to limitations later). I also wrote quite a lot of tests to cover most critical business logic of my app.
 
-Every new feature in my app required some refactoring. Sometimes bigger, sometimes smaller. But the thing is that you just cannot add any bad code to your Elm app. Complier won't let you do that! **With every new feature I felt like solving a puzzle.** How to prepare my current code base that I can fit in a new feature easily? That was a lot of fun. And sometimes a big challenge. I refactored underlaying data structures a few times along the way. But every time you change things, compiler is your guide. It won't forget about any place that you might have missed. And finally it will show you the green message which you are waiting for - "Compiled successfully!"
+Every new feature in my app required some refactoring. Sometimes bigger, sometimes smaller. But the thing is that you just cannot add any bad code to your Elm app. Compiler won't let you do that! **With every new feature I felt like solving a puzzle.** How to prepare my current code base that I can fit in a new feature easily? That was a lot of fun. And sometimes a big challenge. I refactored underlaying data structures a few times along the way. But every time you change things, compiler is your guide. It won't forget about any place that you might have missed. And finally it will show you the green message which you are waiting for - "Compiled successfully!"
 
 > **Refactoring in Elm is unavoidable and easy. Both are good things.**
 
