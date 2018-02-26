@@ -124,6 +124,6 @@ My verdict is: **Elm is great for learning, becoming a better programmer, side p
 
 When I'm writing these words, new version 0.19 of Elm is expected. One of the big new features is **Server Side Rendering**. I'm really looking forward to it. I think that would help my Sokoban Player with initial rendering time and positioning in search engines. I know that Google claims to index and parse also Single Page Apps, but I'm still not happy with my current SEO results.
 
-This was my first technical post on this blog. Let me know how do you like it! You can write me directly on [Twitter](https://twitter.com/krzysu) or comment on Hacker News.
+This was my first technical post on this blog. Let me know how do you like it! You can write me directly on [Twitter](https://twitter.com/krzysu) or comment on [Hacker News](https://news.ycombinator.com/item?id=16464845).
 
 Happy hacking!
