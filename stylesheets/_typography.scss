@@ -92,3 +92,21 @@ blockquote {
 a {
   color: $color-alt;
 }
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 0.2em 0.4em;
+
+  code {
+    padding: 0;
+    border-radius: 0;
+  }
+}
