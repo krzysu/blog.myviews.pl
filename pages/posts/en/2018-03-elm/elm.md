@@ -112,7 +112,7 @@ Every new feature in my app required some refactoring. Sometimes bigger, sometim
 
 ### Know your limits
 
-My current knowledge level of Elm gives me mixed feelings. It's is really a developer friendly programming language. It forces you to write a good code. It prevents you from causing any run time errors! Think about it. When your code is accepted by compiler, built and run on your **static server**, there is no chance that your user will get an exception. You probably have logic bugs in your app or browser specific rendering issues but nothing purely related to code that runs it. No dead ends!
+My current knowledge level of Elm gives me mixed feelings. It is really developer friendly programming language. It forces you to write a good code. It prevents you from causing any run time errors! Think about it. When your code is accepted by compiler, built and run on your **static server**, there is no chance that your user will get an exception. You probably have logic bugs in your app or browser specific rendering issues but nothing purely related to code that runs it. No dead ends!
 
 From the other side, web ecosystem is huge. Elm covered only a part of it so far. **You will quickly get to the limits of Elm.** That's when ports come handy. They allow for communication with "external world". In my example I needed to use them to store data to LocalStorage, to scroll page to an element on certain action or to hook in Google Analytics. Managing advanced views is also not so nice. Syntax like JSX is way more readable for me, but that's only my taste.
 
