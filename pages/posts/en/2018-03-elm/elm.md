@@ -1,10 +1,9 @@
 ---
 title: "My Elm learning experience"
-date: "2018-03-01"
+date: "2018-02-26"
 layout: post
 path: "/elm-learning-experience/"
 lang: en
-draft: true
 ---
 
 I've heard about [Elm programming language](http://elm-lang.org/) around two years ago. I remember I watched on YouTube some talk from one of front-end conferences. And I had a WOW moment. I had already experience with React and Redux but **Elm architecture seemed simpler and more precise** (thanks to union types). There is only one way. You trigger action, model updates based on action, view represents model. All what you need to build a modern web application.
@@ -113,10 +112,18 @@ Every new feature in my app required some refactoring. Sometimes bigger, sometim
 
 ### Know your limits
 
-it's limited comparing to JS, ports
-nice for side project or logic part of system but not everything, know the limits
+My current knowledge level of Elm gives me mixed feelings. It's is really a developer friendly programming language. It forces you to write a good code. It prevents you from causing any run time errors! Think about it. When your code is accepted by compiler, built and run on your **static server**, there is no chance that your user will get an exception. You probably have logic bugs in your app or browser specific rendering issues but nothing purely related to code that runs it. No dead ends!
+
+From the other side, web ecosystem is huge. Elm covered only a part of it so far. **You will quickly get to the limits of Elm.** That's when ports come handy. They allow for communication with "external world". In my example I needed to use them to store data to LocalStorage, to scroll page to an element on certain action or to hook in Google Analytics. Managing advanced views is also not so nice. Syntax like JSX is way more readable for me, but that's only my taste.
+
+I could think about some hybrid architecture, where Elm is responsible for business logic and exposes an API by ports, to communicate with View built in React... But it's probably a huge over-engineering ;)
+
+My verdict is: **Elm is great for learning, becoming a better programmer, side projects or small commercial projects.** But I would need a lot of convincing from someone better with Elm than me to agree to use it in a big commercial project. Sorry, let's see Elm version 1.0.  
 
 ### Looking forward
 
-sokoban example, source code
-looking forward to 0.19 and SSR
+When I'm writing these words, new version 0.19 of Elm is expected. One of the big new features is **Server Side Rendering**. I'm really looking forward to it. I think that would help my Sokoban Player with initial rendering time and positioning in search engines. I know that Google claims to index and parse also Single Page Apps, but I'm still not happy with my current SEO results.
+
+This was my first technical post on this blog. Let me know how do you like it! You can write me directly on [Twitter](https://twitter.com/krzysu) or comment on Hacker News.
+
+Happy hacking!
