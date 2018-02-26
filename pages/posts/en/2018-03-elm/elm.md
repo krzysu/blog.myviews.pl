@@ -18,7 +18,9 @@ The first thing you will notice when working with Elm is it's compiler. In short
 
 I learned fast that **default tools provided with Elm are not enough**. I would not recommend to use `elm reactor` for any project outside of "hello world". It runs local dev server for you but after every code change you need to refresh a browser window manually to see update (or most likely: compiler error report). So far [create-elm-app](https://github.com/halfzebra/create-elm-app) works for me really well. I'm missing SASS support out of the box, but you can always run `elm-app eject` and configure webpack loaders by yourself. However I avoided that in my projects and just kept with oldschool plain CSS.
 
-So with create-elm-app my workflow looks like on the screen below. (TODO make screenshot) On the right side of my screen I have a terminal with elm-app running. On every change it recompiles my code and gives me instant feedback. On the left side I have my code editor. I'm also using [elm-format](https://github.com/avh4/elm-format) which saves me a lot of time. What does it do? It formats my source code based on the official Elm Style Guide on every file save. Great stuff!
+So with create-elm-app my workflow looks like on the screen below. On the right side of my screen I have a terminal with elm-app running. On every change it recompiles my code and gives me instant feedback. On the left side I have my code editor. I'm also using [elm-format](https://github.com/avh4/elm-format) which saves me a lot of time. What does it do? It formats my source code based on the official Elm Style Guide on every file save. Great stuff!
+
+![my elm workspace](./workspace.png)
 
 ### Thinking the functional way
 
@@ -61,14 +63,53 @@ But when you understand pipes, then it's easy.
         |> Debug.log "log"
         |> String.filter isNotSpace
 
-**Now it seems obvious to me.** But after years of working with JavaScript, where you can add an extra line with `console.log` in any place, trying to do the same in Elm required fundamental shift in my way of thinking.
+**Now it seems obvious to me.** But after years of working with JavaScript, where you can add an extra line with `console.log` in any place, trying to do the same in Elm, required fundamental shift in my way of thinking.
+
+### Functional vs. procedural
+
+On my journey into world of functional programming **I got stuck for a while on a problem, which would be otherwise trivial in a procedural way**. I wanted to generate coordinates of all possible fields on my 10x10 game board. Consider this fragment of procedural code in JavaScript.
+
+    var length = 10;
+    var coordinates = [];
+
+    for (var x = 0; x < length; x++) {
+        for (var y = 0; y < length; y++) {
+            coordinates.push({
+                x: x,
+                y: y
+            })
+        }
+    }
+
+But how to achieve the same in Elm? It took me some time and a lot of head scratching to came up with this:
+
+    getAllCoordinates : Int -> List ( Int, Int )
+    getAllCoordinates size =
+        let
+            lengthAsArray =
+                List.range 0 (size - 1)
+        in
+            lengthAsArray
+                |> List.concatMap
+                    (\x ->
+                        List.map
+                            (\y -> ( x, y ))
+                            lengthAsArray
+                    )
+
+I don't even want to explain the details of this implementation now, but you can see the difference. If you know better or more elegant solution to this problem, let me know please!
 
 ### Continuous refactoring
 
-refactoring
-every feature is a puzzle
-data structures
-tests
+The biggest project I've built with Elm so far is the [Sokoban Player](https://sokoban-player.netlify.com/). You can find the source code [here](https://github.com/krzysu/elm-sokoban-player).
+
+![sokoban player](./sokoban-player.gif)
+
+Along the way **I went through a lot of challenges that required me to learn different aspects of the language**. I tried all possible Elm data structures to model properly data behind my app. I moved from List to Array to Dict and Set to finally end up with Array to keep levels in player playlist. I used Navigation package to be able to easily share levels and to switch between other pages. I learned about Subscriptions, together with Keyboard and Window packages. I build my own Encoders and Decoders, but that aspect of Elm is still hard to fully grasp for me. I used Commands and ports to store player scores into LocalStorage and handle other Elm limits (I will go back to limitations later). I also wrote quite a lot of tests to cover most critical business logic of my app.
+
+Every new feature in my app required some refactoring. Sometimes bigger, sometimes smaller. But the thing is that you just cannot add any bad code to your Elm app. Complier won't let you do that! **With every new feature I felt like solving a puzzle.** How to prepare my current code base that I can fit in a new feature easily? That was a lot of fun. And sometimes a big challenge. I refactored underlaying data structures a few times along the way. But every time you change things, compiler is your guide. It won't forget about any place that you might have missed. And finally it will show you the green message which you are waiting for - "Compiled successfully!"
+
+> **Refactoring in Elm is unavoidable and easy. Both are good things.**
 
 ### Know your limits
 
