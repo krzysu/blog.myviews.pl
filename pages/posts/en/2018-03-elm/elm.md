@@ -106,7 +106,7 @@ The biggest project I've built with Elm so far is the [Sokoban Player](https://s
 
 Along the way **I went through a lot of challenges that required me to learn different aspects of the language**. I tried all possible Elm data structures to model properly data behind my app. I moved from List to Array to Dict and Set to finally end up with Array to keep levels in player playlist. I used Navigation package to be able to easily share levels and to switch between other pages. I learned about Subscriptions, together with Keyboard and Window packages. I build my own Encoders and Decoders, but that aspect of Elm is still hard to fully grasp for me. I used Commands and ports to store player scores in LocalStorage and handle other Elm limits (I will go back to limitations later). I also wrote quite a lot of tests to cover most critical business logic of my app.
 
-Every new feature in my app required some refactoring. Sometimes bigger, sometimes smaller. But the thing is that you just cannot add any bad code to your Elm app. Compiler won't let you do that! **With every new feature I felt like solving a puzzle.** How to prepare my current code base that I can fit in a new feature easily? That was a lot of fun. And sometimes a big challenge. I refactored underlaying data structures a few times along the way. But every time you change things, compiler is your guide. It won't forget about any place that you might have missed. And finally it will show you the green message which you are waiting for - "Compiled successfully!"
+Every new feature in my app required some refactoring. Sometimes bigger, sometimes smaller. But the thing is that you just cannot add any bad code to your Elm app. Compiler won't let you do that! **With every new feature I felt like solving a puzzle.** How to prepare my current code base that I can fit in a new feature easily? That was a lot of fun. And sometimes a big challenge. I refactored underlying data structures a few times along the way. But every time you change things, compiler is your guide. It won't forget about any place that you might have missed. And finally it will show you the green message which you are waiting for - "Compiled successfully!"
 
 > **Refactoring in Elm is unavoidable and easy. Both are good things.**
 
@@ -118,7 +118,7 @@ From the other side, web ecosystem is huge. Elm covered only a part of it so far
 
 I could think about some hybrid architecture, where Elm is responsible for business logic and exposes an API by ports, to communicate with View built in React... But it's probably a huge over-engineering ;)
 
-My verdict is: **Elm is great for learning, becoming a better programmer, side projects or small commercial projects.** But I would need a lot of convincing from someone better with Elm than me to agree to use it in a big commercial project. Sorry, let's see Elm version 1.0.  
+My verdict is: **Elm is great for learning, becoming a better programmer, side projects or small commercial projects.** But I would need a lot of convincing from someone better with Elm to agree to use it in a big commercial project. Sorry, let's see Elm version 1.0.  
 
 ### Looking forward
 
