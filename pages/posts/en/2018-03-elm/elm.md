@@ -6,7 +6,7 @@ path: "/elm-learning-experience/"
 lang: en
 ---
 
-I've heard about [Elm programming language](http://elm-lang.org/) around two years ago. I remember I watched on YouTube some talk from one of the front-end conferences. And I had a WOW moment. I had already experience with React and Redux but **Elm architecture seemed simpler and more precise** (thanks to union types). There is only one way. You trigger action, model updates based on action, the view represents the model. All that you need to build a modern web application.
+I've heard about [Elm programming language](http://elm-lang.org/) around two years ago. I remember I watched on YouTube some talk from one of the front-end conferences. And I had a WOW moment. I had already experience with React and Redux but **Elm architecture seemed simpler and more precise** (thanks to union types). There is only one way. You trigger action, model updates based on action, the view represents the model. All what you need to build a modern web application.
 
 Redux is based on Elm concept anyway. But JavaScript, in general, allows you to do anything. We developers need to have a strong self-control to keep our code nice and clean. **With Elm you have no other option!**
 
@@ -26,42 +26,51 @@ So with create-elm-app, my workflow looks like on the screen below. On the right
 
 Next thing that you have to embrace is thinking in a functional way. I don't want to write here any details about what functional programming is, but I will give you a few examples that made me think (sometimes really hard). First I got comfortable with pipe (`|>`) operator. It makes chains of your function calls easy to read. Look at the example taken from [here](http://elm-lang.org/examples/pipes/code).
 
+    weirdReversal1 : String -> String
     weirdReversal1 string =
-      String.filter isNotSpace (String.toUpper (String.reverse string))
+        String.filter isNotSpace (String.toUpper (String.reverse string))
 
 Above code written with pipe operator looks like:
 
+    weirdReversal2 : String -> String
     weirdReversal2 string =
-      string
-        |> String.reverse
-        |> String.toUpper
-        |> String.filter isNotSpace
+        string
+            |> String.reverse
+            |> String.toUpper
+            |> String.filter isNotSpace
 
 Next interesting learning was that every line of code in Elm has to return something. Even `Debug.log` which logs variable value to the browser console, the same way as `console.log` in JavaScript. So let's say you have a function like above (without pipes as you are completely new in functional programming), and you want to log the value of a string after `String.toUpper` operation. My way of thinking was not functional at all.
 
+    weirdReversal1 : String -> String
     weirdReversal1 string =
-      let
-        afterUpper = String.toUpper (String.reverse string)
-        _ = Debug.log "log" afterUpper
-      in
-        String.filter isNotSpace afterUpper
+        let
+            afterUpper =
+                String.toUpper (String.reverse string)
+
+            _ =
+                Debug.log "log" afterUpper
+        in
+            String.filter isNotSpace afterUpper
 
 Another try, a little better, as I'm using the result of `Debug.log` and passing to `isNotSpace`.
 
+    weirdReversal1 : String -> String
     weirdReversal1 string =
-      let
-        afterUpper = String.toUpper (String.reverse string)
-      in
-        String.filter isNotSpace (Debug.log "log" afterUpper)
+        let
+            afterUpper =
+                String.toUpper (String.reverse string)
+        in
+            String.filter isNotSpace (Debug.log "log" afterUpper)
 
 But when you understand pipes, then it's easy.
 
+    weirdReversal2 : String -> String
     weirdReversal2 string =
-      string
-        |> String.reverse
-        |> String.toUpper
-        |> Debug.log "log"
-        |> String.filter isNotSpace
+        string
+            |> String.reverse
+            |> String.toUpper
+            |> Debug.log "log"
+            |> String.filter isNotSpace
 
 **Now it seems obvious to me.** But after years of working with JavaScript, where you can add an extra line with `console.log` in any place, trying to do the same in Elm, required a fundamental shift in my way of thinking.
 
