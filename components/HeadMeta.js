@@ -15,6 +15,7 @@ const HeadMeta = (props) => {
     const metaDescription = description || config.blogDescription;
     const type = layout === 'post' ? 'article' : 'website';
     const metaImageUrl = imageUrl || config.blogImageUrl;
+    const fullMetaImageUrl = config.hostname + metaImageUrl;
 
     return (
         <Helmet>
@@ -25,14 +26,14 @@ const HeadMeta = (props) => {
             <meta property="og:description" content={metaDescription} />
             <meta property="og:url" content={prefixLink(path)} />
             <meta property="og:type" content={type} />
-            <meta property="og:image" content={prefixLink(metaImageUrl)} />
+            <meta property="og:image" content={fullMetaImageUrl} />
             <meta property="og:locale" content="pl_PL" />
 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="@krzysu" />
             <meta name="twitter:title" content={metaTitle} />
             <meta name="twitter:description" content={metaDescription} />
-            <meta name="twitter:image" content={metaImageUrl} />
+            <meta name="twitter:image" content={fullMetaImageUrl} />
 
             <meta name="google-site-verification" content="Hrk4F1pkLs_5drnNnAkPtoDaPkV67X0DenupaPMEwTc" />
         </Helmet>
