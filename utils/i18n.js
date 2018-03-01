@@ -27,7 +27,7 @@ i18n.init({
                 authorItem: {
                     body: `My name is <1>Kris Urbas</1> and I help companies build their internet products.
                     I offer help in many different areas of software and product development, management, leadership
-                    and team building. With 9 years of professional experience I have worked with more than
+                    and team building. With 9 years of professional experience, I have worked with more than
                     10 companies and startups of different sizes.
                     <3>Can I help you? Write me what are you struggling with!</3>`,
                 },

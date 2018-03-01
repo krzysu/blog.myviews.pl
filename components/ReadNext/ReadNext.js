@@ -16,14 +16,14 @@ const ReadNext = ({ route, t, i18n }) => {
     const readNextPages = getPublicPosts(allPages, i18n.language, RECOMMENDATION_COUNT, currentPage);
 
     return (
-        <div {...bem()}>
+        <div {...bem(null, null, 'wrapper wrapper--wide')}>
             <div className="page__header">
                 <h2 className="page__title">{t('readAlso')}</h2>
             </div>
-            <div {...bem('posts')}>
+            <div className="grid">
                 {readNextPages.map((page, index) => {
                     return (
-                        <div key={index} {...bem('item')}>
+                        <div key={index} className="grid__item">
                             <PostItem page={page} headlineTag="h3" />
                             <hr {...bem('line-on-small-screen')}/>
                         </div>
