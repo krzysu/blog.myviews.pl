@@ -18,7 +18,7 @@ const Intro = ({ t }) => {
                 style={{ backgroundImage: `url(${imageFileName})` }}
             />
             <h2 className="intro__subheadline">{t('intro.subheadline')}</h2>
-            <Button href={t('urls.contact')}>{t('intro.button')}</Button>
+            <Button href={t('urls.offer')}>{t('intro.button')}</Button>
         </div>
     );
 };

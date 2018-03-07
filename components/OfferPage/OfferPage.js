@@ -64,7 +64,7 @@ const OfferPage = ({ route, t }) => {
                 </div>
                 <hr />
                 <div {...pageBem('header')}>
-                    <h1 {...pageBem('title')}>This is how I can help you</h1>
+                    <h1 {...pageBem('title')}>{'Here\'s how I can help you'}</h1>
                 </div>
                 <h4 {...offerBem('above-grid-headline')}>Contribute and evaluate</h4>
                 <div className="grid">
@@ -98,7 +98,7 @@ const OfferPage = ({ route, t }) => {
                     <div className="grid__item">
                         <p>
                             <span {...offerBem('counter')}>5.</span>
-                            I train your people to handle your problems without me. Motivated and empowered people are the key to your success.
+                            I train your people to handle your problems without me. Motivated and empowered team is the key to your success.
                         </p>
                     </div>
                     <div className="grid__item">

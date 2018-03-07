@@ -74,7 +74,7 @@ Improve and train
 
 4. I give you regular feedback on my findings. Together, we improve things on the go or prepare a plan to handle your issues in the future.
 
-5. I train your people to handle your problems without me. Motivated and empowered people are the key to your success.
+5. I train your people to handle your problems without me. Motivated and empowered team is the key to your success.
 
 6. I leave you with a stronger team, defined processes and software in a better shape.
 

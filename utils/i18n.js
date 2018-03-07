@@ -16,7 +16,7 @@ i18n.init({
                     headline1: 'Hi, my name is',
                     headline2: 'Kris Urbas',
                     subheadline: 'I help companies build their internet products',
-                    button: 'contact me!',
+                    button: 'check out my offer',
                 },
                 datePrefix: 'Published on',
                 likeButton: {
@@ -79,7 +79,7 @@ i18n.init({
                     headline1: 'Cześć, nazywam się',
                     headline2: 'Krzysiek Urbas',
                     subheadline: 'Pomagam firmom budować produkty internetowe',
-                    button: 'napisz do mnie!',
+                    button: 'sprawdź moją ofertę',
                 },
                 datePrefix: 'Opublikowano',
                 likeButton: {
