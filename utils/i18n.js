@@ -64,6 +64,20 @@ i18n.init({
                     blogTitle: 'Latest blog posts',
                     blogButton: 'read more',
                 },
+                offerPage: {
+                    section2: {
+                        title: 'Here\'s how I can help you',
+                        subtitle1: 'Contribute and evaluate',
+                        subtitle2: 'Improve and train',
+                        point1: 'I join your team as an engineer for 1 to 6 months. But my role is more like a secret agent.',
+                        point2: 'I contribute to your projects as a regular employee. That allows me to evaluate your software development and project management practices from the insider position.',
+                        point3: 'I work with your people arm to arm. That allows me to evaluate their technical and soft skills and see how does a team function as a whole.',
+                        point4: 'I give you regular feedback on my findings. Together, we improve things on the go or prepare a plan to handle your issues in the future.',
+                        point5: 'I train your people to handle your problems without me. Motivated and empowered team is the key to your success.',
+                        point6: 'I leave you with a stronger team, defined processes and software in a better shape.',
+                    },
+                    footer: 'Do you want to know more?',
+                },
             },
         },
         pl: {
@@ -73,7 +87,7 @@ i18n.init({
                     contact: '/kontakt/',
                     games: '/tworzenie-gier/',
                     blog: '/polski-blog/',
-                    offer: '/consultancy/',
+                    offer: '/wspolpraca/',
                 },
                 intro: {
                     headline1: 'Cześć, nazywam się',
@@ -127,6 +141,20 @@ i18n.init({
                 indexPage: {
                     blogTitle: 'Najnowsze na blogu',
                     blogButton: 'zobacz więcej',
+                },
+                offerPage: {
+                    section2: {
+                        title: 'Moja oferta współpracy',
+                        subtitle1: 'Pomagam i obserwuję.',
+                        subtitle2: 'Usprawniam i szkolę.',
+                        point1: 'Dołączam do Twojego zespołu jako inżynier oprogramowania na okres od 1 do 6 miesięcy. Jednak działam trochę jako tajny agent.',
+                        point2: 'Pracuję przy Twoich projektach tak jak każdy inny. Pozwala mi to poznać podejście do tworzenia oprogramowania i zarządzania w Twojej firmie.',
+                        point3: 'Pracuję razem z Twoimi ludźmi. Pozwala mi to sprawdzić ich wiedzę techniczną oraz umiejętności miękkie. Obserwuję też, jak zespół funkcjonuje jako całość.',
+                        point4: 'Regularnie dzielę się z Tobą moimi obserwacjami. Razem wprowadzamy usprawnienia od razu albo przygotowujemy plan na przyszłość. Twoje zaangażowanie jest bardzo ważne.',
+                        point5: 'Szkolę Twoich pracowników, aby byli w stanie rozwiązywać problemy samodzielnie. Silny i zmotywowany zespół jest podstawą sukcesu Twojej firmy.',
+                        point6: 'Zostawiam Cię z silniejszym zespołem, zdefiniowanymi praktykami i oprogramowaniem w lepszej kondycji.',
+                    },
+                    footer: 'Zainteresowany?',
                 },
             },
         },
