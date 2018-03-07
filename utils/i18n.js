@@ -10,6 +10,7 @@ i18n.init({
                     contact: '/contact/',
                     games: '/games/',
                     blog: '/blog/',
+                    offer: '/consultancy/',
                 },
                 intro: {
                     headline1: 'Hi, my name is',
@@ -36,6 +37,7 @@ i18n.init({
                     homepage: 'Home',
                     games: 'Games',
                     blog: 'Blog',
+                    offer: 'Consultancy',
                 },
                 page: {
                     footer: 'questions, feedback, coffee?',
@@ -71,6 +73,7 @@ i18n.init({
                     contact: '/kontakt/',
                     games: '/tworzenie-gier/',
                     blog: '/polski-blog/',
+                    offer: '/consultancy/',
                 },
                 intro: {
                     headline1: 'Cześć, nazywam się',
@@ -98,6 +101,7 @@ i18n.init({
                     homepage: 'Strona główna',
                     games: 'Tworzenie gier',
                     blog: 'Blog',
+                    offer: 'Współpraca',
                 },
                 page: {
                     footer: 'pytania, komentarze, zaproszenia na kawe?',
