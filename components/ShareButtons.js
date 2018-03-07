@@ -30,7 +30,7 @@ const ShareButtons = ({ url, text }) => {
                     key={index}
                     href={link.href}
                     external={true}
-                    styleObject={{ margin: '0 1em' }}
+                    styleObject={{ margin: '0 1em 1em' }}
                     icon={link.icon}
                 >
                     {link.text}

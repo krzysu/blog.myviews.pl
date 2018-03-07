@@ -23,6 +23,8 @@
 
   &__item {
     margin-right: 3em;
+    flex-grow: 1;
+    flex-basis: 0;
 
     &:last-child {
       margin-right: 0;

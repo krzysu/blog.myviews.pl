@@ -1,0 +1,15 @@
+.offer-page {
+    &__counter {
+      font-weight: bold;
+      float: left;
+      font-size: 2.5em;
+      line-height: 1em;
+      display: block;
+      margin-right: 0.2em;
+      margin-top: 0.1em;
+    }
+
+    &__above-grid-headline {
+      margin: 0;
+    }
+}

@@ -6,7 +6,7 @@ How important is healthy software for your business?
 
 Software problems:
 - hard to maintain code base,
-- never ending bugs and constant firefighting,
+- never-ending bugs and constant firefighting,
 - slow progress with new features,
 - features never delivered on time,
 
@@ -38,7 +38,7 @@ Software development
 - architecture and tech stack
 - tests
 - performance
-- quality (how to have less bugs)
+- quality (how to have fewer bugs)
 
 Team building
 
@@ -60,25 +60,27 @@ Project management
 - risk
 - stakeholder mgmt
 
-## My offer
+## This is how I can help you
+
+Contribute and evaluate
 
 1. I join your team as an engineer for 1 to 6 months. But my role is more like a secret agent.
 
-2. I contribute to your projects as a regular employee. That allows me to evaluate your software development and project management practices from the insider point of view.
+2. I contribute to your projects as a regular employee. That allows me to evaluate your software development and project management practices from the insider position.
 
 3. I work with your people arm to arm. That allows me to evaluate their technical and soft skills and see how does a team function as a whole.
 
-4. I give you regular feedback from my findings.
+Improve and train
 
-5. Together, we improve things on the go or prepare a plan to handle your issues in the future.
+4. I give you regular feedback on my findings. Together, we improve things on the go or prepare a plan to handle your issues in the future.
 
-6. I train your people to handle your problems without me.
+5. I train your people to handle your problems without me. Motivated and empowered people are the key to your success.
 
-7. I leave you with a stronger team and software in a better shape.
+6. I leave you with a stronger team, defined processes and software in a better shape.
 
 ## How to define success?
 
-
+TODO
 
 
 
