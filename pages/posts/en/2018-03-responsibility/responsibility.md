@@ -62,4 +62,4 @@ What follows, we should be able to say **No** in a situation when we are asked t
 
 We are the engineers. In our hands, we have skills to create. There are unlimited possibilities of what we can create. **Let's use technology responsible.** Do not work for companies which don't care about their employees, environment or users. Pick your projects and workplaces consciously, not based on salary. Be a craftsman, a professional, and always be responsible for your work.
 
-If you agree with me or not, let me know either way! You can find me on [Twitter](https://twitter.com/krzysu) or comment on Medium.
+If you agree with me or not, let me know either way! You can find me on [Twitter](https://twitter.com/krzysu) or comment on [Medium](https://medium.com/@krzysu/lack-of-responsibility-858f7e9add5d).
