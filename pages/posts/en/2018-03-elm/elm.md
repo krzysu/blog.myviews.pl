@@ -8,6 +8,8 @@ lang: en
 
 I've heard about [Elm programming language](http://elm-lang.org/) around two years ago. I remember I watched on YouTube some talk from one of the front-end conferences. And I had a WOW moment. I had already experience with React and Redux but **Elm architecture seemed simpler and more precise** (thanks to union types). There is only one way. You trigger action, model updates based on action, the view represents the model. All what you need to build a modern web application.
 
+[![elm](./elm.jpg)](./elm.jpg)
+
 Redux is based on Elm concept anyway. But JavaScript, in general, allows you to do anything. We developers need to have a strong self-control to keep our code nice and clean. **With Elm you have no other option!**
 
 It took me more than a year to find time and motivation to experience Elm by myself. And it happened only because one day I stumbled upon an announcement of Elm Hack Night in Berlin by [local meetup group](https://www.meetup.com/Elm-Berlin). That time I was not fulfilled as an engineer in my day job so I was open to new challenges on a side. I read through [An Introduction to Elm](https://guide.elm-lang.org/) before attending my first Elm meetup. And with help of people there, I wrote [my first Elm app](https://github.com/krzysu/elm-shopping-cart) in less than 3 hours!
@@ -128,7 +130,7 @@ From the other side, web ecosystem is huge. Elm covered only a part of it so far
 
 I could think about some hybrid architecture, where Elm is responsible for business logic and exposes an API by ports, to communicate with View built in React... But it's probably a huge over-engineering ;)
 
-My verdict is: **Elm is great for learning, becoming a better programmer, side projects or small commercial projects.** But I would need a lot of convincing from someone better with Elm to agree to use it in a big commercial project. Sorry, let's see Elm version 1.0.  
+My verdict is: **Elm is great for learning, becoming a better programmer, side projects or small commercial projects.** But I would need a lot of convincing from someone better with Elm to agree to use it in a big commercial project. Sorry, let's see Elm version 1.0.
 
 ### Looking forward
 

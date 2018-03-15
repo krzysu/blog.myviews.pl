@@ -10,6 +10,8 @@ lang: en
 
 I work with Internet and software for more than 9 years. One of the biggest problems I see in my profession is management. Unfortunately, quite often it is bad. Based on my experience, I will point out a few issues I see. I will try to identify the real problems and will propose solutions. My solutions always assume a strong and motivated technical team. How to build such a team is a topic for another post and will be discussed on this blog in the future.
 
+[![management](./management.jpg)](./management.jpg)
+
 #### 1. Software is managed by people who have no idea about software development
 
 Let's face it, many people who are telling you what to do, have no education or experience in software development.
@@ -25,7 +27,7 @@ First of all, a technology team should be included early in the planning phase. 
 
 From the other side, a team should not agree on tasks that are added later after a planning phase. Those tasks should just wait until the next iteration or sprint. As each task should be planned and analyzed on how to best integrate it with the system, a manager cannot just flip everything upside down and reorganize work already in progress.
 
-As a team, never agree on time estimates forced on you. You know the system and its quirks, you know how complex the task is, so it's your job to tell how long it will take. Management can only accept it. It might sound odd, but the most successful projects I've seen, where based on assumption that *it's done when it's done* with a just raw estimate. Successful project means that both sides, managers, and engineers, are happy with the result.
+As a team, never agree on time estimates forced on you. You know the system and its quirks, you know how complex the task is, so it's your job to tell how long it will take. Management can only accept it. It might sound odd, but the most successful projects I've seen, where based on assumption that _it's done when it's done_ with a just raw estimate. Successful project means that both sides, managers, and engineers, are happy with the result.
 
 To sum up this paragraph **true manager role is to give technology team directions and ideas but never influence any technical decision.** It's a cooperation toward a common goal, not top-down management in a "do as I said" style.
 
@@ -36,7 +38,8 @@ To sum up this paragraph **true manager role is to give technology team directio
 This one is very similar to above but from a different angle. Software and product management are two different skills but one cannot exist without the other.
 
 Let's introduce a funny abbreviation I've learned on one of the conferences I've attended last year:
-- **HiPPO (Highest Paid Person's Opinion)** - it's a very nice name for a person who impacts product and software decisions - but he should not! Think about it, how many HiPPOs have you met in your carrier so far?
+
+* **HiPPO (Highest Paid Person's Opinion)** - it's a very nice name for a person who impacts product and software decisions - but he should not! Think about it, how many HiPPOs have you met in your carrier so far?
 
 How many times did you implement **last minute change request** just because your manager thought that it will be better that way? How many of your projects were closed or forgotten and never reached any users? Yes, that probably happened because someone there above in the company structure changed their mind.
 
@@ -52,8 +55,8 @@ I would argue that's very bad for their business. It leads to poor quality of fi
 
 Programmers in such hierarchical structures are **labor force of XXI century**. They will implement anything that you throw at them. If it makes sense or not, as no one ever expected any feedback from them.
 
-> Manager: Could you delete our production database? It takes too much space on our hard drives.   
-Demotivated engineer: Wait, what did you say? Oh, whatever... done!
+> Manager: Could you delete our production database? It takes too much space on our hard drives.  
+> Demotivated engineer: Wait, what did you say? Oh, whatever... done!
 
 The result is little to none agility of those teams, slow and buggy implementations, low morale and what is the worst - lack of space to grow for more ambitious individuals. And that means a company is not using the full potential of its employees. It really hurts me that everyone is trying to hire the best people and then has no challenges for them. What is the point?
 
@@ -63,7 +66,7 @@ The solution to above is: **always approach your tech team with a problem, not w
 
 Agile methodologies of software development rule our workflows for a long time. That's very good, they have many advantages over its predecessor. Problem is, **very few managers understand the iterative process of keeping source code in a good quality**. That's not covered with Agile. A few people understand that technical debt has to be paid back. That libraries, frameworks, databases and other elements of the system have to be regularly updated. That performance of our apps is important. That refactoring and tests are part of everyday work of a software engineer.
 
-Why there is believe that every few years you should rewrite your application? Why every change takes weeks and introduces even more bugs? Why is none of the time estimates true? Because management doesn't understand *how* and even worse, *why*, to build code of good quality. They don't realize that it's an investment that will pay off with every new feature.
+Why there is believe that every few years you should rewrite your application? Why every change takes weeks and introduces even more bugs? Why is none of the time estimates true? Because management doesn't understand _how_ and even worse, _why_, to build code of good quality. They don't realize that it's an investment that will pay off with every new feature.
 
 ---
 
@@ -76,11 +79,12 @@ If you agree with me or not, let me know either way! You can find me on [Twitter
 ---
 
 My goal is to show you **how to be happy as a software engineer**. It doesn't matter if you are senior or junior. Follow me on [Twitter](https://twitter.com/krzysu) and check this blog regularly to find out:
-- what to learn and how to develop your skills,
-- how to find a nice, meaningful job and professional fulfillment,
-- how to work less but efficient, avoid stress and over-hours,
-- how to be a part of a great team and what type of people to avoid,
-- how to find work-life balance,
-- and finally, how all of it can lead to happy and full life.
+
+* what to learn and how to develop your skills,
+* how to find a nice, meaningful job and professional fulfillment,
+* how to work less but efficient, avoid stress and over-hours,
+* how to be a part of a great team and what type of people to avoid,
+* how to find work-life balance,
+* and finally, how all of it can lead to happy and full life.
 
 If you are not a software engineer but your job is anyhow related to software production, then you can also learn a lot along the way. Just read between the lines ;)
