@@ -4,6 +4,7 @@ date: "2018-02-26"
 layout: post
 path: "/elm-learning-experience/"
 lang: en
+imageUrl: "/elm-learning-experience/elm.jpg"
 ---
 
 I've heard about [Elm programming language](http://elm-lang.org/) around two years ago. I remember I watched on YouTube some talk from one of the front-end conferences. And I had a WOW moment. I had already experience with React and Redux but **Elm architecture seemed simpler and more precise** (thanks to union types). There is only one way. You trigger action, model updates based on action, the view represents the model. All what you need to build a modern web application.

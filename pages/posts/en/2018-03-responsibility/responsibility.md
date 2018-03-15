@@ -4,6 +4,7 @@ date: "2018-03-11"
 layout: post
 path: "/lack-of-responsibility/"
 lang: en
+imageUrl: "/lack-of-responsibility/responsibility.jpg"
 ---
 
 This is the second post about what is wrong with software development. In [the previous one](/what-is-wrong-with-software-development-management/), I wrote about bad managers who don't understand their role in software production process. That leads to low quality of code base and product, waste of potential of technical teams and lack of satisfaction from a job done.

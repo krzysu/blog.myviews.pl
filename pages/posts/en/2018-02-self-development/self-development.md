@@ -4,6 +4,7 @@ date: "2018-02-17"
 layout: post
 path: "/average-programmer-to-happy-software-developer/"
 lang: en
+imageUrl: "/average-programmer-to-happy-software-developer/self-development.jpg"
 ---
 
 > A few words about self-development.

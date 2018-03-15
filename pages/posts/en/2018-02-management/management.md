@@ -4,6 +4,7 @@ date: "2018-02-09"
 layout: post
 path: "/what-is-wrong-with-software-development-management/"
 lang: en
+imageUrl: "/what-is-wrong-with-software-development-management/management.jpg"
 ---
 
 > Bad management as one of the biggest pain points for a software engineer.
