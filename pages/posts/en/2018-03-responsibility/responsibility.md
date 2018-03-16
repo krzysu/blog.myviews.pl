@@ -11,7 +11,7 @@ This is the second post about what is wrong with software development. In [the p
 
 > With great power comes great responsibility!
 
-Today I would like to take a look at our profession from a bigger picture. Technology is progressing very fast. We engineers can use our knowledge and skills in many different ways. **Are we always using them to do the right things?** This post is inspired by what I read about Silicon Valley and my life experience. Let's go through some responsibilities related to our industry and profession.
+Today I would like to take a look at our profession from a bigger picture. Technology is progressing very fast. We engineers can use our knowledge and skills in many different ways. **Are we always using them to do the right things?** This post is inspired by my life experience and what we all can read about Silicon Valley nowadays. Let's go through some responsibilities related to our industry and profession.
 
 ![responsibility](./responsibility.jpg)
 
