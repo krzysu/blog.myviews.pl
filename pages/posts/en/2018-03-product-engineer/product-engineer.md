@@ -1,6 +1,6 @@
 ---
 title: How to organize teams to get the best out of them
-date: "2018-03-22"
+date: "2018-03-21"
 layout: post
 path: "/how-to-organize-teams-to-get-the-best-out-of-them/"
 lang: en
