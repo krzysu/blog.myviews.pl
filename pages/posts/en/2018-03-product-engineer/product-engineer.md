@@ -53,4 +53,4 @@ Would you like to have such a team in your organization?
 
 ---
 
-If you agree with me or not, let me know either way! You can find me on [Twitter](https://twitter.com/krzysu) or comment on [Medium]().
+If you agree with me or not, let me know either way! You can find me on [Twitter](https://twitter.com/krzysu) or comment on [Medium](https://medium.com/@krzysu/how-to-organize-teams-to-get-the-best-out-of-them-3ded40b4425).
