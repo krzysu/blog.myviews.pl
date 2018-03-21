@@ -18,7 +18,7 @@
     margin: 0 auto 1.5em;
     max-width: 80%;
 
-    @media (min-width: $break-point) {
+    @media (min-width: $break-point-m) {
       height: 21em;
       width: 21em;
     }

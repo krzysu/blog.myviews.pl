@@ -3,8 +3,16 @@
   margin: 0 auto;
   padding: 0 1em;
 
+  @media (min-width: $break-point-l) {
+    max-width: 800px;
+  }
+
   &--wide {
     max-width: 1100px;
+
+    @media (min-width: $break-point-l) {
+      max-width: 1200px;
+    }
   }
 }
 
@@ -17,7 +25,7 @@
 .grid {
   display: flex;
 
-  @media (max-width: $break-point) {
+  @media (max-width: $break-point-m) {
     display: block;
   }
 
@@ -30,7 +38,7 @@
       margin-right: 0;
     }
 
-    @media (max-width: $break-point) {
+    @media (max-width: $break-point-m) {
       margin-right: 0;
       margin-bottom: 1.5em;
     }

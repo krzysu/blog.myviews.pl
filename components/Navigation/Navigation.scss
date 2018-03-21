@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
 
-  @media (max-width: 500px) {
+  @media (max-width: $break-point-m) {
     display: none;
   }
 
@@ -17,6 +17,6 @@
   }
 
   &__link {
-      @include link-alt;
+    @include link-alt;
   }
 }

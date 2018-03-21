@@ -12,8 +12,8 @@
     max-width: 75%;
     margin: 0 auto;
 
-    @media (max-width: $break-point) {
-        max-width: none;
+    @media (max-width: $break-point-m) {
+      max-width: none;
     }
   }
 

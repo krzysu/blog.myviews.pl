@@ -2,7 +2,7 @@
 
 @mixin clearfix {
   &:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
@@ -12,7 +12,8 @@
   background-color: $color-alt;
   color: $color-reverse-alt;
 
-  a, em {
+  a,
+  em {
     color: $color-reverse;
   }
 }
@@ -22,7 +23,7 @@
   text-decoration: none;
 
   &:hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 }
 

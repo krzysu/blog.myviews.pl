@@ -6,13 +6,13 @@
   &__line-on-small-screen {
     display: none;
 
-    @media (max-width: $break-point) {
+    @media (max-width: $break-point-m) {
       display: block;
     }
   }
 
   &__line-on-big-screen {
-    @media (max-width: $break-point) {
+    @media (max-width: $break-point-m) {
       display: none;
     }
   }

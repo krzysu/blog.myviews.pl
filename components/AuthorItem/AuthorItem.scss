@@ -10,7 +10,7 @@
     margin-right: 1.5em;
     float: left;
 
-    @media (max-width: $break-point) {
+    @media (max-width: $break-point-m) {
       margin: 0 auto 1.5em;
       float: none;
       display: block;
