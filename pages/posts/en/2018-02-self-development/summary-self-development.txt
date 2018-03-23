@@ -1,0 +1,19 @@
+TL;DR summary of "From an average programmer to a happy software engineer". Full text available here: https://goo.gl/kchuWW
+It doesn't matter if you are senior or junior, the absolute must to become a Happy Software Engineer is a constant, never-finished self-development. 1/6 #selfdevelopment
+(image)
+
+It's important to notice, that self-development of a Software Engineer is not only about improving technical skills! Other areas related to our everyday job include:
+* product development,
+* design, UI, and UX,
+* project management,
+* soft skills,
+* business skills.
+2/6
+
+We need diversified knowledge to not only think "what" to do, but to ask "why". With deep knowledge of a problem, we can deliver correct solutions. Seeing good outcomes of our efforts makes us feel more worthy. We are ready for even more challenging and responsible tasks. 3/6
+
+I see a big problem in our profession. Many companies treat us as a labor force of XXI century, new production line workers. This is our fault. We are stuck to our computers and desks, typing thousands of lines of unnecessary code just because someone told us to do it. 4/6
+
+We, as engineers, must decide which project requirements are necessary, nice-to-have and which are completely pointless. It's our job to deliver solutions. We shouldn't agree to unreasonable expectations, change requests, short deadlines, a sacrifice of code quality etc. 5/6
+
+With a broad knowledge, we can distinguish a good management from a bad one. Ask hard questions. Educate your colleagues. Start introducing the change from your closest circle. In the end, it's all about cooperation to a common goal: a valuable product and happy users. 6/6

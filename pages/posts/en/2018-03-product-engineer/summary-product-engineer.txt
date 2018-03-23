@@ -1,0 +1,24 @@
+I'm experimenting with a new publishing form: summaries of my blog posts as twitter threads. I'll be posting them here over the next month. Here is the first: "How to organize teams to get the best out of them" 1/9 #softwaredevelopment #teambuilding
+(image)
+
+The traditional split of teams in a software company is by function. It's not very efficient. People in this structure rarely talk with other teams directly, often push responsibility outside of their group and keep tightly to their own, narrow area of expertise. 2/9
+
+Next step in team structure evolution is a product-oriented team. A transition from a function-oriented team is hard. You need to change people mindset, sell them on new responsibilities, teach them how to work as a team. They might feel lost, refuse or question new order. 3/9
+
+Some companies claim to have product-oriented teams but still use a top-down style of management. In those pseudo-product teams, people are treated as execution labor force. Feedback about the product from the team back to the manager is missing. 4/9
+
+Some learnings from what I experienced:
+1. If you are not personally involved in any stage of defining or achieving OKRs for your team... why should you care?
+2. You cannot give too much decision power over software to people who don't understand software.
+5/9
+
+More learnings from what I experienced:
+3. Team spirit is weak if people are not challenged to work together.
+4. Very often career development path is focused either on technical, product or management skills. It's not possible to mix them in one role.
+6/9
+
+To address above issues I introduce Software Product Engineer role. They understand the product, business, and user needs. They are also solid engineers. They not only come up with a feature idea but also implement it. #softwareproductengineer 7/9
+
+My advice to all engineers is to learn about product development. My advice to all managers is to learn about engineering. Only with skills reaching outside of your defined role you can deliver great results. Involve technical people early in the product planning phase. 8/9
+
+Imagine a true Product Team. It consists of Product Engineers. All of them live their product. They chat with their users every day. Time from an idea to delivery is instant. Their goals are aligned with the company. Would you like to have such a team in your organization? 9/9
