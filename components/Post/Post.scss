@@ -13,6 +13,12 @@
     max-width: 100%;
   }
 
+  img + em {
+    text-align: center;
+    display: block;
+    margin-top: -1.5em;
+  }
+
   &__published {
     text-align: right;
     color: #999;
@@ -32,4 +38,19 @@
 
 .post-author-item {
   padding-bottom: 1.5em;
+}
+
+.post-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
