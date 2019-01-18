@@ -19,7 +19,7 @@
     "eslint-plugin-react": "^7.7.0",
     "fs-extra-promise": "^1.0.1",
     "gatsby": "^0.12.48",
-    "node-sass": "^3.11.1",
+    "node-sass": "^4.11.0",
     "sitemap": "^1.13.0"
   },
   "homepage": "https://blog.myviews.pl/",
