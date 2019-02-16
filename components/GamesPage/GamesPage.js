@@ -14,21 +14,28 @@ const GamesPage = ({ route, t }) => {
 
     const links = [
         {
-            href: 'http://games.myviews.pl/heal-em-all/',
+            href: 'https://sokoban-player.netlify.com/',
+            primary: 'Sokoban Player',
+            secondary: 'play any Sokoban level you want!',
+            icon: 'rocket',
+            external: true,
+        },
+        {
+            href: 'https://heal-em-all-game.netlify.com/',
             primary: 'Heal\'em All. There\'s a Cure for Zombies',
             secondary: t('gamesPage.zombieSubtitle'),
             icon: 'rocket',
             external: true,
         },
         {
-            href: 'http://games.myviews.pl/breakout/',
+            href: 'https://another-breakout-game.netlify.com/',
             primary: 'Another Breakout',
             secondary: t('gamesPage.breakoutSubtitle'),
             icon: 'rocket',
             external: true,
         },
         {
-            href: 'http://games.myviews.pl/indie-html5-game-dev-slides/',
+            href: 'https://indie-html5-game-dev-slides.netlify.com/',
             primary: 'Indie HTML5 Game Development: Lessons Learned',
             secondary: t('gamesPage.slidesSubtitle'),
             icon: 'newspaper',

@@ -90,9 +90,9 @@ Below is the list of online places where I think might be good to put your game,
 
 ## If you made it so far, check also my games
 
-- [Heal'em All. There's a cure for zombies.](http://games.myviews.pl/heal-em-all/) - written for github game jam (game jams are good for motivation and keeping your deadlines), chosen as one of [the winners](https://github.com/blog/1731-github-game-off-ii-winners)
+- [Heal'em All. There's a cure for zombies.](https://heal-em-all-game.netlify.com/) - written for github game jam (game jams are good for motivation and keeping your deadlines), chosen as one of [the winners](https://github.com/blog/1731-github-game-off-ii-winners)
 
-- [Another Breakout](http://games.myviews.pl/breakout/) - written in about 11 hours, weekend project, includes "responsive game design" approach
+- [Another Breakout](https://another-breakout-game.netlify.com/) - written in about 11 hours, weekend project, includes "responsive game design" approach
 
 
 If you like the above compilation of resources [follow me on twitter](https://twitter.com/krzysu) for more about front-end and game development.

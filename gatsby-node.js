@@ -19,7 +19,7 @@ const pagesToSitemap = (pages) => {
 
 const generateSiteMap = (pages) => {
     const sitemap = sm.createSitemap({
-        hostname: 'https://blog.myviews.pl',
+        hostname: 'https://www.krisurbas.pl',
         cacheTime: '60000',
         urls: pagesToSitemap(pages),
     });
