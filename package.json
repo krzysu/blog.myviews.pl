@@ -7,7 +7,7 @@
     "i18next": "^8.4.3",
     "lodash": "^4.17.14",
     "moment": "^2.24.0",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react-bem-helper": "^1.4.1",
     "react-ga": "^2.6.0",
