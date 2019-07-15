@@ -5,21 +5,21 @@
   "author": "Kris Urbas",
   "dependencies": {
     "i18next": "^8.4.3",
-    "lodash": "^4.17.5",
-    "moment": "^2.21.0",
+    "lodash": "^4.17.14",
+    "moment": "^2.24.0",
     "normalize.css": "^7.0.0",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.7.2",
     "react-bem-helper": "^1.4.1",
-    "react-ga": "^2.4.1",
-    "react-helmet": "^5.2.0",
+    "react-ga": "^2.6.0",
+    "react-helmet": "^5.2.1",
     "react-i18next": "^4.8.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-react": "^7.14.2",
     "fs-extra-promise": "^1.0.1",
     "gatsby": "^0.12.48",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "sitemap": "^1.13.0"
   },
   "homepage": "https://blog.myviews.pl/",
