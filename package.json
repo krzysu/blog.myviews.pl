@@ -20,7 +20,7 @@
     "fs-extra-promise": "^1.0.1",
     "gatsby": "^0.12.48",
     "node-sass": "^4.12.0",
-    "sitemap": "^1.13.0"
+    "sitemap": "^3.2.2"
   },
   "homepage": "https://blog.myviews.pl/",
   "license": "MIT",
