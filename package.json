@@ -22,13 +22,12 @@
     "node-sass": "^4.12.0",
     "sitemap": "^1.13.0"
   },
-  "homepage": "https://blog.myviews.pl/",
+  "homepage": "https://www.krisurbas.pl/",
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
     "lint": "eslint --ext .js --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gatsby build --prefix-links",
-    "deploy": "echo \"Error: no deploy specified\" && exit 1"
+    "build": "gatsby build --prefix-links"
   }
 }

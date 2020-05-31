@@ -6,7 +6,7 @@ path: "/things-i-learned-by-doing-in-2018/"
 lang: en
 ---
 
-> My first year as a freelancer
+> My first year as a freelancer.
 
 Last year 2018 was full of new experiences and (someone could say) risky decisions for me. First of all, I quit my comfortable but boring and not fulfilling full-time job. Second, I took my climbing shoes and laptop and went with my GF backpacking to Southeast Asia for 2 months. Third, I started to offer my skills as a freelancer. That means I started my own small business.
 
